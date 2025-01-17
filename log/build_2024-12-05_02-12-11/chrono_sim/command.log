@@ -1,0 +1,4 @@
+Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/blor/ros2_ws2/src/chrono_sim -DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_sim
+Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/blor/ros2_ws2/src/chrono_sim -DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_sim
+Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16

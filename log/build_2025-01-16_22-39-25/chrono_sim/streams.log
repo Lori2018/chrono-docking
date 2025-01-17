@@ -1,0 +1,108 @@
+[0.015s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target sim_tools[0m
+[0.159s] [ 20%] Built target sim_tools
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target docking[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target visual_test[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target variable_stiffness_example[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target visual_params[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target rhex_test[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target shear_test[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target spirit_grab_values[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target probe_test[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target spirit_experiment[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target hero_video[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target spirit_calibration[0m
+[0.222s] [ 31%] Built target husky_test
+[0.222s] [ 31%] Built target rover_example
+[0.222s] [ 31%] Built target spirit_example
+[0.222s] [ 31%] Built target spirit_test
+[0.222s] [ 34%] Built target rover_test
+[0.234s] [ 56%] Built target rhex_test
+[0.234s] [ 57%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[0.234s] [ 57%] Built target variable_stiffness_example
+[0.234s] [ 57%] Built target spirit_calibration
+[0.234s] [ 57%] Built target probe_test
+[0.235s] [ 57%] Built target spirit_grab_values
+[0.235s] [ 57%] Built target spirit_experiment
+[0.235s] [ 57%] Built target visual_test
+[0.235s] [ 57%] Built target visual_params
+[0.235s] [ 61%] Built target shear_test
+[0.236s] [ 63%] Built target hero_video
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target spirit_force_calibration[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target spirit_3truss[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target spirit_calibration_zero_grav[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target 2spirit_5truss_planner[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target spirit_force_calibration_stepped_model_verification[0m
+[0.261s] [35m[1mConsolidate compiler generated dependencies of target 3spirit_3truss_model_verification[0m
+[0.261s] [35m[1mConsolidate compiler generated dependencies of target 1spirit_2truss_model_verification[0m
+[0.261s] [35m[1mConsolidate compiler generated dependencies of target 1spirit_3truss_planner[0m
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target 3spirit_2truss_planner[0m
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target 1spirit_2truss_planner[0m
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target 1spirit_1truss_planner[0m
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target 4spirit_3truss_planner[0m
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target 3spirit_3truss_planner[0m
+[0.292s] [ 76%] Built target spirit_calibration_zero_grav
+[0.292s] [ 76%] Built target spirit_force_calibration
+[0.292s] [ 76%] Built target 2spirit_5truss_planner
+[0.292s] [ 76%] Built target spirit_3truss
+[0.292s] [ 76%] Built target spirit_force_calibration_stepped_model_verification
+[0.296s] [ 79%] Built target 3spirit_3truss_model_verification
+[0.301s] [ 82%] Built target 1spirit_2truss_model_verification
+[0.303s] [ 95%] Built target 1spirit_3truss_planner
+[0.303s] [ 95%] Built target 3spirit_2truss_planner
+[0.303s] [ 95%] Built target 1spirit_1truss_planner
+[0.303s] [ 95%] Built target 1spirit_2truss_planner
+[0.303s] [ 95%] Built target 3spirit_3truss_planner
+[0.305s] [ 98%] Built target 4spirit_3truss_planner
+[8.729s] [100%] [32m[1mLinking CXX executable docking[0m
+[17.819s] [100%] Built target docking
+[17.830s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[17.995s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/blor/ros2_ws2/build/chrono_sim
+[18.002s] -- Install configuration: ""
+[18.002s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/lib/libsim_tools.so
+[18.002s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_example
+[18.002s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_example
+[18.002s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/variable_stiffness_example
+[18.003s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_test
+[18.003s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_params
+[18.003s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/husky_test
+[18.004s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_test
+[18.004s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rhex_test
+[18.004s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/shear_test
+[18.004s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/probe_test
+[18.005s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values
+[18.005s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment
+[18.005s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/hero_video
+[18.005s] -- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/docking
+[18.006s] -- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/docking" to "/home/blor/ros2_ws2/install/chrono_sim/lib"
+[18.006s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test
+[18.007s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration
+[18.007s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav
+[18.007s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_3truss
+[18.007s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/2spirit_5truss_planner
+[18.008s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration
+[18.008s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification
+[18.008s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_model_verification
+[18.009s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_model_verification
+[18.009s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_1truss_planner
+[18.009s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_planner
+[18.009s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_3truss_planner
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_planner
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_2truss_planner
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/4spirit_3truss_planner
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/package_run_dependencies/chrono_sim
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/parent_prefix_path/chrono_sim
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.sh
+[18.010s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.dsv
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.sh
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.dsv
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.bash
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.sh
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.zsh
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.dsv
+[18.011s] -- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.dsv
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/packages/chrono_sim
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig.cmake
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig-version.cmake
+[18.011s] -- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.xml
+[18.013s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/blor/ros2_ws2/build/chrono_sim

@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[0.074s] [ 20%] Built target sim_tools
+[0.123s] [ 36%] Built target variable_stiffness_example
+[0.123s] [ 36%] Built target visual_params
+[0.123s] [ 41%] Built target husky_test
+[0.123s] [ 36%] Built target visual_test
+[0.123s] [ 45%] Built target shear_test
+[0.123s] [ 45%] Built target rover_example
+[0.124s] [ 45%] Built target spirit_example
+[0.124s] [ 45%] Built target rover_test
+[0.124s] [ 45%] Built target rhex_test
+[0.124s] [ 50%] Built target probe_test
+[0.124s] [ 53%] Built target hero_video
+[0.124s] [ 54%] Built target spirit_experiment
+[0.124s] [ 57%] Built target spirit_grab_values
+[0.124s] [ 61%] Built target spirit_test
+[0.124s] [ 61%] Built target docking
+[0.127s] [ 64%] Built target spirit_calibration
+[0.164s] [ 69%] Built target 1spirit_2truss_model_verification
+[0.164s] [ 69%] Built target spirit_calibration_zero_grav
+[0.165s] [ 72%] Built target 1spirit_3truss_planner
+[0.166s] [ 76%] Built target spirit_force_calibration_stepped_model_verification
+[0.166s] [ 78%] Built target 1spirit_2truss_planner
+[0.166s] [ 80%] Built target spirit_3truss
+[0.167s] [ 83%] Built target 1spirit_1truss_planner
+[0.168s] [ 86%] Built target spirit_force_calibration
+[0.169s] [ 91%] Built target 3spirit_3truss_model_verification
+[0.169s] [ 91%] Built target 2spirit_5truss_planner
+[0.169s] [ 94%] Built target 3spirit_2truss_planner
+[0.170s] [ 98%] Built target 4spirit_3truss_planner
+[0.170s] [100%] Built target 3spirit_3truss_planner

@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (chrono_sim) JobQueued: {'identifier': 'chrono_sim', 'dependencies': OrderedDict()}
+[0.000274] (chrono_sim) JobStarted: {'identifier': 'chrono_sim'}
+[0.010225] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'cmake'}
+[0.010528] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/blor/ros2_ws2/src/chrono_sim', '-DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_sim'], 'cwd': '/home/blor/ros2_ws2/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/blor/ros2_ws/install/turtlesim/lib:/home/blor/ros2_ws/install/chrono_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/ros2_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1826'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/ros2_ws/install:/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1638,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a847b9b_1540_4d21_9ee0_f044720fa557'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5YRY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/blor/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/blor/ros2_ws/install/chrono_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[0.081966] (chrono_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099080] (-) TimerEvent: {}
+[0.150148] (chrono_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.159111] (chrono_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199234] (-) TimerEvent: {}
+[0.249530] (chrono_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.256888] (chrono_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.257221] (chrono_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.257672] (chrono_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.260989] (chrono_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299368] (-) TimerEvent: {}
+[0.362463] (chrono_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.370031] (chrono_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.370386] (chrono_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.370899] (chrono_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372603] (chrono_sim) StdoutLine: {'line': b'-- Finding package Chrono...\n'}
+[0.372795] (chrono_sim) StdoutLine: {'line': b'--    Requested component Irrlicht (REQUIRED)\n'}
+[0.372897] (chrono_sim) StdoutLine: {'line': b'--    Requested component Vehicle (REQUIRED)\n'}
+[0.373020] (chrono_sim) StdoutLine: {'line': b'--    Requested component Parsers (REQUIRED)\n'}
+[0.389759] (chrono_sim) StdoutLine: {'line': b'--    Requested component Ros (REQUIRED)\n'}
+[0.390678] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_CXX_FLAGS         (Compiler flags): ;-fopenmp;-march=native\n'}
+[0.390830] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_C_FLAGS           (Compiler flags): ;-fopenmp;-march=native\n'}
+[0.390919] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_LINKER_FLAGS      (Linker flags): -L/usr/local/lib\n'}
+[0.390999] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_INCLUDE_DIRS      (Chrono include directories): /usr/local/include;/usr/local/include/chrono;/usr/local/include/chrono/collision/bullet;/usr/local/include/chrono/collision/gimpact;/usr/local/include/chrono_thirdparty/HACD;/usr/local/include/chrono_thirdparty/HACDv2;/usr/include/eigen3;/usr/local/cuda/include;/usr/include/irrlicht;;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom;/usr/include;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers;/usr/include;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/usr/include/python3.10;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/opt/ros/humble/include/rclcpp;/opt/ros/humble/include/ament_index_cpp;/opt/ros/humble/include/libstatistics_collector;/opt/ros/humble/include/rcl;/opt/ros/humble/include/rcpputils;/opt/ros/humble/include/rcutils;/opt/ros/humble/include/builtin_interfaces;/opt/ros/humble/include/rosgraph_msgs;/opt/ros/humble/include/rosidl_typesupport_cpp;/opt/ros/humble/include/rosidl_typesupport_c;/opt/ros/humble/include/rosidl_runtime_cpp;/opt/ros/humble/include/rcl_yaml_param_parser;/opt/ros/humble/include/statistics_msgs;/opt/ros/humble/include/tracetools;/opt/ros/humble/include/rosidl_runtime_c;/opt/ros/humble/include/rosidl_typesupport_interface;/opt/ros/humble/include/rosidl_typesupport_fastrtps_c;/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp;/opt/ros/humble/include/rmw;/opt/ros/humble/include/rcl_interfaces;/opt/ros/humble/include/rosidl_typesupport_introspection_c;/opt/ros/humble/include/rosidl_typesupport_introspection_cpp;/opt/ros/humble/include/std_msgs;/opt/ros/humble/include/geometry_msgs;/opt/ros/humble/include/sensor_msgs;/opt/ros/humble/include/tf2_ros;/opt/ros/humble/include/rclcpp_components;/opt/ros/humble/include/message_filters;/opt/ros/humble/include/rclcpp_action;/opt/ros/humble/include/tf2;/opt/ros/humble/include/tf2_msgs;/opt/ros/humble/include/action_msgs;/home/blor/ros2_ws/install/chrono_ros_interfaces/include/chrono_ros_interfaces\n'}
+[0.391120] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_LIB_NAMES         (Chrono library names): ChronoEngine_ros;ChronoEngine_parsers;ChronoEngine_vehicle_irrlicht;ChronoModels_vehicle;ChronoEngine_vehicle;ChronoEngine_irrlicht;ChronoModels_robot;ChronoEngine\n'}
+[0.391205] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_LIBRARIES         (Chrono libraries): /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a;;urdfdom::urdfdom_model;urdfdom::urdfdom_world;urdfdom::urdfdom_sensor;tinyxml2::tinyxml2;ChronoEngine;ChronoModels_robot;ChronoEngine_vehicle;ChronoModels_vehicle;ChronoEngine_parsers;/usr/local/lib/libChronoEngine_ros.so;/usr/local/lib/libChronoEngine_parsers.so;/usr/local/lib/libChronoEngine_vehicle_irrlicht.so;/usr/local/lib/libChronoModels_vehicle.so;/usr/local/lib/libChronoEngine_vehicle.so;/usr/local/lib/libChronoEngine_irrlicht.so;/usr/local/lib/libChronoModels_robot.so;/usr/local/lib/libChronoEngine.so\n'}
+[0.391302] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_DATA_DIR          (Path to Chrono data folder): /usr/local/share/chrono/data/\n'}
+[0.391371] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_VEHICLE_DATA_DIR  (Path to Chrono::Vehicle data folder): /usr/local/share/chrono/data/vehicle/\n'}
+[0.391424] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_FSI_DATA_DIR      (Path to Chrono::FSI data folder): /usr/local/share/chrono/data/fsi/\n'}
+[0.394146] (chrono_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399447] (-) TimerEvent: {}
+[0.499758] (-) TimerEvent: {}
+[0.564794] (chrono_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599872] (-) TimerEvent: {}
+[0.676031] (chrono_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.699962] (-) TimerEvent: {}
+[0.733113] (chrono_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.741932] (chrono_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.752853] (chrono_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.767831] (chrono_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.787839] (chrono_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800056] (-) TimerEvent: {}
+[0.849702] (chrono_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.853639] (chrono_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900153] (-) TimerEvent: {}
+[0.967005] (chrono_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.989085] (chrono_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000251] (-) TimerEvent: {}
+[1.014137] (chrono_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.026887] (chrono_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100414] (-) TimerEvent: {}
+[1.122005] (chrono_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.122313] (chrono_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200578] (-) TimerEvent: {}
+[1.219460] (chrono_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.220802] (chrono_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.283811] (chrono_sim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.298867] (chrono_sim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.300650] (-) TimerEvent: {}
+[1.313879] (chrono_sim) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.400805] (-) TimerEvent: {}
+[1.501186] (-) TimerEvent: {}
+[1.530054] (chrono_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.601288] (-) TimerEvent: {}
+[1.701609] (-) TimerEvent: {}
+[1.744872] (chrono_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.749227] (chrono_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/blor/ros2_ws2/build/chrono_sim\n'}
+[1.772829] (chrono_sim) CommandEnded: {'returncode': 0}
+[1.773714] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'build'}
+[1.775230] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blor/ros2_ws2/build/chrono_sim', '--', '-j16', '-l16'], 'cwd': '/home/blor/ros2_ws2/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/blor/ros2_ws/install/turtlesim/lib:/home/blor/ros2_ws/install/chrono_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/ros2_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1826'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/ros2_ws/install:/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1638,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a847b9b_1540_4d21_9ee0_f044720fa557'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5YRY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/blor/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/blor/ros2_ws/install/chrono_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[1.801725] (-) TimerEvent: {}
+[1.848110] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Spirit.cpp.o\x1b[0m\n'}
+[1.848541] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/VariableSoilParams.cpp.o\x1b[0m\n'}
+[1.848681] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RHex.cpp.o\x1b[0m\n'}
+[1.848794] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/PIDController.cpp.o\x1b[0m\n'}
+[1.848893] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/ROSRover.cpp.o\x1b[0m\n'}
+[1.848983] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RHexFactory.cpp.o\x1b[0m\n'}
+[1.849068] (chrono_sim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Rover.cpp.o\x1b[0m\n'}
+[1.849235] (chrono_sim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o\x1b[0m\n'}
+[1.849322] (chrono_sim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Truss.cpp.o\x1b[0m\n'}
+[1.849399] (chrono_sim) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/KDTree.cpp.o\x1b[0m\n'}
+[1.849491] (chrono_sim) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RoverFactory.cpp.o\x1b[0m\n'}
+[1.849648] (chrono_sim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/ROSRHex.cpp.o\x1b[0m\n'}
+[1.849782] (chrono_sim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/ROSSpirit.cpp.o\x1b[0m\n'}
+[1.849985] (chrono_sim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/HuskyFactory.cpp.o\x1b[0m\n'}
+[1.901911] (-) TimerEvent: {}
+[2.002460] (-) TimerEvent: {}
+[2.103112] (-) TimerEvent: {}
+[2.203783] (-) TimerEvent: {}
+[2.304525] (-) TimerEvent: {}
+[2.405194] (-) TimerEvent: {}
+[2.505713] (-) TimerEvent: {}
+[2.606197] (-) TimerEvent: {}
+[2.706686] (-) TimerEvent: {}
+[2.807211] (-) TimerEvent: {}
+[2.907741] (-) TimerEvent: {}
+[3.008241] (-) TimerEvent: {}
+[3.108795] (-) TimerEvent: {}
+[3.209291] (-) TimerEvent: {}
+[3.309807] (-) TimerEvent: {}
+[3.410328] (-) TimerEvent: {}
+[3.510864] (-) TimerEvent: {}
+[3.611364] (-) TimerEvent: {}
+[3.711860] (-) TimerEvent: {}
+[3.812373] (-) TimerEvent: {}
+[3.912877] (-) TimerEvent: {}
+[4.013369] (-) TimerEvent: {}
+[4.113846] (-) TimerEvent: {}
+[4.214346] (-) TimerEvent: {}
+[4.314812] (-) TimerEvent: {}
+[4.415258] (-) TimerEvent: {}
+[4.515704] (-) TimerEvent: {}
+[4.616146] (-) TimerEvent: {}
+[4.716666] (-) TimerEvent: {}
+[4.817217] (-) TimerEvent: {}
+[4.917714] (-) TimerEvent: {}
+[5.018211] (-) TimerEvent: {}
+[5.118721] (-) TimerEvent: {}
+[5.219191] (-) TimerEvent: {}
+[5.319713] (-) TimerEvent: {}
+[5.420239] (-) TimerEvent: {}
+[5.520775] (-) TimerEvent: {}
+[5.621270] (-) TimerEvent: {}
+[5.721816] (-) TimerEvent: {}
+[5.822335] (-) TimerEvent: {}
+[5.922867] (-) TimerEvent: {}
+[6.023377] (-) TimerEvent: {}
+[6.123886] (-) TimerEvent: {}
+[6.224376] (-) TimerEvent: {}
+[6.324848] (-) TimerEvent: {}
+[6.425281] (-) TimerEvent: {}
+[6.525736] (-) TimerEvent: {}
+[6.626193] (-) TimerEvent: {}
+[6.726683] (-) TimerEvent: {}
+[6.827184] (-) TimerEvent: {}
+[6.927651] (-) TimerEvent: {}
+[7.028154] (-) TimerEvent: {}
+[7.128627] (-) TimerEvent: {}
+[7.229140] (-) TimerEvent: {}
+[7.329652] (-) TimerEvent: {}
+[7.430187] (-) TimerEvent: {}
+[7.530718] (-) TimerEvent: {}
+[7.631222] (-) TimerEvent: {}
+[7.731739] (-) TimerEvent: {}
+[7.832256] (-) TimerEvent: {}
+[7.932777] (-) TimerEvent: {}
+[8.033291] (-) TimerEvent: {}
+[8.133810] (-) TimerEvent: {}
+[8.234281] (-) TimerEvent: {}
+[8.334828] (-) TimerEvent: {}
+[8.435349] (-) TimerEvent: {}
+[8.535846] (-) TimerEvent: {}
+[8.636358] (-) TimerEvent: {}
+[8.736887] (-) TimerEvent: {}
+[8.837404] (-) TimerEvent: {}
+[8.937938] (-) TimerEvent: {}
+[9.038436] (-) TimerEvent: {}
+[9.139008] (-) TimerEvent: {}
+[9.239588] (-) TimerEvent: {}
+[9.340245] (-) TimerEvent: {}
+[9.440752] (-) TimerEvent: {}
+[9.541235] (-) TimerEvent: {}
+[9.641740] (-) TimerEvent: {}
+[9.742197] (-) TimerEvent: {}
+[9.842695] (-) TimerEvent: {}
+[9.943161] (-) TimerEvent: {}
+[10.043625] (-) TimerEvent: {}
+[10.144120] (-) TimerEvent: {}
+[10.244643] (-) TimerEvent: {}
+[10.345136] (-) TimerEvent: {}
+[10.445590] (-) TimerEvent: {}
+[10.546046] (-) TimerEvent: {}
+[10.634610] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:14\x1b[m\x1b[K,\n'}
+[10.635041] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:1\x1b[m\x1b[K:\n'}
+[10.635212] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:264:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KProbe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.635366] (chrono_sim) StderrLine: {'line': b'   32 |     Spirit(ChSystem* sys, std::shared_ptr<chrono::ChBody> body, std::vector<std::vector<std::shared_ptr<chrono::ChBody>>> leg_bodies, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque>>> leg_motors, std::vector<Truss> trusses, std::vector<\x1b[01;31m\x1b[KProbe\x1b[m\x1b[K> probes,int spiritNum);\n'}
+[10.635512] (chrono_sim) StderrLine: {'line': b'      |                                                                                                                                                                                                                                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.635660] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.635771] (chrono_sim) StderrLine: {'line': b'   32 |     Spirit(ChSystem* sys, std::shared_ptr<chrono::ChBody> body, std::vector<std::vector<std::shared_ptr<chrono::ChBody>>> leg_bodies, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque>>> leg_motors, std::vector<Truss> trusses, std::vector<Probe\x1b[01;31m\x1b[K>\x1b[m\x1b[K probes,int spiritNum);\n'}
+[10.635883] (chrono_sim) StderrLine: {'line': b'      |                                                                                                                                                                                                                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.635988] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[10.636167] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:7:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<Spirit> SpiritFactory::BuildSpirit(const ChVector3d&, const chrono::ChQuaternion<double>&, const std::vector<chrono::ChVector3<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.636300] (chrono_sim) StderrLine: {'line': b'    7 | std::unique_ptr<Spirit> \x1b[01;31m\x1b[KSpiritFactory\x1b[m\x1b[K::BuildSpirit(const ChVector3d& Spirit_pos,  const ChQuaternion<>& orientation, const std::vector<ChVector3d>& truss_positions){\n'}
+[10.636411] (chrono_sim) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.636617] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:1\x1b[m\x1b[K:\n'}
+[10.636738] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:25:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<Spirit> SpiritFactory::BuildSpirit(const ChVector3d&, const chrono::ChQuaternion<double>&, const std::vector<chrono::ChVector3<double> >&, const ChVector3d&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.636841] (chrono_sim) StderrLine: {'line': b'   25 |         std::unique_ptr<Spirit> \x1b[01;36m\x1b[KBuildSpirit\x1b[m\x1b[K(const ChVector3d& Spirit_pos, const ChQuaternion<>& orientation, const std::vector<ChVector3d>& truss_positions, const ChVector3d& Probe_pos);\n'}
+[10.636935] (chrono_sim) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.637031] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SpiritFactory\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[10.637145] (chrono_sim) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KSpiritFactory\x1b[m\x1b[K {\n'}
+[10.637244] (chrono_sim) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.646184] (-) TimerEvent: {}
+[10.746622] (-) TimerEvent: {}
+[10.847104] (-) TimerEvent: {}
+[10.947582] (-) TimerEvent: {}
+[11.048051] (-) TimerEvent: {}
+[11.148510] (-) TimerEvent: {}
+[11.248957] (-) TimerEvent: {}
+[11.349420] (-) TimerEvent: {}
+[11.353697] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:1\x1b[m\x1b[K:\n'}
+[11.354062] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:264:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KProbe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.354229] (chrono_sim) StderrLine: {'line': b'   32 | rque>>> leg_motors, std::vector<Truss> trusses, std::vector<\x1b[01;31m\x1b[KProbe\x1b[m\x1b[K> probes,int spiritNum);\n'}
+[11.354353] (chrono_sim) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.354467] (chrono_sim) StderrLine: {'line': b'\n'}
+[11.354595] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.354687] (chrono_sim) StderrLine: {'line': b'   32 | >> leg_motors, std::vector<Truss> trusses, std::vector<Probe\x1b[01;31m\x1b[K>\x1b[m\x1b[K probes,int spiritNum);\n'}
+[11.354796] (chrono_sim) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.354884] (chrono_sim) StderrLine: {'line': b'\n'}
+[11.354965] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[11.378192] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:268:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KProbe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.378538] (chrono_sim) StderrLine: {'line': b'    3 | rque>>> leg_motors, std::vector<Truss> trusses, std::vector<\x1b[01;31m\x1b[KProbe\x1b[m\x1b[K> probes, int spiritNum){\n'}
+[11.378719] (chrono_sim) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.378846] (chrono_sim) StderrLine: {'line': b'\n'}
+[11.378951] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:273:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.379053] (chrono_sim) StderrLine: {'line': b'    3 | >> leg_motors, std::vector<Truss> trusses, std::vector<Probe\x1b[01;31m\x1b[K>\x1b[m\x1b[K probes, int spiritNum){\n'}
+[11.379163] (chrono_sim) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.379252] (chrono_sim) StderrLine: {'line': b'\n'}
+[11.379335] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:273:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[11.407635] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSpirit::Spirit(chrono::ChSystem*, std::shared_ptr<chrono::ChBody>, std::vector<std::vector<std::shared_ptr<chrono::ChBody> > >, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque> > >, std::vector<Truss>, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.407995] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:9:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprobe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprobes\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.408169] (chrono_sim) StderrLine: {'line': b'    9 |     \x1b[01;31m\x1b[Kprobe\x1b[m\x1b[K = probes[0];\n'}
+[11.408295] (chrono_sim) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.408400] (chrono_sim) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kprobes\x1b[m\x1b[K\n'}
+[11.408513] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:9:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kint[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[11.408634] (chrono_sim) StderrLine: {'line': b'    9 |     probe = probes\x1b[01;31m\x1b[K[\x1b[m\x1b[K0];\n'}
+[11.408732] (chrono_sim) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.413770] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:\x1b[m\x1b[K At global scope:\n'}
+[11.414055] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:51:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Spirit::MakeProbe(chrono::ChVector3d, chrono::ChVector3d)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.414199] (chrono_sim) StderrLine: {'line': b'   51 | void \x1b[01;31m\x1b[KSpirit\x1b[m\x1b[K::MakeProbe(ChVector3d xpos, ChVector3d ypos){\n'}
+[11.414301] (chrono_sim) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.414403] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:51:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid Spirit::MakeProbe(chrono::ChVector3d, chrono::ChVector3d)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.414492] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:1\x1b[m\x1b[K:\n'}
+[11.414592] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:16:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Spirit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[11.414672] (chrono_sim) StderrLine: {'line': b'   16 | class \x1b[01;36m\x1b[KSpirit\x1b[m\x1b[K {\n'}
+[11.414760] (chrono_sim) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.449578] (-) TimerEvent: {}
+[11.550033] (-) TimerEvent: {}
+[11.650506] (-) TimerEvent: {}
+[11.750992] (-) TimerEvent: {}
+[11.851450] (-) TimerEvent: {}
+[11.951929] (-) TimerEvent: {}
+[12.052390] (-) TimerEvent: {}
+[12.152857] (-) TimerEvent: {}
+[12.253286] (-) TimerEvent: {}
+[12.353707] (-) TimerEvent: {}
+[12.454081] (-) TimerEvent: {}
+[12.554485] (-) TimerEvent: {}
+[12.654862] (-) TimerEvent: {}
+[12.755225] (-) TimerEvent: {}
+[12.855633] (-) TimerEvent: {}
+[12.956047] (-) TimerEvent: {}
+[13.056436] (-) TimerEvent: {}
+[13.067903] (chrono_sim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sim_tools.dir/build.make:188: CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o] Error 1\n'}
+[13.068195] (chrono_sim) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[13.156560] (-) TimerEvent: {}
+[13.256943] (-) TimerEvent: {}
+[13.357323] (-) TimerEvent: {}
+[13.457696] (-) TimerEvent: {}
+[13.558076] (-) TimerEvent: {}
+[13.658492] (-) TimerEvent: {}
+[13.758872] (-) TimerEvent: {}
+[13.859242] (-) TimerEvent: {}
+[13.959628] (-) TimerEvent: {}
+[14.059975] (-) TimerEvent: {}
+[14.074153] (chrono_sim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sim_tools.dir/build.make:76: CMakeFiles/sim_tools.dir/src/sim_tools/Spirit.cpp.o] Error 1\n'}
+[14.160099] (-) TimerEvent: {}
+[14.260469] (-) TimerEvent: {}
+[14.360966] (-) TimerEvent: {}
+[14.461318] (-) TimerEvent: {}
+[14.561616] (-) TimerEvent: {}
+[14.661909] (-) TimerEvent: {}
+[14.762203] (-) TimerEvent: {}
+[14.862500] (-) TimerEvent: {}
+[14.962814] (-) TimerEvent: {}
+[15.063143] (-) TimerEvent: {}
+[15.163437] (-) TimerEvent: {}
+[15.263765] (-) TimerEvent: {}
+[15.364065] (-) TimerEvent: {}
+[15.464335] (-) TimerEvent: {}
+[15.564621] (-) TimerEvent: {}
+[15.664934] (-) TimerEvent: {}
+[15.765219] (-) TimerEvent: {}
+[15.865560] (-) TimerEvent: {}
+[15.965909] (-) TimerEvent: {}
+[16.066178] (-) TimerEvent: {}
+[16.166457] (-) TimerEvent: {}
+[16.266780] (-) TimerEvent: {}
+[16.367114] (-) TimerEvent: {}
+[16.467430] (-) TimerEvent: {}
+[16.567753] (-) TimerEvent: {}
+[16.668067] (-) TimerEvent: {}
+[16.768376] (-) TimerEvent: {}
+[16.868713] (-) TimerEvent: {}
+[16.969017] (-) TimerEvent: {}
+[17.069287] (-) TimerEvent: {}
+[17.169893] (-) TimerEvent: {}
+[17.270209] (-) TimerEvent: {}
+[17.370829] (-) TimerEvent: {}
+[17.471117] (-) TimerEvent: {}
+[17.571417] (-) TimerEvent: {}
+[17.590081] (chrono_sim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/sim_tools.dir/all] Error 2\n'}
+[17.590332] (chrono_sim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.595436] (chrono_sim) CommandEnded: {'returncode': 2}
+[17.671506] (-) TimerEvent: {}
+[17.759113] (chrono_sim) JobEnded: {'identifier': 'chrono_sim', 'rc': 2}
+[17.769577] (-) EventReactorShutdown: {}

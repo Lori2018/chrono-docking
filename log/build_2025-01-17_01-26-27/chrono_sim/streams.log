@@ -1,0 +1,73 @@
+[0.008s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[0.074s] [ 20%] Built target sim_tools
+[0.121s] [ 50%] Built target spirit_grab_values
+[0.123s] [ 50%] Built target rover_test
+[0.123s] [ 50%] Built target rover_example
+[0.123s] [ 50%] Built target rhex_test
+[0.123s] [ 50%] Built target variable_stiffness_example
+[0.123s] [ 50%] Built target visual_test
+[0.123s] [ 50%] Built target shear_test
+[0.123s] [ 50%] Built target visual_params
+[0.123s] [ 53%] Built target probe_test
+[0.123s] [ 53%] Built target hero_video
+[0.124s] [ 50%] Built target spirit_example
+[0.124s] [ 53%] Built target spirit_experiment
+[0.124s] [ 57%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[0.124s] [ 57%] Built target spirit_test
+[0.124s] [ 60%] Built target husky_test
+[0.124s] [ 63%] Built target spirit_calibration
+[0.162s] [ 65%] Built target spirit_calibration_zero_grav
+[0.165s] [ 68%] Built target spirit_force_calibration_stepped_model_verification
+[0.165s] [ 76%] Built target 4spirit_3truss_planner
+[0.165s] [ 76%] Built target 1spirit_2truss_model_verification
+[0.165s] [ 76%] Built target spirit_3truss
+[0.166s] [ 80%] Built target spirit_force_calibration
+[0.166s] [ 82%] Built target 2spirit_5truss_planner
+[0.166s] [ 84%] Built target 3spirit_3truss_model_verification
+[0.167s] [ 87%] Built target 1spirit_1truss_planner
+[0.167s] [ 91%] Built target 1spirit_2truss_planner
+[0.167s] [ 93%] Built target 1spirit_3truss_planner
+[0.167s] [ 95%] Built target 3spirit_2truss_planner
+[0.167s] [ 98%] Built target 3spirit_3truss_planner
+[2.114s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.114s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:14:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChBodyAuxRef[m[K’
+[2.114s]    14 |     auto spirit1 = chrono::ChBodyAuxRef::[01;31m[KCreate[m[K();
+[2.114s]       |                                          [01;31m[K^~~~~~[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:15:29:[m[K [01;31m[Kerror: [m[K‘[01m[KChVector[m[K’ is not a member of ‘[01m[Kchrono[m[K’; did you mean ‘[01m[KChVectorN[m[K’?
+[2.115s]    15 |     spirit1->SetPos(chrono::[01;31m[KChVector[m[K<>(0, 0, 0));  // Position of spirit 1
+[2.115s]       |                             [01;31m[K^~~~~~~~[m[K
+[2.115s]       |                             [32m[KChVectorN[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:15:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.115s]    15 |     spirit1->SetPos(chrono::ChVector<[01;31m[K>[m[K(0, 0, 0));  // Position of spirit 1
+[2.115s]       |                                      [01;31m[K^[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:18:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChBodyAuxRef[m[K’
+[2.115s]    18 |     auto spirit2 = chrono::ChBodyAuxRef::[01;31m[KCreate[m[K();
+[2.115s]       |                                          [01;31m[K^~~~~~[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:19:29:[m[K [01;31m[Kerror: [m[K‘[01m[KChVector[m[K’ is not a member of ‘[01m[Kchrono[m[K’; did you mean ‘[01m[KChVectorN[m[K’?
+[2.115s]    19 |     spirit2->SetPos(chrono::[01;31m[KChVector[m[K<>(5, 0, 0));  // Position of spirit 2
+[2.115s]       |                             [01;31m[K^~~~~~~~[m[K
+[2.115s]       |                             [32m[KChVectorN[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:19:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.115s]    19 |     spirit2->SetPos(chrono::ChVector<[01;31m[K>[m[K(5, 0, 0));  // Position of spirit 2
+[2.115s]       |                                      [01;31m[K^[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:23:37:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChLinkMate[m[K’
+[2.115s]    23 |     auto arm1 = chrono::ChLinkMate::[01;31m[KCreate[m[K();
+[2.115s]       |                                     [01;31m[K^~~~~~[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:54:[m[K [01;31m[Kerror: [m[K‘[01m[KChVector[m[K’ is not a member of ‘[01m[Kchrono[m[K’; did you mean ‘[01m[KChVectorN[m[K’?
+[2.115s]    24 |     arm1->Initialize(spirit1, spirit2, true, chrono::[01;31m[KChVector[m[K<>(2, 0, 0), chrono::ChVector<>(2, 0, 0));
+[2.115s]       |                                                      [01;31m[K^~~~~~~~[m[K
+[2.115s]       |                                                      [32m[KChVectorN[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.115s]    24 |     arm1->Initialize(spirit1, spirit2, true, chrono::ChVector<[01;31m[K>[m[K(2, 0, 0), chrono::ChVector<>(2, 0, 0));
+[2.115s]       |                                                               [01;31m[K^[m[K
+[2.115s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:83:[m[K [01;31m[Kerror: [m[K‘[01m[KChVector[m[K’ is not a member of ‘[01m[Kchrono[m[K’; did you mean ‘[01m[KChVectorN[m[K’?
+[2.115s]    24 |     arm1->Initialize(spirit1, spirit2, true, chrono::ChVector<>(2, 0, 0), chrono::[01;31m[KChVector[m[K<>(2, 0, 0));
+[2.116s]       |                                                                                   [01;31m[K^~~~~~~~[m[K
+[2.116s]       |                                                                                   [32m[KChVectorN[m[K
+[2.116s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:92:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.116s]    24 |     arm1->Initialize(spirit1, spirit2, true, chrono::ChVector<>(2, 0, 0), chrono::ChVector<[01;31m[K>[m[K(2, 0, 0));
+[2.116s]       |                                                                                            [01;31m[K^[m[K
+[2.657s] gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+[2.657s] gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+[2.658s] gmake: *** [Makefile:146: all] Error 2
+[2.660s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16

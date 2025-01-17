@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (chrono_sim) JobQueued: {'identifier': 'chrono_sim', 'dependencies': OrderedDict()}
+[0.000641] (chrono_sim) JobStarted: {'identifier': 'chrono_sim'}
+[0.006511] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'cmake'}
+[0.006922] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'build'}
+[0.007332] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blor/ros2_ws2/build/chrono_sim', '--', '-j16', '-l16'], 'cwd': '/home/blor/ros2_ws2/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/chrono_workspace/chrono/src/chrono/core'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1659,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1659'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1befdaf2_fa90_45f7_9034_92c70d3a447b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6YF7Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[0.074719] (chrono_sim) StdoutLine: {'line': b'[ 20%] Built target sim_tools\n'}
+[0.100743] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target docking\x1b[0m\n'}
+[0.100983] (-) TimerEvent: {}
+[0.121195] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target spirit_experiment\n'}
+[0.121571] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target visual_test\n'}
+[0.121674] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target spirit_grab_values\n'}
+[0.121760] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target probe_test\n'}
+[0.121832] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target shear_test\n'}
+[0.121908] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target visual_params\n'}
+[0.121982] (chrono_sim) StdoutLine: {'line': b'[ 39%] Built target husky_test\n'}
+[0.123000] (chrono_sim) StdoutLine: {'line': b'[ 42%] Built target spirit_example\n'}
+[0.123130] (chrono_sim) StdoutLine: {'line': b'[ 47%] Built target rover_example\n'}
+[0.123204] (chrono_sim) StdoutLine: {'line': b'[ 47%] Built target variable_stiffness_example\n'}
+[0.123258] (chrono_sim) StdoutLine: {'line': b'[ 50%] Built target rhex_test\n'}
+[0.123310] (chrono_sim) StdoutLine: {'line': b'[ 53%] Built target hero_video\n'}
+[0.123362] (chrono_sim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o\x1b[0m\n'}
+[0.123481] (chrono_sim) StdoutLine: {'line': b'[ 57%] Built target rover_test\n'}
+[0.125050] (chrono_sim) StdoutLine: {'line': b'[ 60%] Built target spirit_test\n'}
+[0.130073] (chrono_sim) StdoutLine: {'line': b'[ 63%] Built target spirit_calibration\n'}
+[0.165587] (chrono_sim) StdoutLine: {'line': b'[ 67%] Built target spirit_force_calibration_stepped_model_verification\n'}
+[0.165896] (chrono_sim) StdoutLine: {'line': b'[ 68%] Built target 2spirit_5truss_planner\n'}
+[0.166092] (chrono_sim) StdoutLine: {'line': b'[ 76%] Built target spirit_force_calibration\n'}
+[0.166194] (chrono_sim) StdoutLine: {'line': b'[ 79%] Built target 1spirit_1truss_planner\n'}
+[0.166290] (chrono_sim) StdoutLine: {'line': b'[ 79%] Built target spirit_calibration_zero_grav\n'}
+[0.166387] (chrono_sim) StdoutLine: {'line': b'[ 79%] Built target spirit_3truss\n'}
+[0.166523] (chrono_sim) StdoutLine: {'line': b'[ 82%] Built target 1spirit_2truss_model_verification\n'}
+[0.166611] (chrono_sim) StdoutLine: {'line': b'[ 87%] Built target 3spirit_3truss_model_verification\n'}
+[0.166700] (chrono_sim) StdoutLine: {'line': b'[ 87%] Built target 1spirit_2truss_planner\n'}
+[0.166927] (chrono_sim) StdoutLine: {'line': b'[ 93%] Built target 3spirit_3truss_planner\n'}
+[0.167002] (chrono_sim) StdoutLine: {'line': b'[ 93%] Built target 1spirit_3truss_planner\n'}
+[0.167378] (chrono_sim) StdoutLine: {'line': b'[ 95%] Built target 3spirit_2truss_planner\n'}
+[0.167733] (chrono_sim) StdoutLine: {'line': b'[ 98%] Built target 4spirit_3truss_planner\n'}
+[0.201085] (-) TimerEvent: {}
+[0.301315] (-) TimerEvent: {}
+[0.401602] (-) TimerEvent: {}
+[0.501885] (-) TimerEvent: {}
+[0.602158] (-) TimerEvent: {}
+[0.702430] (-) TimerEvent: {}
+[0.802715] (-) TimerEvent: {}
+[0.903007] (-) TimerEvent: {}
+[1.003288] (-) TimerEvent: {}
+[1.103590] (-) TimerEvent: {}
+[1.203896] (-) TimerEvent: {}
+[1.304179] (-) TimerEvent: {}
+[1.404461] (-) TimerEvent: {}
+[1.504752] (-) TimerEvent: {}
+[1.605094] (-) TimerEvent: {}
+[1.705362] (-) TimerEvent: {}
+[1.805641] (-) TimerEvent: {}
+[1.905940] (-) TimerEvent: {}
+[2.006219] (-) TimerEvent: {}
+[2.106502] (-) TimerEvent: {}
+[2.108951] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.109151] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:14:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCreate\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kchrono::ChBodyAuxRef\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.109211] (chrono_sim) StderrLine: {'line': b'   14 |     auto spirit1 = chrono::ChBodyAuxRef::\x1b[01;31m\x1b[KCreate\x1b[m\x1b[K();\n'}
+[2.109259] (chrono_sim) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.109302] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:15:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (0, should be 2)\n'}
+[2.109348] (chrono_sim) StderrLine: {'line': b'   15 |     spirit1->SetPos(chrono::ChVectorN<\x1b[01;31m\x1b[K>\x1b[m\x1b[K(0, 0, 0));  // Position of spirit 1\n'}
+[2.109391] (chrono_sim) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.109431] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChQuaternion.h:23\x1b[m\x1b[K,\n'}
+[2.109472] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChCoordsys.h:16\x1b[m\x1b[K,\n'}
+[2.109514] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChFrame.h:18\x1b[m\x1b[K,\n'}
+[2.109556] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/physics/ChSystem.h:27\x1b[m\x1b[K,\n'}
+[2.109598] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/physics/ChSystemNSC.h:23\x1b[m\x1b[K,\n'}
+[2.109639] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:1\x1b[m\x1b[K:\n'}
+[2.109697] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/chrono/core/ChMatrix.h:122:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, int N> using ChVectorN = Eigen::Matrix<Type, Size, 1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.109743] (chrono_sim) StderrLine: {'line': b'  122 | using \x1b[01;36m\x1b[KChVectorN\x1b[m\x1b[K = Eigen::Matrix<T, N, 1>;\n'}
+[2.109785] (chrono_sim) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109825] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:18:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCreate\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kchrono::ChBodyAuxRef\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.109868] (chrono_sim) StderrLine: {'line': b'   18 |     auto spirit2 = chrono::ChBodyAuxRef::\x1b[01;31m\x1b[KCreate\x1b[m\x1b[K();\n'}
+[2.109905] (chrono_sim) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.109937] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:19:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (0, should be 2)\n'}
+[2.109975] (chrono_sim) StderrLine: {'line': b'   19 |     spirit2->SetPos(chrono::ChVectorN<\x1b[01;31m\x1b[K>\x1b[m\x1b[K(5, 0, 0));  // Position of spirit 2\n'}
+[2.110012] (chrono_sim) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.110053] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChQuaternion.h:23\x1b[m\x1b[K,\n'}
+[2.110093] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChCoordsys.h:16\x1b[m\x1b[K,\n'}
+[2.110132] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChFrame.h:18\x1b[m\x1b[K,\n'}
+[2.110165] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/physics/ChSystem.h:27\x1b[m\x1b[K,\n'}
+[2.110198] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/physics/ChSystemNSC.h:23\x1b[m\x1b[K,\n'}
+[2.110231] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:1\x1b[m\x1b[K:\n'}
+[2.110273] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/chrono/core/ChMatrix.h:122:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, int N> using ChVectorN = Eigen::Matrix<Type, Size, 1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.110307] (chrono_sim) StderrLine: {'line': b'  122 | using \x1b[01;36m\x1b[KChVectorN\x1b[m\x1b[K = Eigen::Matrix<T, N, 1>;\n'}
+[2.110339] (chrono_sim) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.110371] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:23:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCreate\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kchrono::ChLinkMate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.110404] (chrono_sim) StderrLine: {'line': b'   23 |     auto arm1 = chrono::ChLinkMate::\x1b[01;31m\x1b[KCreate\x1b[m\x1b[K();\n'}
+[2.110437] (chrono_sim) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.110469] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (0, should be 2)\n'}
+[2.110501] (chrono_sim) StderrLine: {'line': b'   24 |     arm1->Initialize(spirit1, spirit2, true, chrono::ChVectorN<\x1b[01;31m\x1b[K>\x1b[m\x1b[K(2, 0, 0), chrono::ChVector<>(2, 0, 0));\n'}
+[2.110534] (chrono_sim) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.110565] (chrono_sim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChQuaternion.h:23\x1b[m\x1b[K,\n'}
+[2.110597] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChCoordsys.h:16\x1b[m\x1b[K,\n'}
+[2.110628] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/core/ChFrame.h:18\x1b[m\x1b[K,\n'}
+[2.110669] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/physics/ChSystem.h:27\x1b[m\x1b[K,\n'}
+[2.110712] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/chrono/physics/ChSystemNSC.h:23\x1b[m\x1b[K,\n'}
+[2.110746] (chrono_sim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:1\x1b[m\x1b[K:\n'}
+[2.110778] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/chrono/core/ChMatrix.h:122:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, int N> using ChVectorN = Eigen::Matrix<Type, Size, 1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.110813] (chrono_sim) StderrLine: {'line': b'  122 | using \x1b[01;36m\x1b[KChVectorN\x1b[m\x1b[K = Eigen::Matrix<T, N, 1>;\n'}
+[2.110845] (chrono_sim) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.110883] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KChVector\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KChVectorN\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.110917] (chrono_sim) StderrLine: {'line': b'   24 |     arm1->Initialize(spirit1, spirit2, true, chrono::ChVectorN<>(2, 0, 0), chrono::\x1b[01;31m\x1b[KChVector\x1b[m\x1b[K<>(2, 0, 0));\n'}
+[2.110949] (chrono_sim) StderrLine: {'line': b'      |                                                                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.110982] (chrono_sim) StderrLine: {'line': b'      |                                                                                    \x1b[32m\x1b[KChVectorN\x1b[m\x1b[K\n'}
+[2.111014] (chrono_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.111047] (chrono_sim) StderrLine: {'line': b'   24 |     arm1->Initialize(spirit1, spirit2, true, chrono::ChVectorN<>(2, 0, 0), chrono::ChVector<\x1b[01;31m\x1b[K>\x1b[m\x1b[K(2, 0, 0));\n'}
+[2.111079] (chrono_sim) StderrLine: {'line': b'      |                                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.206604] (-) TimerEvent: {}
+[2.306896] (-) TimerEvent: {}
+[2.407176] (-) TimerEvent: {}
+[2.507458] (-) TimerEvent: {}
+[2.607738] (-) TimerEvent: {}
+[2.648265] (chrono_sim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1\n'}
+[2.648525] (chrono_sim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2\n'}
+[2.648855] (chrono_sim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.651054] (chrono_sim) CommandEnded: {'returncode': 2}
+[2.707815] (-) TimerEvent: {}
+[2.780140] (chrono_sim) JobEnded: {'identifier': 'chrono_sim', 'rc': 2}
+[2.790506] (-) EventReactorShutdown: {}

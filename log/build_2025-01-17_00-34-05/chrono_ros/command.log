@@ -1,0 +1,6 @@
+Invoking command in '/home/blor/ros2_ws2/build/chrono_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/blor/ros2_ws2/chrono_ros -DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_ros
+Invoked command in '/home/blor/ros2_ws2/build/chrono_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/blor/ros2_ws2/chrono_ros -DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_ros
+Invoking command in '/home/blor/ros2_ws2/build/chrono_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_ros -- -j16 -l16
+Invoked command in '/home/blor/ros2_ws2/build/chrono_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_ros -- -j16 -l16
+Invoking command in '/home/blor/ros2_ws2/build/chrono_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/blor/ros2_ws2/build/chrono_ros
+Invoked command in '/home/blor/ros2_ws2/build/chrono_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/blor/ros2_ws2/build/chrono_ros

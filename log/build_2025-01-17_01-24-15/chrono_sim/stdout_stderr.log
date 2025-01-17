@@ -1,0 +1,37 @@
+[ 20%] Built target sim_tools
+[ 38%] Built target rhex_test
+[ 38%] Built target visual_params
+[ 38%] Built target husky_test
+[ 38%] Built target visual_test
+[ 38%] Built target rover_test
+[ 38%] Built target variable_stiffness_example
+[ 45%] Built target shear_test
+[ 45%] Built target spirit_experiment
+[ 46%] Built target rover_example
+[ 49%] Built target probe_test
+[ 50%] Built target spirit_grab_values
+[ 53%] Built target hero_video
+[ 57%] Built target spirit_calibration
+[ 58%] Built target spirit_example
+[ 61%] Built target spirit_test
+[ 63%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[ 65%] Built target spirit_force_calibration
+[ 68%] Built target 1spirit_1truss_planner
+[ 75%] Built target 1spirit_2truss_model_verification
+[ 75%] Built target spirit_force_calibration_stepped_model_verification
+[ 76%] Built target 3spirit_3truss_planner
+[ 83%] Built target 3spirit_3truss_model_verification
+[ 84%] Built target 1spirit_2truss_planner
+[ 84%] Built target spirit_3truss
+[ 87%] Built target 1spirit_3truss_planner
+[ 90%] Built target 4spirit_3truss_planner
+[ 93%] Built target 3spirit_2truss_planner
+[ 95%] Built target spirit_calibration_zero_grav
+[ 98%] Built target 2spirit_5truss_planner
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kchrono/core/ChVector.h: No such file or directory
+    4 | #include [01;31m[K<chrono/core/ChVector.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

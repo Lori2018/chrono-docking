@@ -1,0 +1,31 @@
+[ 20%] Built target sim_tools
+[35m[1mConsolidate compiler generated dependencies of target docking[0m
+[ 50%] Built target probe_test
+[ 50%] Built target husky_test
+[ 50%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[ 50%] Built target visual_test
+[ 50%] Built target visual_params
+[ 50%] Built target rhex_test
+[ 50%] Built target rover_example
+[ 50%] Built target shear_test
+[ 50%] Built target rover_test
+[ 50%] Built target variable_stiffness_example
+[ 50%] Built target spirit_grab_values
+[ 57%] Built target spirit_example
+[ 57%] Built target spirit_experiment
+[ 57%] Built target hero_video
+[ 60%] Built target spirit_test
+[ 63%] Built target spirit_calibration
+[ 68%] Built target 2spirit_5truss_planner
+[ 68%] Built target spirit_3truss
+[ 73%] Built target spirit_calibration_zero_grav
+[ 73%] Built target 1spirit_3truss_planner
+[ 79%] Built target spirit_force_calibration
+[ 79%] Built target spirit_force_calibration_stepped_model_verification
+[ 82%] Built target 1spirit_2truss_model_verification
+[ 86%] Built target 3spirit_3truss_model_verification
+[ 87%] Built target 1spirit_1truss_planner
+[ 90%] Built target 1spirit_2truss_planner
+[ 93%] Built target 3spirit_2truss_planner
+[ 98%] Built target 4spirit_3truss_planner
+[ 98%] Built target 3spirit_3truss_planner

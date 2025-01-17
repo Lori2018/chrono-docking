@@ -1,0 +1,1527 @@
+[0.000000] (-) TimerEvent: {}
+[0.000786] (chrono_sim) JobQueued: {'identifier': 'chrono_sim', 'dependencies': OrderedDict()}
+[0.000829] (chrono_sim) JobStarted: {'identifier': 'chrono_sim'}
+[0.012767] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'cmake'}
+[0.014278] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'build'}
+[0.014333] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blor/ros2_ws2/build/chrono_sim', '--', '-j16', '-l16'], 'cwd': '/home/blor/ros2_ws2/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/blor/ros2_ws/install/turtlesim/lib:/home/blor/ros2_ws/install/chrono_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/ros2_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1826'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/ros2_ws/install:/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1638,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a847b9b_1540_4d21_9ee0_f044720fa557'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5YRY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/blor/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/blor/ros2_ws/install/chrono_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[0.086590] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sim_tools\x1b[0m\n'}
+[0.099717] (-) TimerEvent: {}
+[0.155060] (chrono_sim) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Spirit.cpp.o\x1b[0m\n'}
+[0.155371] (chrono_sim) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o\x1b[0m\n'}
+[0.199844] (-) TimerEvent: {}
+[0.300196] (-) TimerEvent: {}
+[0.400527] (-) TimerEvent: {}
+[0.500865] (-) TimerEvent: {}
+[0.601249] (-) TimerEvent: {}
+[0.701649] (-) TimerEvent: {}
+[0.802025] (-) TimerEvent: {}
+[0.902432] (-) TimerEvent: {}
+[1.002895] (-) TimerEvent: {}
+[1.103316] (-) TimerEvent: {}
+[1.203656] (-) TimerEvent: {}
+[1.304003] (-) TimerEvent: {}
+[1.404322] (-) TimerEvent: {}
+[1.504643] (-) TimerEvent: {}
+[1.604990] (-) TimerEvent: {}
+[1.705329] (-) TimerEvent: {}
+[1.805655] (-) TimerEvent: {}
+[1.905996] (-) TimerEvent: {}
+[2.006326] (-) TimerEvent: {}
+[2.106653] (-) TimerEvent: {}
+[2.206993] (-) TimerEvent: {}
+[2.307323] (-) TimerEvent: {}
+[2.407651] (-) TimerEvent: {}
+[2.507990] (-) TimerEvent: {}
+[2.608326] (-) TimerEvent: {}
+[2.708658] (-) TimerEvent: {}
+[2.809004] (-) TimerEvent: {}
+[2.909331] (-) TimerEvent: {}
+[3.009661] (-) TimerEvent: {}
+[3.109999] (-) TimerEvent: {}
+[3.210333] (-) TimerEvent: {}
+[3.310674] (-) TimerEvent: {}
+[3.411092] (-) TimerEvent: {}
+[3.511535] (-) TimerEvent: {}
+[3.611955] (-) TimerEvent: {}
+[3.712420] (-) TimerEvent: {}
+[3.812820] (-) TimerEvent: {}
+[3.913159] (-) TimerEvent: {}
+[4.013474] (-) TimerEvent: {}
+[4.113793] (-) TimerEvent: {}
+[4.214142] (-) TimerEvent: {}
+[4.314472] (-) TimerEvent: {}
+[4.414804] (-) TimerEvent: {}
+[4.515153] (-) TimerEvent: {}
+[4.615492] (-) TimerEvent: {}
+[4.715824] (-) TimerEvent: {}
+[4.816190] (-) TimerEvent: {}
+[4.916526] (-) TimerEvent: {}
+[5.016859] (-) TimerEvent: {}
+[5.117210] (-) TimerEvent: {}
+[5.217545] (-) TimerEvent: {}
+[5.317880] (-) TimerEvent: {}
+[5.418234] (-) TimerEvent: {}
+[5.518567] (-) TimerEvent: {}
+[5.618896] (-) TimerEvent: {}
+[5.719250] (-) TimerEvent: {}
+[5.819597] (-) TimerEvent: {}
+[5.919952] (-) TimerEvent: {}
+[6.020333] (-) TimerEvent: {}
+[6.120774] (-) TimerEvent: {}
+[6.221271] (-) TimerEvent: {}
+[6.321726] (-) TimerEvent: {}
+[6.422136] (-) TimerEvent: {}
+[6.522468] (-) TimerEvent: {}
+[6.622785] (-) TimerEvent: {}
+[6.723152] (-) TimerEvent: {}
+[6.823479] (-) TimerEvent: {}
+[6.923802] (-) TimerEvent: {}
+[7.024149] (-) TimerEvent: {}
+[7.124473] (-) TimerEvent: {}
+[7.224799] (-) TimerEvent: {}
+[7.325156] (-) TimerEvent: {}
+[7.425489] (-) TimerEvent: {}
+[7.525822] (-) TimerEvent: {}
+[7.626191] (-) TimerEvent: {}
+[7.726519] (-) TimerEvent: {}
+[7.826856] (-) TimerEvent: {}
+[7.927206] (-) TimerEvent: {}
+[8.027541] (-) TimerEvent: {}
+[8.127890] (-) TimerEvent: {}
+[8.228247] (-) TimerEvent: {}
+[8.328567] (-) TimerEvent: {}
+[8.428903] (-) TimerEvent: {}
+[8.529252] (-) TimerEvent: {}
+[8.629649] (-) TimerEvent: {}
+[8.730038] (-) TimerEvent: {}
+[8.830357] (-) TimerEvent: {}
+[8.930703] (-) TimerEvent: {}
+[9.031040] (-) TimerEvent: {}
+[9.131420] (-) TimerEvent: {}
+[9.168982] (chrono_sim) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking CXX shared library libsim_tools.so\x1b[0m\n'}
+[9.231536] (-) TimerEvent: {}
+[9.331835] (-) TimerEvent: {}
+[9.432169] (-) TimerEvent: {}
+[9.532473] (-) TimerEvent: {}
+[9.632762] (-) TimerEvent: {}
+[9.733053] (-) TimerEvent: {}
+[9.833341] (-) TimerEvent: {}
+[9.933618] (-) TimerEvent: {}
+[10.016541] (chrono_sim) StdoutLine: {'line': b'[ 21%] Built target sim_tools\n'}
+[10.033858] (-) TimerEvent: {}
+[10.100213] (chrono_sim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/visual_params.dir/src/active_development/visual_params.cpp.o\x1b[0m\n'}
+[10.100514] (chrono_sim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/variable_stiffness_example.dir/src/examples/variable_stiffness_example.cpp.o\x1b[0m\n'}
+[10.102309] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/spirit_grab_values.dir/src/active_development/spirit_grab_values.cpp.o\x1b[0m\n'}
+[10.102553] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/husky_test.dir/src/active_development/husky_test.cpp.o\x1b[0m\n'}
+[10.102835] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/visual_test.dir/src/active_development/visual_test.cpp.o\x1b[0m\n'}
+[10.102941] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/probe_test.dir/src/active_development/probe_test.cpp.o\x1b[0m\n'}
+[10.103038] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rhex_test.dir/src/active_development/rhex_test.cpp.o\x1b[0m\n'}
+[10.103122] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/shear_test.dir/src/active_development/shear_test.cpp.o\x1b[0m\n'}
+[10.103202] (chrono_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/spirit_example.dir/src/examples/spirit_example.cpp.o\x1b[0m\n'}
+[10.103685] (chrono_sim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/rover_example.dir/src/examples/rover_example.cpp.o\x1b[0m\n'}
+[10.103801] (chrono_sim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/rover_test.dir/src/active_development/rover_test.cpp.o\x1b[0m\n'}
+[10.103899] (chrono_sim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/spirit_experiment.dir/src/active_development/spirit_experiment.cpp.o\x1b[0m\n'}
+[10.104003] (chrono_sim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/hero_video.dir/src/active_development/hero_video.cpp.o\x1b[0m\n'}
+[10.106228] (chrono_sim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/spirit_calibration.dir/src/experiments/spirit_calibration.cpp.o\x1b[0m\n'}
+[10.106431] (chrono_sim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/spirit_test.dir/src/experiments/spirit_test.cpp.o\x1b[0m\n'}
+[10.106543] (chrono_sim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/spirit_calibration_zero_grav.dir/src/experiments/spirit_calibration_zero_grav.cpp.o\x1b[0m\n'}
+[10.136007] (-) TimerEvent: {}
+[10.236402] (-) TimerEvent: {}
+[10.336822] (-) TimerEvent: {}
+[10.437323] (-) TimerEvent: {}
+[10.537754] (-) TimerEvent: {}
+[10.638340] (-) TimerEvent: {}
+[10.740085] (-) TimerEvent: {}
+[10.844087] (-) TimerEvent: {}
+[10.944697] (-) TimerEvent: {}
+[11.045218] (-) TimerEvent: {}
+[11.145773] (-) TimerEvent: {}
+[11.246305] (-) TimerEvent: {}
+[11.346861] (-) TimerEvent: {}
+[11.447464] (-) TimerEvent: {}
+[11.550052] (-) TimerEvent: {}
+[11.650542] (-) TimerEvent: {}
+[11.751047] (-) TimerEvent: {}
+[11.851577] (-) TimerEvent: {}
+[11.952152] (-) TimerEvent: {}
+[12.055062] (-) TimerEvent: {}
+[12.155611] (-) TimerEvent: {}
+[12.256207] (-) TimerEvent: {}
+[12.356801] (-) TimerEvent: {}
+[12.460040] (-) TimerEvent: {}
+[12.562061] (-) TimerEvent: {}
+[12.662590] (-) TimerEvent: {}
+[12.763140] (-) TimerEvent: {}
+[12.863610] (-) TimerEvent: {}
+[12.964059] (-) TimerEvent: {}
+[13.067203] (-) TimerEvent: {}
+[13.167731] (-) TimerEvent: {}
+[13.268253] (-) TimerEvent: {}
+[13.368761] (-) TimerEvent: {}
+[13.469327] (-) TimerEvent: {}
+[13.571081] (-) TimerEvent: {}
+[13.671683] (-) TimerEvent: {}
+[13.775052] (-) TimerEvent: {}
+[13.875576] (-) TimerEvent: {}
+[13.976048] (-) TimerEvent: {}
+[14.076555] (-) TimerEvent: {}
+[14.177059] (-) TimerEvent: {}
+[14.277555] (-) TimerEvent: {}
+[14.382027] (-) TimerEvent: {}
+[14.482483] (-) TimerEvent: {}
+[14.583039] (-) TimerEvent: {}
+[14.683536] (-) TimerEvent: {}
+[14.784042] (-) TimerEvent: {}
+[14.884524] (-) TimerEvent: {}
+[14.985048] (-) TimerEvent: {}
+[15.085565] (-) TimerEvent: {}
+[15.186054] (-) TimerEvent: {}
+[15.287058] (-) TimerEvent: {}
+[15.390045] (-) TimerEvent: {}
+[15.490549] (-) TimerEvent: {}
+[15.591176] (-) TimerEvent: {}
+[15.691851] (-) TimerEvent: {}
+[15.796067] (-) TimerEvent: {}
+[15.896582] (-) TimerEvent: {}
+[15.997119] (-) TimerEvent: {}
+[16.097637] (-) TimerEvent: {}
+[16.198144] (-) TimerEvent: {}
+[16.298620] (-) TimerEvent: {}
+[16.399046] (-) TimerEvent: {}
+[16.499539] (-) TimerEvent: {}
+[16.603045] (-) TimerEvent: {}
+[16.703519] (-) TimerEvent: {}
+[16.804076] (-) TimerEvent: {}
+[16.907271] (-) TimerEvent: {}
+[17.007785] (-) TimerEvent: {}
+[17.108268] (-) TimerEvent: {}
+[17.208738] (-) TimerEvent: {}
+[17.309211] (-) TimerEvent: {}
+[17.409670] (-) TimerEvent: {}
+[17.510128] (-) TimerEvent: {}
+[17.610611] (-) TimerEvent: {}
+[17.711126] (-) TimerEvent: {}
+[17.814224] (-) TimerEvent: {}
+[17.914747] (-) TimerEvent: {}
+[18.015284] (-) TimerEvent: {}
+[18.115821] (-) TimerEvent: {}
+[18.216399] (-) TimerEvent: {}
+[18.318046] (-) TimerEvent: {}
+[18.418533] (-) TimerEvent: {}
+[18.522042] (-) TimerEvent: {}
+[18.622517] (-) TimerEvent: {}
+[18.723034] (-) TimerEvent: {}
+[18.823515] (-) TimerEvent: {}
+[18.924056] (-) TimerEvent: {}
+[19.024582] (-) TimerEvent: {}
+[19.125117] (-) TimerEvent: {}
+[19.227041] (-) TimerEvent: {}
+[19.327566] (-) TimerEvent: {}
+[19.428052] (-) TimerEvent: {}
+[19.530520] (-) TimerEvent: {}
+[19.631152] (-) TimerEvent: {}
+[19.731775] (-) TimerEvent: {}
+[19.833207] (-) TimerEvent: {}
+[19.935739] (-) TimerEvent: {}
+[20.036264] (-) TimerEvent: {}
+[20.136817] (-) TimerEvent: {}
+[20.239065] (-) TimerEvent: {}
+[20.339601] (-) TimerEvent: {}
+[20.440047] (-) TimerEvent: {}
+[20.540515] (-) TimerEvent: {}
+[20.644270] (-) TimerEvent: {}
+[20.744852] (-) TimerEvent: {}
+[20.845538] (-) TimerEvent: {}
+[20.946154] (-) TimerEvent: {}
+[21.046711] (-) TimerEvent: {}
+[21.147285] (-) TimerEvent: {}
+[21.251282] (-) TimerEvent: {}
+[21.351819] (-) TimerEvent: {}
+[21.452312] (-) TimerEvent: {}
+[21.552881] (-) TimerEvent: {}
+[21.653469] (-) TimerEvent: {}
+[21.754052] (-) TimerEvent: {}
+[21.854616] (-) TimerEvent: {}
+[21.958081] (-) TimerEvent: {}
+[22.059021] (-) TimerEvent: {}
+[22.159503] (-) TimerEvent: {}
+[22.260027] (-) TimerEvent: {}
+[22.360589] (-) TimerEvent: {}
+[22.463043] (-) TimerEvent: {}
+[22.563536] (-) TimerEvent: {}
+[22.666303] (-) TimerEvent: {}
+[22.766809] (-) TimerEvent: {}
+[22.867324] (-) TimerEvent: {}
+[22.967869] (-) TimerEvent: {}
+[23.068411] (-) TimerEvent: {}
+[23.170074] (-) TimerEvent: {}
+[23.270668] (-) TimerEvent: {}
+[23.371254] (-) TimerEvent: {}
+[23.473152] (-) TimerEvent: {}
+[23.573696] (-) TimerEvent: {}
+[23.675063] (-) TimerEvent: {}
+[23.775582] (-) TimerEvent: {}
+[23.880036] (-) TimerEvent: {}
+[23.980480] (-) TimerEvent: {}
+[24.080916] (-) TimerEvent: {}
+[24.181386] (-) TimerEvent: {}
+[24.281838] (-) TimerEvent: {}
+[24.382297] (-) TimerEvent: {}
+[24.482752] (-) TimerEvent: {}
+[24.583258] (-) TimerEvent: {}
+[24.683753] (-) TimerEvent: {}
+[24.784279] (-) TimerEvent: {}
+[24.887050] (-) TimerEvent: {}
+[24.987558] (-) TimerEvent: {}
+[25.090051] (-) TimerEvent: {}
+[25.190507] (-) TimerEvent: {}
+[25.290983] (-) TimerEvent: {}
+[25.391500] (-) TimerEvent: {}
+[25.491976] (-) TimerEvent: {}
+[25.592493] (-) TimerEvent: {}
+[25.695045] (-) TimerEvent: {}
+[25.795532] (-) TimerEvent: {}
+[25.899072] (-) TimerEvent: {}
+[25.999677] (-) TimerEvent: {}
+[26.100281] (-) TimerEvent: {}
+[26.205049] (-) TimerEvent: {}
+[26.305585] (-) TimerEvent: {}
+[26.406628] (-) TimerEvent: {}
+[26.508027] (-) TimerEvent: {}
+[26.608496] (-) TimerEvent: {}
+[26.711486] (-) TimerEvent: {}
+[26.812485] (-) TimerEvent: {}
+[26.913346] (-) TimerEvent: {}
+[27.017035] (-) TimerEvent: {}
+[27.117697] (-) TimerEvent: {}
+[27.218509] (-) TimerEvent: {}
+[27.319067] (-) TimerEvent: {}
+[27.419623] (-) TimerEvent: {}
+[27.521226] (-) TimerEvent: {}
+[27.597501] (chrono_sim) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable spirit_example\x1b[0m\n'}
+[27.623089] (-) TimerEvent: {}
+[27.729045] (-) TimerEvent: {}
+[27.829569] (-) TimerEvent: {}
+[27.865127] (chrono_sim) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable rover_test\x1b[0m\n'}
+[27.895328] (chrono_sim) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX executable rover_example\x1b[0m\n'}
+[27.896212] (chrono_sim) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX executable rhex_test\x1b[0m\n'}
+[27.930370] (-) TimerEvent: {}
+[28.030956] (-) TimerEvent: {}
+[28.037278] (chrono_sim) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable spirit_experiment\x1b[0m\n'}
+[28.132062] (-) TimerEvent: {}
+[28.138952] (chrono_sim) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX executable spirit_test\x1b[0m\n'}
+[28.235074] (-) TimerEvent: {}
+[28.244000] (chrono_sim) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable probe_test\x1b[0m\n'}
+[28.335221] (-) TimerEvent: {}
+[28.435773] (-) TimerEvent: {}
+[28.515296] (chrono_sim) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable variable_stiffness_example\x1b[0m\n'}
+[28.536092] (-) TimerEvent: {}
+[28.602264] (chrono_sim) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable visual_test\x1b[0m\n'}
+[28.632776] (chrono_sim) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable husky_test\x1b[0m\n'}
+[28.636234] (-) TimerEvent: {}
+[28.718519] (chrono_sim) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable hero_video\x1b[0m\n'}
+[28.736475] (-) TimerEvent: {}
+[28.743731] (chrono_sim) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable shear_test\x1b[0m\n'}
+[28.765820] (chrono_sim) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable spirit_calibration\x1b[0m\n'}
+[28.840137] (-) TimerEvent: {}
+[28.941602] (-) TimerEvent: {}
+[29.042406] (-) TimerEvent: {}
+[29.143049] (-) TimerEvent: {}
+[29.227845] (chrono_sim) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable visual_params\x1b[0m\n'}
+[29.244141] (-) TimerEvent: {}
+[29.348390] (-) TimerEvent: {}
+[29.401128] (chrono_sim) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable spirit_calibration_zero_grav\x1b[0m\n'}
+[29.448717] (-) TimerEvent: {}
+[29.549972] (-) TimerEvent: {}
+[29.652348] (-) TimerEvent: {}
+[29.753383] (-) TimerEvent: {}
+[29.856580] (-) TimerEvent: {}
+[29.861297] (chrono_sim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable spirit_grab_values\x1b[0m\n'}
+[29.957992] (-) TimerEvent: {}
+[30.061175] (-) TimerEvent: {}
+[30.162326] (-) TimerEvent: {}
+[30.263166] (-) TimerEvent: {}
+[30.367146] (-) TimerEvent: {}
+[30.468150] (-) TimerEvent: {}
+[30.569716] (-) TimerEvent: {}
+[30.673180] (-) TimerEvent: {}
+[30.776466] (-) TimerEvent: {}
+[30.877601] (-) TimerEvent: {}
+[30.980209] (-) TimerEvent: {}
+[31.085452] (-) TimerEvent: {}
+[31.186500] (-) TimerEvent: {}
+[31.287523] (-) TimerEvent: {}
+[31.388525] (-) TimerEvent: {}
+[31.494145] (-) TimerEvent: {}
+[31.595095] (-) TimerEvent: {}
+[31.696144] (-) TimerEvent: {}
+[31.797583] (-) TimerEvent: {}
+[31.901446] (-) TimerEvent: {}
+[32.002578] (-) TimerEvent: {}
+[32.105452] (-) TimerEvent: {}
+[32.206589] (-) TimerEvent: {}
+[32.309176] (-) TimerEvent: {}
+[32.410186] (-) TimerEvent: {}
+[32.514243] (-) TimerEvent: {}
+[32.615562] (-) TimerEvent: {}
+[32.717985] (-) TimerEvent: {}
+[32.821159] (-) TimerEvent: {}
+[32.922156] (-) TimerEvent: {}
+[33.026469] (-) TimerEvent: {}
+[33.127865] (-) TimerEvent: {}
+[33.233210] (-) TimerEvent: {}
+[33.334347] (-) TimerEvent: {}
+[33.435183] (-) TimerEvent: {}
+[33.536422] (-) TimerEvent: {}
+[33.642049] (-) TimerEvent: {}
+[33.743759] (-) TimerEvent: {}
+[33.845045] (-) TimerEvent: {}
+[33.947471] (-) TimerEvent: {}
+[34.051373] (-) TimerEvent: {}
+[34.152410] (-) TimerEvent: {}
+[34.256552] (-) TimerEvent: {}
+[34.358012] (-) TimerEvent: {}
+[34.460537] (-) TimerEvent: {}
+[34.561613] (-) TimerEvent: {}
+[34.667186] (-) TimerEvent: {}
+[34.768228] (-) TimerEvent: {}
+[34.869390] (-) TimerEvent: {}
+[34.972264] (-) TimerEvent: {}
+[35.073616] (-) TimerEvent: {}
+[35.178203] (-) TimerEvent: {}
+[35.279370] (-) TimerEvent: {}
+[35.380579] (-) TimerEvent: {}
+[35.485170] (-) TimerEvent: {}
+[35.586234] (-) TimerEvent: {}
+[35.687773] (-) TimerEvent: {}
+[35.790183] (-) TimerEvent: {}
+[35.892616] (-) TimerEvent: {}
+[35.996200] (-) TimerEvent: {}
+[36.097161] (-) TimerEvent: {}
+[36.201410] (-) TimerEvent: {}
+[36.302552] (-) TimerEvent: {}
+[36.403754] (-) TimerEvent: {}
+[36.505572] (-) TimerEvent: {}
+[36.609174] (-) TimerEvent: {}
+[36.710234] (-) TimerEvent: {}
+[36.814350] (-) TimerEvent: {}
+[36.915356] (-) TimerEvent: {}
+[37.016506] (-) TimerEvent: {}
+[37.120282] (-) TimerEvent: {}
+[37.221503] (-) TimerEvent: {}
+[37.322475] (-) TimerEvent: {}
+[37.425471] (-) TimerEvent: {}
+[37.529064] (-) TimerEvent: {}
+[37.630392] (-) TimerEvent: {}
+[37.734202] (-) TimerEvent: {}
+[37.835488] (-) TimerEvent: {}
+[37.940539] (-) TimerEvent: {}
+[38.041819] (-) TimerEvent: {}
+[38.142876] (-) TimerEvent: {}
+[38.245402] (-) TimerEvent: {}
+[38.348194] (-) TimerEvent: {}
+[38.449367] (-) TimerEvent: {}
+[38.554189] (-) TimerEvent: {}
+[38.655263] (-) TimerEvent: {}
+[38.756367] (-) TimerEvent: {}
+[38.859220] (-) TimerEvent: {}
+[38.960361] (-) TimerEvent: {}
+[39.064205] (-) TimerEvent: {}
+[39.165587] (-) TimerEvent: {}
+[39.271189] (-) TimerEvent: {}
+[39.372228] (-) TimerEvent: {}
+[39.473479] (-) TimerEvent: {}
+[39.574710] (-) TimerEvent: {}
+[39.676964] (-) TimerEvent: {}
+[39.779446] (-) TimerEvent: {}
+[39.882452] (-) TimerEvent: {}
+[39.984339] (-) TimerEvent: {}
+[40.087409] (-) TimerEvent: {}
+[40.188438] (-) TimerEvent: {}
+[40.290658] (-) TimerEvent: {}
+[40.393273] (-) TimerEvent: {}
+[40.495309] (-) TimerEvent: {}
+[40.598204] (-) TimerEvent: {}
+[40.699334] (-) TimerEvent: {}
+[40.804356] (-) TimerEvent: {}
+[40.905893] (-) TimerEvent: {}
+[41.006843] (-) TimerEvent: {}
+[41.109216] (-) TimerEvent: {}
+[41.214421] (-) TimerEvent: {}
+[41.315365] (-) TimerEvent: {}
+[41.416535] (-) TimerEvent: {}
+[41.517595] (-) TimerEvent: {}
+[41.621657] (-) TimerEvent: {}
+[41.724568] (-) TimerEvent: {}
+[41.825785] (-) TimerEvent: {}
+[41.928214] (-) TimerEvent: {}
+[42.032217] (-) TimerEvent: {}
+[42.133310] (-) TimerEvent: {}
+[42.234486] (-) TimerEvent: {}
+[42.339723] (-) TimerEvent: {}
+[42.440823] (-) TimerEvent: {}
+[42.550024] (-) TimerEvent: {}
+[42.657184] (-) TimerEvent: {}
+[42.759388] (-) TimerEvent: {}
+[42.862211] (-) TimerEvent: {}
+[42.967169] (-) TimerEvent: {}
+[43.073289] (-) TimerEvent: {}
+[43.176296] (-) TimerEvent: {}
+[43.277442] (-) TimerEvent: {}
+[43.380193] (-) TimerEvent: {}
+[43.481313] (-) TimerEvent: {}
+[43.586558] (-) TimerEvent: {}
+[43.689170] (-) TimerEvent: {}
+[43.795209] (-) TimerEvent: {}
+[43.896364] (-) TimerEvent: {}
+[43.997902] (-) TimerEvent: {}
+[44.104193] (-) TimerEvent: {}
+[44.209262] (-) TimerEvent: {}
+[44.310604] (-) TimerEvent: {}
+[44.411781] (-) TimerEvent: {}
+[44.521856] (-) TimerEvent: {}
+[44.623103] (-) TimerEvent: {}
+[44.724443] (-) TimerEvent: {}
+[44.834569] (-) TimerEvent: {}
+[44.935704] (-) TimerEvent: {}
+[45.036907] (-) TimerEvent: {}
+[45.139241] (-) TimerEvent: {}
+[45.243263] (-) TimerEvent: {}
+[45.349888] (-) TimerEvent: {}
+[45.454257] (-) TimerEvent: {}
+[45.564198] (-) TimerEvent: {}
+[45.665270] (-) TimerEvent: {}
+[45.768331] (-) TimerEvent: {}
+[45.873202] (-) TimerEvent: {}
+[45.974372] (-) TimerEvent: {}
+[46.075586] (-) TimerEvent: {}
+[46.184198] (-) TimerEvent: {}
+[46.285217] (-) TimerEvent: {}
+[46.386429] (-) TimerEvent: {}
+[46.490208] (-) TimerEvent: {}
+[46.595575] (-) TimerEvent: {}
+[46.707747] (-) TimerEvent: {}
+[46.810704] (-) TimerEvent: {}
+[46.911919] (-) TimerEvent: {}
+[47.013133] (-) TimerEvent: {}
+[47.118188] (-) TimerEvent: {}
+[47.219199] (-) TimerEvent: {}
+[47.320282] (-) TimerEvent: {}
+[47.429209] (-) TimerEvent: {}
+[47.533185] (-) TimerEvent: {}
+[47.634306] (-) TimerEvent: {}
+[47.738150] (-) TimerEvent: {}
+[47.843126] (-) TimerEvent: {}
+[47.947194] (-) TimerEvent: {}
+[48.048277] (-) TimerEvent: {}
+[48.149399] (-) TimerEvent: {}
+[48.255028] (-) TimerEvent: {}
+[48.359212] (-) TimerEvent: {}
+[48.460345] (-) TimerEvent: {}
+[48.564228] (-) TimerEvent: {}
+[48.665379] (-) TimerEvent: {}
+[48.766296] (-) TimerEvent: {}
+[48.870193] (-) TimerEvent: {}
+[48.971231] (-) TimerEvent: {}
+[49.072257] (-) TimerEvent: {}
+[49.174161] (-) TimerEvent: {}
+[49.276202] (-) TimerEvent: {}
+[49.381327] (-) TimerEvent: {}
+[49.482482] (-) TimerEvent: {}
+[49.583388] (-) TimerEvent: {}
+[49.684407] (-) TimerEvent: {}
+[49.788182] (-) TimerEvent: {}
+[49.889272] (-) TimerEvent: {}
+[49.990238] (-) TimerEvent: {}
+[50.093422] (-) TimerEvent: {}
+[50.198216] (-) TimerEvent: {}
+[50.299381] (-) TimerEvent: {}
+[50.400314] (-) TimerEvent: {}
+[50.501652] (-) TimerEvent: {}
+[50.605213] (-) TimerEvent: {}
+[50.706378] (-) TimerEvent: {}
+[50.808186] (-) TimerEvent: {}
+[50.912191] (-) TimerEvent: {}
+[51.013191] (-) TimerEvent: {}
+[51.114389] (-) TimerEvent: {}
+[51.217665] (-) TimerEvent: {}
+[51.322197] (-) TimerEvent: {}
+[51.423407] (-) TimerEvent: {}
+[51.524620] (-) TimerEvent: {}
+[51.627421] (-) TimerEvent: {}
+[51.728501] (-) TimerEvent: {}
+[51.833428] (-) TimerEvent: {}
+[51.934534] (-) TimerEvent: {}
+[52.035547] (-) TimerEvent: {}
+[52.136704] (-) TimerEvent: {}
+[52.240436] (-) TimerEvent: {}
+[52.341611] (-) TimerEvent: {}
+[52.445586] (-) TimerEvent: {}
+[52.546914] (-) TimerEvent: {}
+[52.647920] (-) TimerEvent: {}
+[52.750195] (-) TimerEvent: {}
+[52.852160] (-) TimerEvent: {}
+[52.954171] (-) TimerEvent: {}
+[53.058236] (-) TimerEvent: {}
+[53.159416] (-) TimerEvent: {}
+[53.260628] (-) TimerEvent: {}
+[53.362334] (-) TimerEvent: {}
+[53.465350] (-) TimerEvent: {}
+[53.566366] (-) TimerEvent: {}
+[53.669277] (-) TimerEvent: {}
+[53.770200] (-) TimerEvent: {}
+[53.873130] (-) TimerEvent: {}
+[53.974847] (-) TimerEvent: {}
+[54.079436] (-) TimerEvent: {}
+[54.180641] (-) TimerEvent: {}
+[54.281744] (-) TimerEvent: {}
+[54.386185] (-) TimerEvent: {}
+[54.487358] (-) TimerEvent: {}
+[54.588727] (-) TimerEvent: {}
+[54.691196] (-) TimerEvent: {}
+[54.792370] (-) TimerEvent: {}
+[54.895194] (-) TimerEvent: {}
+[54.998505] (-) TimerEvent: {}
+[55.099627] (-) TimerEvent: {}
+[55.201494] (-) TimerEvent: {}
+[55.305830] (-) TimerEvent: {}
+[55.407040] (-) TimerEvent: {}
+[55.510145] (-) TimerEvent: {}
+[55.611067] (-) TimerEvent: {}
+[55.713243] (-) TimerEvent: {}
+[55.816266] (-) TimerEvent: {}
+[55.917687] (-) TimerEvent: {}
+[56.021205] (-) TimerEvent: {}
+[56.122216] (-) TimerEvent: {}
+[56.225214] (-) TimerEvent: {}
+[56.328158] (-) TimerEvent: {}
+[56.429057] (-) TimerEvent: {}
+[56.533216] (-) TimerEvent: {}
+[56.634360] (-) TimerEvent: {}
+[56.735545] (-) TimerEvent: {}
+[56.838210] (-) TimerEvent: {}
+[56.939216] (-) TimerEvent: {}
+[57.042221] (-) TimerEvent: {}
+[57.143269] (-) TimerEvent: {}
+[57.246158] (-) TimerEvent: {}
+[57.347116] (-) TimerEvent: {}
+[57.448059] (-) TimerEvent: {}
+[57.552160] (-) TimerEvent: {}
+[57.653016] (-) TimerEvent: {}
+[57.754053] (-) TimerEvent: {}
+[57.855501] (-) TimerEvent: {}
+[57.959480] (-) TimerEvent: {}
+[58.060585] (-) TimerEvent: {}
+[58.164481] (-) TimerEvent: {}
+[58.265658] (-) TimerEvent: {}
+[58.369490] (-) TimerEvent: {}
+[58.470657] (-) TimerEvent: {}
+[58.574269] (-) TimerEvent: {}
+[58.675511] (-) TimerEvent: {}
+[58.777025] (-) TimerEvent: {}
+[58.879403] (-) TimerEvent: {}
+[58.983477] (-) TimerEvent: {}
+[59.084626] (-) TimerEvent: {}
+[59.186212] (-) TimerEvent: {}
+[59.290200] (-) TimerEvent: {}
+[59.391272] (-) TimerEvent: {}
+[59.495144] (-) TimerEvent: {}
+[59.599192] (-) TimerEvent: {}
+[59.700321] (-) TimerEvent: {}
+[59.801444] (-) TimerEvent: {}
+[59.902525] (-) TimerEvent: {}
+[60.005267] (-) TimerEvent: {}
+[60.110200] (-) TimerEvent: {}
+[60.211402] (-) TimerEvent: {}
+[60.312808] (-) TimerEvent: {}
+[60.416416] (-) TimerEvent: {}
+[60.517674] (-) TimerEvent: {}
+[60.621435] (-) TimerEvent: {}
+[60.722699] (-) TimerEvent: {}
+[60.825379] (-) TimerEvent: {}
+[60.926455] (-) TimerEvent: {}
+[61.031449] (-) TimerEvent: {}
+[61.132734] (-) TimerEvent: {}
+[61.233902] (-) TimerEvent: {}
+[61.336522] (-) TimerEvent: {}
+[61.439198] (-) TimerEvent: {}
+[61.540397] (-) TimerEvent: {}
+[61.643384] (-) TimerEvent: {}
+[61.747200] (-) TimerEvent: {}
+[61.848410] (-) TimerEvent: {}
+[61.949823] (-) TimerEvent: {}
+[62.052554] (-) TimerEvent: {}
+[62.157447] (-) TimerEvent: {}
+[62.258793] (-) TimerEvent: {}
+[62.360013] (-) TimerEvent: {}
+[62.462393] (-) TimerEvent: {}
+[62.563330] (-) TimerEvent: {}
+[62.666694] (-) TimerEvent: {}
+[62.769178] (-) TimerEvent: {}
+[62.872210] (-) TimerEvent: {}
+[62.976184] (-) TimerEvent: {}
+[63.077231] (-) TimerEvent: {}
+[63.178402] (-) TimerEvent: {}
+[63.282846] (-) TimerEvent: {}
+[63.384017] (-) TimerEvent: {}
+[63.490260] (-) TimerEvent: {}
+[63.591544] (-) TimerEvent: {}
+[63.692588] (-) TimerEvent: {}
+[63.796647] (-) TimerEvent: {}
+[63.899209] (-) TimerEvent: {}
+[64.004211] (-) TimerEvent: {}
+[64.105378] (-) TimerEvent: {}
+[64.206400] (-) TimerEvent: {}
+[64.309163] (-) TimerEvent: {}
+[64.410734] (-) TimerEvent: {}
+[64.513800] (-) TimerEvent: {}
+[64.616736] (-) TimerEvent: {}
+[64.719176] (-) TimerEvent: {}
+[64.822202] (-) TimerEvent: {}
+[64.923373] (-) TimerEvent: {}
+[65.026608] (-) TimerEvent: {}
+[65.129060] (-) TimerEvent: {}
+[65.232585] (-) TimerEvent: {}
+[65.335189] (-) TimerEvent: {}
+[65.441174] (-) TimerEvent: {}
+[65.542408] (-) TimerEvent: {}
+[65.643736] (-) TimerEvent: {}
+[65.745162] (-) TimerEvent: {}
+[65.850186] (-) TimerEvent: {}
+[65.951378] (-) TimerEvent: {}
+[66.052712] (-) TimerEvent: {}
+[66.155354] (-) TimerEvent: {}
+[66.257520] (-) TimerEvent: {}
+[66.362176] (-) TimerEvent: {}
+[66.466220] (-) TimerEvent: {}
+[66.567609] (-) TimerEvent: {}
+[66.674166] (-) TimerEvent: {}
+[66.778200] (-) TimerEvent: {}
+[66.879427] (-) TimerEvent: {}
+[66.980575] (-) TimerEvent: {}
+[67.089523] (-) TimerEvent: {}
+[67.197047] (-) TimerEvent: {}
+[67.298208] (-) TimerEvent: {}
+[67.399290] (-) TimerEvent: {}
+[67.502188] (-) TimerEvent: {}
+[67.607201] (-) TimerEvent: {}
+[67.709112] (-) TimerEvent: {}
+[67.810253] (-) TimerEvent: {}
+[67.911332] (-) TimerEvent: {}
+[68.015110] (-) TimerEvent: {}
+[68.116709] (-) TimerEvent: {}
+[68.219397] (-) TimerEvent: {}
+[68.324431] (-) TimerEvent: {}
+[68.425863] (-) TimerEvent: {}
+[68.527641] (-) TimerEvent: {}
+[68.630530] (-) TimerEvent: {}
+[68.735498] (-) TimerEvent: {}
+[68.836988] (-) TimerEvent: {}
+[68.938221] (-) TimerEvent: {}
+[69.041476] (-) TimerEvent: {}
+[69.144532] (-) TimerEvent: {}
+[69.247197] (-) TimerEvent: {}
+[69.351214] (-) TimerEvent: {}
+[69.452539] (-) TimerEvent: {}
+[69.553554] (-) TimerEvent: {}
+[69.657204] (-) TimerEvent: {}
+[69.758572] (-) TimerEvent: {}
+[69.859911] (-) TimerEvent: {}
+[69.962369] (-) TimerEvent: {}
+[70.066444] (-) TimerEvent: {}
+[70.167843] (-) TimerEvent: {}
+[70.270369] (-) TimerEvent: {}
+[70.373227] (-) TimerEvent: {}
+[70.474887] (-) TimerEvent: {}
+[70.578185] (-) TimerEvent: {}
+[70.679227] (-) TimerEvent: {}
+[70.783298] (-) TimerEvent: {}
+[70.884472] (-) TimerEvent: {}
+[70.987144] (-) TimerEvent: {}
+[71.088079] (-) TimerEvent: {}
+[71.191330] (-) TimerEvent: {}
+[71.294195] (-) TimerEvent: {}
+[71.395270] (-) TimerEvent: {}
+[71.498365] (-) TimerEvent: {}
+[71.599507] (-) TimerEvent: {}
+[71.702416] (-) TimerEvent: {}
+[71.804274] (-) TimerEvent: {}
+[71.909346] (-) TimerEvent: {}
+[72.010461] (-) TimerEvent: {}
+[72.115192] (-) TimerEvent: {}
+[72.216216] (-) TimerEvent: {}
+[72.317382] (-) TimerEvent: {}
+[72.420338] (-) TimerEvent: {}
+[72.522141] (-) TimerEvent: {}
+[72.624554] (-) TimerEvent: {}
+[72.729471] (-) TimerEvent: {}
+[72.830665] (-) TimerEvent: {}
+[72.931790] (-) TimerEvent: {}
+[73.032673] (-) TimerEvent: {}
+[73.138148] (-) TimerEvent: {}
+[73.238975] (-) TimerEvent: {}
+[73.339918] (-) TimerEvent: {}
+[73.441019] (-) TimerEvent: {}
+[73.543205] (-) TimerEvent: {}
+[73.649167] (-) TimerEvent: {}
+[73.750444] (-) TimerEvent: {}
+[73.851785] (-) TimerEvent: {}
+[73.953100] (-) TimerEvent: {}
+[74.057189] (-) TimerEvent: {}
+[74.158464] (-) TimerEvent: {}
+[74.263280] (-) TimerEvent: {}
+[74.364238] (-) TimerEvent: {}
+[74.465170] (-) TimerEvent: {}
+[74.566357] (-) TimerEvent: {}
+[74.671471] (-) TimerEvent: {}
+[74.772497] (-) TimerEvent: {}
+[74.873583] (-) TimerEvent: {}
+[74.978198] (-) TimerEvent: {}
+[75.082219] (-) TimerEvent: {}
+[75.183383] (-) TimerEvent: {}
+[75.284219] (-) TimerEvent: {}
+[75.387406] (-) TimerEvent: {}
+[75.488489] (-) TimerEvent: {}
+[75.593199] (-) TimerEvent: {}
+[75.694370] (-) TimerEvent: {}
+[75.800968] (-) TimerEvent: {}
+[75.903210] (-) TimerEvent: {}
+[76.008310] (-) TimerEvent: {}
+[76.114512] (-) TimerEvent: {}
+[76.215622] (-) TimerEvent: {}
+[76.317063] (-) TimerEvent: {}
+[76.421265] (-) TimerEvent: {}
+[76.522408] (-) TimerEvent: {}
+[76.623375] (-) TimerEvent: {}
+[76.733408] (-) TimerEvent: {}
+[76.834590] (-) TimerEvent: {}
+[76.939174] (-) TimerEvent: {}
+[77.044916] (-) TimerEvent: {}
+[77.148924] (-) TimerEvent: {}
+[77.253151] (-) TimerEvent: {}
+[77.354098] (-) TimerEvent: {}
+[77.455057] (-) TimerEvent: {}
+[77.563152] (-) TimerEvent: {}
+[77.664267] (-) TimerEvent: {}
+[77.767163] (-) TimerEvent: {}
+[77.868176] (-) TimerEvent: {}
+[77.977163] (-) TimerEvent: {}
+[78.078096] (-) TimerEvent: {}
+[78.180366] (-) TimerEvent: {}
+[78.282233] (-) TimerEvent: {}
+[78.386207] (-) TimerEvent: {}
+[78.487595] (-) TimerEvent: {}
+[78.588871] (-) TimerEvent: {}
+[78.693224] (-) TimerEvent: {}
+[78.794361] (-) TimerEvent: {}
+[78.895196] (-) TimerEvent: {}
+[79.000154] (-) TimerEvent: {}
+[79.101139] (-) TimerEvent: {}
+[79.202131] (-) TimerEvent: {}
+[79.303348] (-) TimerEvent: {}
+[79.405428] (-) TimerEvent: {}
+[79.507394] (-) TimerEvent: {}
+[79.610221] (-) TimerEvent: {}
+[79.715216] (-) TimerEvent: {}
+[79.816332] (-) TimerEvent: {}
+[79.917365] (-) TimerEvent: {}
+[80.018467] (-) TimerEvent: {}
+[80.119539] (-) TimerEvent: {}
+[80.223130] (-) TimerEvent: {}
+[80.324026] (-) TimerEvent: {}
+[80.426738] (-) TimerEvent: {}
+[80.537084] (-) TimerEvent: {}
+[80.641639] (-) TimerEvent: {}
+[80.742710] (-) TimerEvent: {}
+[80.845111] (-) TimerEvent: {}
+[80.945851] (-) TimerEvent: {}
+[81.048245] (-) TimerEvent: {}
+[81.148925] (-) TimerEvent: {}
+[81.250269] (-) TimerEvent: {}
+[81.354244] (-) TimerEvent: {}
+[81.455007] (-) TimerEvent: {}
+[81.555757] (-) TimerEvent: {}
+[81.656317] (-) TimerEvent: {}
+[81.756966] (-) TimerEvent: {}
+[81.797689] (chrono_sim) StdoutLine: {'line': b'[ 66%] Built target visual_test\n'}
+[81.848239] (chrono_sim) StdoutLine: {'line': b'[ 66%] Built target spirit_test\n'}
+[81.852995] (chrono_sim) StdoutLine: {'line': b'[ 66%] Built target rover_test\n'}
+[81.853275] (chrono_sim) StdoutLine: {'line': b'[ 66%] Built target hero_video\n'}
+[81.853357] (chrono_sim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/spirit_3truss.dir/src/experiments/spirit_3truss.cpp.o\x1b[0m\n'}
+[81.857002] (-) TimerEvent: {}
+[81.897162] (chrono_sim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/spirit_force_calibration.dir/src/experiments/spirit_force_calibration.cpp.o\x1b[0m\n'}
+[81.899863] (chrono_sim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/2spirit_5truss_planner.dir/src/experiments/2spirit_5truss_planner.cpp.o\x1b[0m\n'}
+[81.906672] (chrono_sim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/spirit_force_calibration_stepped_model_verification.dir/src/experiments/spirit_force_calibration_stepped_model_verification.cpp.o\x1b[0m\n'}
+[81.957180] (-) TimerEvent: {}
+[81.963072] (chrono_sim) StdoutLine: {'line': b'[ 71%] Built target probe_test\n'}
+[81.982313] (chrono_sim) StdoutLine: {'line': b'[ 71%] Built target rover_example\n'}
+[82.002036] (chrono_sim) StdoutLine: {'line': b'[ 71%] Built target shear_test\n'}
+[82.003760] (chrono_sim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_2truss_model_verification.dir/src/experiments/1spirit_2truss_model_verification.cpp.o\x1b[0m\n'}
+[82.004086] (chrono_sim) StdoutLine: {'line': b'[ 73%] Built target variable_stiffness_example\n'}
+[82.025204] (chrono_sim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/3spirit_3truss_model_verification.dir/src/experiments/3spirit_3truss_model_verification.cpp.o\x1b[0m\n'}
+[82.052503] (chrono_sim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_2truss_planner.dir/src/experiments/1spirit_2truss_planner.cpp.o\x1b[0m\n'}
+[82.053076] (chrono_sim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_1truss_planner.dir/src/experiments/1spirit_1truss_planner.cpp.o\x1b[0m\n'}
+[82.054514] (chrono_sim) StdoutLine: {'line': b'[ 77%] Built target rhex_test\n'}
+[82.057494] (-) TimerEvent: {}
+[82.077715] (chrono_sim) StdoutLine: {'line': b'[ 77%] Built target spirit_example\n'}
+[82.099749] (chrono_sim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_3truss_planner.dir/src/experiments/1spirit_3truss_planner.cpp.o\x1b[0m\n'}
+[82.119489] (chrono_sim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/3spirit_3truss_planner.dir/src/experiments/3spirit_3truss_planner.cpp.o\x1b[0m\n'}
+[82.157688] (-) TimerEvent: {}
+[82.237329] (chrono_sim) StdoutLine: {'line': b'[ 80%] Built target husky_test\n'}
+[82.257812] (-) TimerEvent: {}
+[82.285041] (chrono_sim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/3spirit_2truss_planner.dir/src/experiments/3spirit_2truss_planner.cpp.o\x1b[0m\n'}
+[82.358157] (-) TimerEvent: {}
+[82.459766] (-) TimerEvent: {}
+[82.464849] (chrono_sim) StdoutLine: {'line': b'[ 81%] Built target visual_params\n'}
+[82.508094] (chrono_sim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/4spirit_3truss_planner.dir/src/experiments/4spirit_3truss_planner.cpp.o\x1b[0m\n'}
+[82.517116] (chrono_sim) StdoutLine: {'line': b'[ 83%] Built target spirit_experiment\n'}
+[82.559929] (-) TimerEvent: {}
+[82.661127] (-) TimerEvent: {}
+[82.763641] (-) TimerEvent: {}
+[82.794276] (chrono_sim) StdoutLine: {'line': b'[ 83%] Built target spirit_calibration\n'}
+[82.863784] (-) TimerEvent: {}
+[82.964237] (-) TimerEvent: {}
+[83.002663] (chrono_sim) StdoutLine: {'line': b'[ 83%] Built target spirit_calibration_zero_grav\n'}
+[83.064413] (-) TimerEvent: {}
+[83.165053] (-) TimerEvent: {}
+[83.200069] (chrono_sim) StdoutLine: {'line': b'[ 83%] Built target spirit_grab_values\n'}
+[83.265173] (-) TimerEvent: {}
+[83.365559] (-) TimerEvent: {}
+[83.466007] (-) TimerEvent: {}
+[83.566415] (-) TimerEvent: {}
+[83.666876] (-) TimerEvent: {}
+[83.767369] (-) TimerEvent: {}
+[83.867826] (-) TimerEvent: {}
+[83.968298] (-) TimerEvent: {}
+[84.068796] (-) TimerEvent: {}
+[84.169325] (-) TimerEvent: {}
+[84.269820] (-) TimerEvent: {}
+[84.370318] (-) TimerEvent: {}
+[84.470747] (-) TimerEvent: {}
+[84.571205] (-) TimerEvent: {}
+[84.671990] (-) TimerEvent: {}
+[84.772664] (-) TimerEvent: {}
+[84.873232] (-) TimerEvent: {}
+[84.973805] (-) TimerEvent: {}
+[85.077035] (-) TimerEvent: {}
+[85.177526] (-) TimerEvent: {}
+[85.278050] (-) TimerEvent: {}
+[85.378568] (-) TimerEvent: {}
+[85.479074] (-) TimerEvent: {}
+[85.579636] (-) TimerEvent: {}
+[85.680118] (-) TimerEvent: {}
+[85.780569] (-) TimerEvent: {}
+[85.881041] (-) TimerEvent: {}
+[85.981533] (-) TimerEvent: {}
+[86.082035] (-) TimerEvent: {}
+[86.182545] (-) TimerEvent: {}
+[86.283064] (-) TimerEvent: {}
+[86.383652] (-) TimerEvent: {}
+[86.484311] (-) TimerEvent: {}
+[86.585502] (-) TimerEvent: {}
+[86.686126] (-) TimerEvent: {}
+[86.786600] (-) TimerEvent: {}
+[86.887158] (-) TimerEvent: {}
+[86.987658] (-) TimerEvent: {}
+[87.088160] (-) TimerEvent: {}
+[87.188641] (-) TimerEvent: {}
+[87.289186] (-) TimerEvent: {}
+[87.389678] (-) TimerEvent: {}
+[87.490175] (-) TimerEvent: {}
+[87.590682] (-) TimerEvent: {}
+[87.691181] (-) TimerEvent: {}
+[87.791629] (-) TimerEvent: {}
+[87.892034] (-) TimerEvent: {}
+[87.992461] (-) TimerEvent: {}
+[88.092886] (-) TimerEvent: {}
+[88.193367] (-) TimerEvent: {}
+[88.293888] (-) TimerEvent: {}
+[88.394420] (-) TimerEvent: {}
+[88.497425] (-) TimerEvent: {}
+[88.597968] (-) TimerEvent: {}
+[88.698477] (-) TimerEvent: {}
+[88.798984] (-) TimerEvent: {}
+[88.899438] (-) TimerEvent: {}
+[88.999906] (-) TimerEvent: {}
+[89.100417] (-) TimerEvent: {}
+[89.200911] (-) TimerEvent: {}
+[89.301413] (-) TimerEvent: {}
+[89.401892] (-) TimerEvent: {}
+[89.502410] (-) TimerEvent: {}
+[89.602893] (-) TimerEvent: {}
+[89.703416] (-) TimerEvent: {}
+[89.803903] (-) TimerEvent: {}
+[89.904437] (-) TimerEvent: {}
+[90.005653] (-) TimerEvent: {}
+[90.106172] (-) TimerEvent: {}
+[90.206725] (-) TimerEvent: {}
+[90.307241] (-) TimerEvent: {}
+[90.408040] (-) TimerEvent: {}
+[90.508543] (-) TimerEvent: {}
+[90.609049] (-) TimerEvent: {}
+[90.709745] (-) TimerEvent: {}
+[90.810227] (-) TimerEvent: {}
+[90.910697] (-) TimerEvent: {}
+[91.011184] (-) TimerEvent: {}
+[91.111680] (-) TimerEvent: {}
+[91.212202] (-) TimerEvent: {}
+[91.312699] (-) TimerEvent: {}
+[91.413229] (-) TimerEvent: {}
+[91.513731] (-) TimerEvent: {}
+[91.614252] (-) TimerEvent: {}
+[91.714760] (-) TimerEvent: {}
+[91.815286] (-) TimerEvent: {}
+[91.916945] (-) TimerEvent: {}
+[92.018123] (-) TimerEvent: {}
+[92.118693] (-) TimerEvent: {}
+[92.219630] (-) TimerEvent: {}
+[92.320123] (-) TimerEvent: {}
+[92.420591] (-) TimerEvent: {}
+[92.521144] (-) TimerEvent: {}
+[92.621588] (-) TimerEvent: {}
+[92.722027] (-) TimerEvent: {}
+[92.822451] (-) TimerEvent: {}
+[92.922895] (-) TimerEvent: {}
+[93.023357] (-) TimerEvent: {}
+[93.123816] (-) TimerEvent: {}
+[93.224311] (-) TimerEvent: {}
+[93.324796] (-) TimerEvent: {}
+[93.425324] (-) TimerEvent: {}
+[93.527606] (-) TimerEvent: {}
+[93.628147] (-) TimerEvent: {}
+[93.728971] (-) TimerEvent: {}
+[93.829570] (-) TimerEvent: {}
+[93.930072] (-) TimerEvent: {}
+[94.030601] (-) TimerEvent: {}
+[94.131796] (-) TimerEvent: {}
+[94.232444] (-) TimerEvent: {}
+[94.332884] (-) TimerEvent: {}
+[94.433361] (-) TimerEvent: {}
+[94.533775] (-) TimerEvent: {}
+[94.634241] (-) TimerEvent: {}
+[94.669487] (chrono_sim) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_1truss_planner\x1b[0m\n'}
+[94.696982] (chrono_sim) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable spirit_force_calibration\x1b[0m\n'}
+[94.734391] (-) TimerEvent: {}
+[94.834899] (-) TimerEvent: {}
+[94.935507] (-) TimerEvent: {}
+[95.017906] (chrono_sim) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable spirit_3truss\x1b[0m\n'}
+[95.035644] (-) TimerEvent: {}
+[95.136142] (-) TimerEvent: {}
+[95.217492] (chrono_sim) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable 3spirit_3truss_model_verification\x1b[0m\n'}
+[95.236299] (-) TimerEvent: {}
+[95.336809] (-) TimerEvent: {}
+[95.437327] (-) TimerEvent: {}
+[95.537871] (-) TimerEvent: {}
+[95.638541] (-) TimerEvent: {}
+[95.739452] (-) TimerEvent: {}
+[95.840807] (-) TimerEvent: {}
+[95.941657] (-) TimerEvent: {}
+[96.042470] (-) TimerEvent: {}
+[96.143073] (-) TimerEvent: {}
+[96.244650] (-) TimerEvent: {}
+[96.345214] (-) TimerEvent: {}
+[96.445774] (-) TimerEvent: {}
+[96.546394] (-) TimerEvent: {}
+[96.647032] (-) TimerEvent: {}
+[96.747583] (-) TimerEvent: {}
+[96.848230] (-) TimerEvent: {}
+[96.949123] (-) TimerEvent: {}
+[97.049761] (-) TimerEvent: {}
+[97.129290] (chrono_sim) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable 2spirit_5truss_planner\x1b[0m\n'}
+[97.149966] (-) TimerEvent: {}
+[97.250875] (-) TimerEvent: {}
+[97.351828] (-) TimerEvent: {}
+[97.452474] (-) TimerEvent: {}
+[97.553200] (-) TimerEvent: {}
+[97.653858] (-) TimerEvent: {}
+[97.754491] (-) TimerEvent: {}
+[97.855068] (-) TimerEvent: {}
+[97.956121] (-) TimerEvent: {}
+[98.056909] (-) TimerEvent: {}
+[98.157541] (-) TimerEvent: {}
+[98.258130] (-) TimerEvent: {}
+[98.358665] (-) TimerEvent: {}
+[98.459296] (-) TimerEvent: {}
+[98.559901] (-) TimerEvent: {}
+[98.626524] (chrono_sim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_2truss_model_verification\x1b[0m\n'}
+[98.660077] (-) TimerEvent: {}
+[98.760712] (-) TimerEvent: {}
+[98.798241] (chrono_sim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_2truss_planner\x1b[0m\n'}
+[98.860922] (-) TimerEvent: {}
+[98.874227] (chrono_sim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable 3spirit_2truss_planner\x1b[0m\n'}
+[98.882806] (chrono_sim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_3truss_planner\x1b[0m\n'}
+[98.922257] (chrono_sim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable spirit_force_calibration_stepped_model_verification\x1b[0m\n'}
+[98.961167] (-) TimerEvent: {}
+[99.062012] (-) TimerEvent: {}
+[99.162737] (-) TimerEvent: {}
+[99.263840] (-) TimerEvent: {}
+[99.364508] (-) TimerEvent: {}
+[99.372015] (chrono_sim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable 3spirit_3truss_planner\x1b[0m\n'}
+[99.464703] (-) TimerEvent: {}
+[99.565871] (-) TimerEvent: {}
+[99.666810] (-) TimerEvent: {}
+[99.767840] (-) TimerEvent: {}
+[99.868662] (-) TimerEvent: {}
+[99.969491] (-) TimerEvent: {}
+[100.034340] (chrono_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable 4spirit_3truss_planner\x1b[0m\n'}
+[100.069673] (-) TimerEvent: {}
+[100.170435] (-) TimerEvent: {}
+[100.271406] (-) TimerEvent: {}
+[100.372400] (-) TimerEvent: {}
+[100.473332] (-) TimerEvent: {}
+[100.574176] (-) TimerEvent: {}
+[100.675842] (-) TimerEvent: {}
+[100.778241] (-) TimerEvent: {}
+[100.880992] (-) TimerEvent: {}
+[100.981964] (-) TimerEvent: {}
+[101.082994] (-) TimerEvent: {}
+[101.184035] (-) TimerEvent: {}
+[101.285071] (-) TimerEvent: {}
+[101.388220] (-) TimerEvent: {}
+[101.489502] (-) TimerEvent: {}
+[101.590630] (-) TimerEvent: {}
+[101.691661] (-) TimerEvent: {}
+[101.792652] (-) TimerEvent: {}
+[101.895117] (-) TimerEvent: {}
+[101.996178] (-) TimerEvent: {}
+[102.098019] (-) TimerEvent: {}
+[102.200645] (-) TimerEvent: {}
+[102.301622] (-) TimerEvent: {}
+[102.402786] (-) TimerEvent: {}
+[102.503890] (-) TimerEvent: {}
+[102.605595] (-) TimerEvent: {}
+[102.707043] (-) TimerEvent: {}
+[102.808194] (-) TimerEvent: {}
+[102.909281] (-) TimerEvent: {}
+[103.010271] (-) TimerEvent: {}
+[103.111239] (-) TimerEvent: {}
+[103.212158] (-) TimerEvent: {}
+[103.313209] (-) TimerEvent: {}
+[103.414173] (-) TimerEvent: {}
+[103.514869] (-) TimerEvent: {}
+[103.615713] (-) TimerEvent: {}
+[103.716672] (-) TimerEvent: {}
+[103.819028] (-) TimerEvent: {}
+[103.920299] (-) TimerEvent: {}
+[104.022323] (-) TimerEvent: {}
+[104.124686] (-) TimerEvent: {}
+[104.225516] (-) TimerEvent: {}
+[104.328737] (-) TimerEvent: {}
+[104.429696] (-) TimerEvent: {}
+[104.531592] (-) TimerEvent: {}
+[104.633594] (-) TimerEvent: {}
+[104.734674] (-) TimerEvent: {}
+[104.836140] (-) TimerEvent: {}
+[104.937096] (-) TimerEvent: {}
+[105.038059] (-) TimerEvent: {}
+[105.139086] (-) TimerEvent: {}
+[105.240094] (-) TimerEvent: {}
+[105.341137] (-) TimerEvent: {}
+[105.444693] (-) TimerEvent: {}
+[105.546647] (-) TimerEvent: {}
+[105.649818] (-) TimerEvent: {}
+[105.750759] (-) TimerEvent: {}
+[105.852033] (-) TimerEvent: {}
+[105.953795] (-) TimerEvent: {}
+[106.055626] (-) TimerEvent: {}
+[106.156577] (-) TimerEvent: {}
+[106.257423] (-) TimerEvent: {}
+[106.358400] (-) TimerEvent: {}
+[106.460689] (-) TimerEvent: {}
+[106.561611] (-) TimerEvent: {}
+[106.664035] (-) TimerEvent: {}
+[106.766128] (-) TimerEvent: {}
+[106.866956] (-) TimerEvent: {}
+[106.967911] (-) TimerEvent: {}
+[107.068993] (-) TimerEvent: {}
+[107.169775] (-) TimerEvent: {}
+[107.270786] (-) TimerEvent: {}
+[107.371915] (-) TimerEvent: {}
+[107.472842] (-) TimerEvent: {}
+[107.574429] (-) TimerEvent: {}
+[107.675770] (-) TimerEvent: {}
+[107.776660] (-) TimerEvent: {}
+[107.879817] (-) TimerEvent: {}
+[107.980766] (-) TimerEvent: {}
+[108.081643] (-) TimerEvent: {}
+[108.182577] (-) TimerEvent: {}
+[108.283532] (-) TimerEvent: {}
+[108.384416] (-) TimerEvent: {}
+[108.485504] (-) TimerEvent: {}
+[108.587264] (-) TimerEvent: {}
+[108.688112] (-) TimerEvent: {}
+[108.789222] (-) TimerEvent: {}
+[108.891415] (-) TimerEvent: {}
+[108.992287] (-) TimerEvent: {}
+[109.093411] (-) TimerEvent: {}
+[109.194526] (-) TimerEvent: {}
+[109.295341] (-) TimerEvent: {}
+[109.396344] (-) TimerEvent: {}
+[109.497309] (-) TimerEvent: {}
+[109.599751] (-) TimerEvent: {}
+[109.701363] (-) TimerEvent: {}
+[109.803806] (-) TimerEvent: {}
+[109.904856] (-) TimerEvent: {}
+[110.006220] (-) TimerEvent: {}
+[110.107141] (-) TimerEvent: {}
+[110.208000] (-) TimerEvent: {}
+[110.309073] (-) TimerEvent: {}
+[110.409987] (-) TimerEvent: {}
+[110.511139] (-) TimerEvent: {}
+[110.612135] (-) TimerEvent: {}
+[110.714130] (-) TimerEvent: {}
+[110.816117] (-) TimerEvent: {}
+[110.919272] (-) TimerEvent: {}
+[111.020724] (-) TimerEvent: {}
+[111.123098] (-) TimerEvent: {}
+[111.224129] (-) TimerEvent: {}
+[111.325148] (-) TimerEvent: {}
+[111.426171] (-) TimerEvent: {}
+[111.527178] (-) TimerEvent: {}
+[111.628165] (-) TimerEvent: {}
+[111.729278] (-) TimerEvent: {}
+[111.830893] (-) TimerEvent: {}
+[111.931778] (-) TimerEvent: {}
+[112.034675] (-) TimerEvent: {}
+[112.135757] (-) TimerEvent: {}
+[112.236601] (-) TimerEvent: {}
+[112.337620] (-) TimerEvent: {}
+[112.438612] (-) TimerEvent: {}
+[112.539472] (-) TimerEvent: {}
+[112.640448] (-) TimerEvent: {}
+[112.741496] (-) TimerEvent: {}
+[112.842414] (-) TimerEvent: {}
+[112.943628] (-) TimerEvent: {}
+[113.044783] (-) TimerEvent: {}
+[113.147828] (-) TimerEvent: {}
+[113.249414] (-) TimerEvent: {}
+[113.350398] (-) TimerEvent: {}
+[113.451196] (-) TimerEvent: {}
+[113.552184] (-) TimerEvent: {}
+[113.653965] (-) TimerEvent: {}
+[113.755148] (-) TimerEvent: {}
+[113.858430] (-) TimerEvent: {}
+[113.960467] (-) TimerEvent: {}
+[114.061712] (-) TimerEvent: {}
+[114.162674] (-) TimerEvent: {}
+[114.263704] (-) TimerEvent: {}
+[114.364748] (-) TimerEvent: {}
+[114.465672] (-) TimerEvent: {}
+[114.566706] (-) TimerEvent: {}
+[114.667640] (-) TimerEvent: {}
+[114.768929] (-) TimerEvent: {}
+[114.870062] (-) TimerEvent: {}
+[114.971159] (-) TimerEvent: {}
+[115.074523] (-) TimerEvent: {}
+[115.175480] (-) TimerEvent: {}
+[115.276502] (-) TimerEvent: {}
+[115.377437] (-) TimerEvent: {}
+[115.478165] (-) TimerEvent: {}
+[115.579099] (-) TimerEvent: {}
+[115.681089] (-) TimerEvent: {}
+[115.781968] (-) TimerEvent: {}
+[115.883810] (-) TimerEvent: {}
+[115.985869] (-) TimerEvent: {}
+[116.090565] (-) TimerEvent: {}
+[116.191564] (-) TimerEvent: {}
+[116.292644] (-) TimerEvent: {}
+[116.393486] (-) TimerEvent: {}
+[116.494452] (-) TimerEvent: {}
+[116.595483] (-) TimerEvent: {}
+[116.696346] (-) TimerEvent: {}
+[116.797396] (-) TimerEvent: {}
+[116.898884] (-) TimerEvent: {}
+[117.004819] (-) TimerEvent: {}
+[117.108034] (-) TimerEvent: {}
+[117.209054] (-) TimerEvent: {}
+[117.309995] (-) TimerEvent: {}
+[117.410982] (-) TimerEvent: {}
+[117.512343] (-) TimerEvent: {}
+[117.616174] (-) TimerEvent: {}
+[117.717727] (-) TimerEvent: {}
+[117.818839] (-) TimerEvent: {}
+[117.920087] (-) TimerEvent: {}
+[118.021037] (-) TimerEvent: {}
+[118.122068] (-) TimerEvent: {}
+[118.223060] (-) TimerEvent: {}
+[118.323922] (-) TimerEvent: {}
+[118.424974] (-) TimerEvent: {}
+[118.525846] (-) TimerEvent: {}
+[118.626696] (-) TimerEvent: {}
+[118.727767] (-) TimerEvent: {}
+[118.833073] (-) TimerEvent: {}
+[118.934068] (-) TimerEvent: {}
+[119.036877] (-) TimerEvent: {}
+[119.138955] (-) TimerEvent: {}
+[119.240893] (-) TimerEvent: {}
+[119.342521] (-) TimerEvent: {}
+[119.443653] (-) TimerEvent: {}
+[119.544797] (-) TimerEvent: {}
+[119.646147] (-) TimerEvent: {}
+[119.748215] (-) TimerEvent: {}
+[119.850732] (-) TimerEvent: {}
+[119.952332] (-) TimerEvent: {}
+[120.053163] (-) TimerEvent: {}
+[120.154324] (-) TimerEvent: {}
+[120.255370] (-) TimerEvent: {}
+[120.359199] (-) TimerEvent: {}
+[120.462214] (-) TimerEvent: {}
+[120.563317] (-) TimerEvent: {}
+[120.664150] (-) TimerEvent: {}
+[120.765174] (-) TimerEvent: {}
+[120.866190] (-) TimerEvent: {}
+[120.967088] (-) TimerEvent: {}
+[121.068135] (-) TimerEvent: {}
+[121.169700] (-) TimerEvent: {}
+[121.270604] (-) TimerEvent: {}
+[121.371585] (-) TimerEvent: {}
+[121.472773] (-) TimerEvent: {}
+[121.573657] (-) TimerEvent: {}
+[121.674691] (-) TimerEvent: {}
+[121.775750] (-) TimerEvent: {}
+[121.876604] (-) TimerEvent: {}
+[121.978108] (-) TimerEvent: {}
+[122.079134] (-) TimerEvent: {}
+[122.179999] (-) TimerEvent: {}
+[122.281014] (-) TimerEvent: {}
+[122.382921] (-) TimerEvent: {}
+[122.484450] (-) TimerEvent: {}
+[122.589605] (-) TimerEvent: {}
+[122.690572] (-) TimerEvent: {}
+[122.791638] (-) TimerEvent: {}
+[122.892652] (-) TimerEvent: {}
+[122.993723] (-) TimerEvent: {}
+[123.094597] (-) TimerEvent: {}
+[123.195600] (-) TimerEvent: {}
+[123.297118] (-) TimerEvent: {}
+[123.398459] (-) TimerEvent: {}
+[123.500259] (-) TimerEvent: {}
+[123.602507] (-) TimerEvent: {}
+[123.703476] (-) TimerEvent: {}
+[123.804867] (-) TimerEvent: {}
+[123.905823] (-) TimerEvent: {}
+[124.006850] (-) TimerEvent: {}
+[124.107701] (-) TimerEvent: {}
+[124.208796] (-) TimerEvent: {}
+[124.310151] (-) TimerEvent: {}
+[124.412356] (-) TimerEvent: {}
+[124.513412] (-) TimerEvent: {}
+[124.614425] (-) TimerEvent: {}
+[124.715286] (-) TimerEvent: {}
+[124.816395] (-) TimerEvent: {}
+[124.917525] (-) TimerEvent: {}
+[125.018542] (-) TimerEvent: {}
+[125.119577] (-) TimerEvent: {}
+[125.220582] (-) TimerEvent: {}
+[125.321792] (-) TimerEvent: {}
+[125.422633] (-) TimerEvent: {}
+[125.523678] (-) TimerEvent: {}
+[125.625038] (-) TimerEvent: {}
+[125.727142] (-) TimerEvent: {}
+[125.828104] (-) TimerEvent: {}
+[125.929128] (-) TimerEvent: {}
+[126.030451] (-) TimerEvent: {}
+[126.132210] (-) TimerEvent: {}
+[126.236132] (-) TimerEvent: {}
+[126.337101] (-) TimerEvent: {}
+[126.438185] (-) TimerEvent: {}
+[126.539475] (-) TimerEvent: {}
+[126.642113] (-) TimerEvent: {}
+[126.743072] (-) TimerEvent: {}
+[126.844438] (-) TimerEvent: {}
+[126.945462] (-) TimerEvent: {}
+[127.046335] (-) TimerEvent: {}
+[127.147328] (-) TimerEvent: {}
+[127.249132] (-) TimerEvent: {}
+[127.349956] (-) TimerEvent: {}
+[127.450879] (-) TimerEvent: {}
+[127.551890] (-) TimerEvent: {}
+[127.653218] (-) TimerEvent: {}
+[127.757450] (-) TimerEvent: {}
+[127.861221] (-) TimerEvent: {}
+[127.965082] (-) TimerEvent: {}
+[128.070091] (-) TimerEvent: {}
+[128.171205] (-) TimerEvent: {}
+[128.272920] (-) TimerEvent: {}
+[128.373911] (-) TimerEvent: {}
+[128.474965] (-) TimerEvent: {}
+[128.576090] (-) TimerEvent: {}
+[128.679388] (-) TimerEvent: {}
+[128.787751] (-) TimerEvent: {}
+[128.888733] (-) TimerEvent: {}
+[128.989711] (-) TimerEvent: {}
+[129.090823] (-) TimerEvent: {}
+[129.191804] (-) TimerEvent: {}
+[129.292778] (-) TimerEvent: {}
+[129.393567] (-) TimerEvent: {}
+[129.494641] (-) TimerEvent: {}
+[129.597604] (-) TimerEvent: {}
+[129.698728] (-) TimerEvent: {}
+[129.799991] (-) TimerEvent: {}
+[129.901487] (-) TimerEvent: {}
+[130.002528] (-) TimerEvent: {}
+[130.104075] (-) TimerEvent: {}
+[130.205028] (-) TimerEvent: {}
+[130.306021] (-) TimerEvent: {}
+[130.406851] (-) TimerEvent: {}
+[130.505723] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_1truss_planner\n'}
+[130.506964] (-) TimerEvent: {}
+[130.607603] (-) TimerEvent: {}
+[130.708369] (-) TimerEvent: {}
+[130.809420] (-) TimerEvent: {}
+[130.910422] (-) TimerEvent: {}
+[131.011322] (-) TimerEvent: {}
+[131.112495] (-) TimerEvent: {}
+[131.214742] (-) TimerEvent: {}
+[131.315817] (-) TimerEvent: {}
+[131.416973] (-) TimerEvent: {}
+[131.517781] (-) TimerEvent: {}
+[131.618796] (-) TimerEvent: {}
+[131.719757] (-) TimerEvent: {}
+[131.820734] (-) TimerEvent: {}
+[131.921571] (-) TimerEvent: {}
+[132.022350] (-) TimerEvent: {}
+[132.123124] (-) TimerEvent: {}
+[132.189286] (chrono_sim) StdoutLine: {'line': b'[100%] Built target spirit_3truss\n'}
+[132.223345] (-) TimerEvent: {}
+[132.324316] (-) TimerEvent: {}
+[132.425307] (-) TimerEvent: {}
+[132.526153] (-) TimerEvent: {}
+[132.626886] (-) TimerEvent: {}
+[132.727627] (-) TimerEvent: {}
+[132.828388] (-) TimerEvent: {}
+[132.929157] (-) TimerEvent: {}
+[133.011656] (chrono_sim) StdoutLine: {'line': b'[100%] Built target spirit_force_calibration\n'}
+[133.029357] (-) TimerEvent: {}
+[133.130039] (-) TimerEvent: {}
+[133.230721] (-) TimerEvent: {}
+[133.331367] (-) TimerEvent: {}
+[133.431950] (-) TimerEvent: {}
+[133.532602] (-) TimerEvent: {}
+[133.633303] (-) TimerEvent: {}
+[133.734013] (-) TimerEvent: {}
+[133.791157] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 3spirit_3truss_model_verification\n'}
+[133.834259] (-) TimerEvent: {}
+[133.935165] (-) TimerEvent: {}
+[134.036106] (-) TimerEvent: {}
+[134.137277] (-) TimerEvent: {}
+[134.238279] (-) TimerEvent: {}
+[134.339141] (-) TimerEvent: {}
+[134.439978] (-) TimerEvent: {}
+[134.540718] (-) TimerEvent: {}
+[134.641703] (-) TimerEvent: {}
+[134.742671] (-) TimerEvent: {}
+[134.843543] (-) TimerEvent: {}
+[134.944445] (-) TimerEvent: {}
+[135.045332] (-) TimerEvent: {}
+[135.146095] (-) TimerEvent: {}
+[135.246787] (-) TimerEvent: {}
+[135.347476] (-) TimerEvent: {}
+[135.448272] (-) TimerEvent: {}
+[135.549176] (-) TimerEvent: {}
+[135.650260] (-) TimerEvent: {}
+[135.751119] (-) TimerEvent: {}
+[135.851958] (-) TimerEvent: {}
+[135.952683] (-) TimerEvent: {}
+[136.053350] (-) TimerEvent: {}
+[136.153945] (-) TimerEvent: {}
+[136.201166] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 2spirit_5truss_planner\n'}
+[136.254097] (-) TimerEvent: {}
+[136.354644] (-) TimerEvent: {}
+[136.446082] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_3truss_planner\n'}
+[136.454768] (-) TimerEvent: {}
+[136.539677] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_2truss_planner\n'}
+[136.554920] (-) TimerEvent: {}
+[136.625539] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_2truss_model_verification\n'}
+[136.655056] (-) TimerEvent: {}
+[136.684134] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 3spirit_3truss_planner\n'}
+[136.727444] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 3spirit_2truss_planner\n'}
+[136.755168] (-) TimerEvent: {}
+[136.855466] (-) TimerEvent: {}
+[136.905695] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 4spirit_3truss_planner\n'}
+[136.955580] (-) TimerEvent: {}
+[137.055862] (-) TimerEvent: {}
+[137.098507] (chrono_sim) StdoutLine: {'line': b'[100%] Built target spirit_force_calibration_stepped_model_verification\n'}
+[137.117694] (chrono_sim) CommandEnded: {'returncode': 0}
+[137.155955] (-) TimerEvent: {}
+[137.256326] (-) TimerEvent: {}
+[137.289528] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'install'}
+[137.303360] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blor/ros2_ws2/build/chrono_sim'], 'cwd': '/home/blor/ros2_ws2/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/blor/ros2_ws/install/turtlesim/lib:/home/blor/ros2_ws/install/chrono_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/ros2_ws2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1826'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/ros2_ws/install:/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1638,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a847b9b_1540_4d21_9ee0_f044720fa557'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5YRY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/blor/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/blor/ros2_ws/install/chrono_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[137.310748] (chrono_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[137.311488] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/lib/libsim_tools.so\n'}
+[137.322836] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_example\n'}
+[137.323414] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_example" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.323542] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/rover_example\n'}
+[137.323878] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/rover_example" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.324015] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/variable_stiffness_example\n'}
+[137.324404] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/variable_stiffness_example" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.324508] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/visual_test\n'}
+[137.324907] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/visual_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.325028] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/visual_params\n'}
+[137.325445] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/visual_params" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.325531] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/husky_test\n'}
+[137.325937] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/husky_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.326031] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/rover_test\n'}
+[137.326472] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/rover_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.326576] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/rhex_test\n'}
+[137.326971] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/rhex_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.327086] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/shear_test\n'}
+[137.328058] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/shear_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.328180] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/probe_test\n'}
+[137.329226] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/probe_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.329325] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_grab_values\n'}
+[137.330307] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_grab_values" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.330409] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_experiment\n'}
+[137.330802] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_experiment" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.330892] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/hero_video\n'}
+[137.331343] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/hero_video" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.331438] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_test\n'}
+[137.332155] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_test" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.332242] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_calibration\n'}
+[137.332669] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_calibration" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.332758] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_calibration_zero_grav\n'}
+[137.333594] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_calibration_zero_grav" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.333688] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_3truss\n'}
+[137.334543] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_3truss" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.334625] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/2spirit_5truss_planner\n'}
+[137.335586] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/2spirit_5truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.335679] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_force_calibration\n'}
+[137.336482] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_force_calibration" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.336584] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification\n'}
+[137.337499] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.337586] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/1spirit_2truss_model_verification\n'}
+[137.338564] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/1spirit_2truss_model_verification" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.338648] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/3spirit_3truss_model_verification\n'}
+[137.339511] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/3spirit_3truss_model_verification" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.339595] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/1spirit_1truss_planner\n'}
+[137.340472] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/1spirit_1truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.340557] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/1spirit_2truss_planner\n'}
+[137.341458] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/1spirit_2truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.341560] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/1spirit_3truss_planner\n'}
+[137.342448] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/1spirit_3truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.342544] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/3spirit_3truss_planner\n'}
+[137.343454] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/3spirit_3truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.343572] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/3spirit_2truss_planner\n'}
+[137.344791] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/3spirit_2truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.344903] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws/src/chrono_sim/bin/4spirit_3truss_planner\n'}
+[137.346022] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws/src/chrono_sim/bin/4spirit_3truss_planner" to "/home/blor/ros2_ws2/install/chrono_sim/lib"\n'}
+[137.346816] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/package_run_dependencies/chrono_sim\n'}
+[137.347126] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/parent_prefix_path/chrono_sim\n'}
+[137.348132] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.sh\n'}
+[137.348529] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.dsv\n'}
+[137.348738] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.sh\n'}
+[137.348926] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.dsv\n'}
+[137.349152] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.bash\n'}
+[137.349338] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.sh\n'}
+[137.349562] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.zsh\n'}
+[137.349734] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.dsv\n'}
+[137.349907] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.dsv\n'}
+[137.350290] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/packages/chrono_sim\n'}
+[137.350543] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig.cmake\n'}
+[137.350701] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig-version.cmake\n'}
+[137.350873] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.xml\n'}
+[137.356519] (chrono_sim) CommandEnded: {'returncode': 0}
+[137.356966] (-) TimerEvent: {}
+[137.457172] (-) TimerEvent: {}
+[137.541615] (chrono_sim) JobEnded: {'identifier': 'chrono_sim', 'rc': 0}
+[137.542322] (-) EventReactorShutdown: {}

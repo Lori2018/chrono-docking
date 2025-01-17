@@ -1,0 +1,60 @@
+In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:14[m[K,
+                 from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:1[m[K:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:264:[m[K [01;31m[Kerror: [m[K‘[01m[KProbe[m[K’ was not declared in this scope
+   32 |     Spirit(ChSystem* sys, std::shared_ptr<chrono::ChBody> body, std::vector<std::vector<std::shared_ptr<chrono::ChBody>>> leg_bodies, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque>>> leg_motors, std::vector<Truss> trusses, std::vector<[01;31m[KProbe[m[K> probes,int spiritNum);
+      |                                                                                                                                                                                                                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |     Spirit(ChSystem* sys, std::shared_ptr<chrono::ChBody> body, std::vector<std::vector<std::shared_ptr<chrono::ChBody>>> leg_bodies, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque>>> leg_motors, std::vector<Truss> trusses, std::vector<Probe[01;31m[K>[m[K probes,int spiritNum);
+      |                                                                                                                                                                                                                                                                             [01;31m[K^[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:7:25:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::unique_ptr<Spirit> SpiritFactory::BuildSpirit(const ChVector3d&, const chrono::ChQuaternion<double>&, const std::vector<chrono::ChVector3<double> >&)[m[K’
+    7 | std::unique_ptr<Spirit> [01;31m[KSpiritFactory[m[K::BuildSpirit(const ChVector3d& Spirit_pos,  const ChQuaternion<>& orientation, const std::vector<ChVector3d>& truss_positions){
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:1[m[K:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:25:33:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::unique_ptr<Spirit> SpiritFactory::BuildSpirit(const ChVector3d&, const chrono::ChQuaternion<double>&, const std::vector<chrono::ChVector3<double> >&, const ChVector3d&)[m[K’
+   25 |         std::unique_ptr<Spirit> [01;36m[KBuildSpirit[m[K(const ChVector3d& Spirit_pos, const ChQuaternion<>& orientation, const std::vector<ChVector3d>& truss_positions, const ChVector3d& Probe_pos);
+      |                                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SpiritFactory[m[K’ defined here
+   22 | class [01;36m[KSpiritFactory[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:1[m[K:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:264:[m[K [01;31m[Kerror: [m[K‘[01m[KProbe[m[K’ was not declared in this scope
+   32 | rque>>> leg_motors, std::vector<Truss> trusses, std::vector<[01;31m[KProbe[m[K> probes,int spiritNum);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 | >> leg_motors, std::vector<Truss> trusses, std::vector<Probe[01;31m[K>[m[K probes,int spiritNum);
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:268:[m[K [01;31m[Kerror: [m[K‘[01m[KProbe[m[K’ was not declared in this scope
+    3 | rque>>> leg_motors, std::vector<Truss> trusses, std::vector<[01;31m[KProbe[m[K> probes, int spiritNum){
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:273:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    3 | >> leg_motors, std::vector<Truss> trusses, std::vector<Probe[01;31m[K>[m[K probes, int spiritNum){
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:273:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:[m[K In constructor ‘[01m[KSpirit::Spirit(chrono::ChSystem*, std::shared_ptr<chrono::ChBody>, std::vector<std::vector<std::shared_ptr<chrono::ChBody> > >, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque> > >, std::vector<Truss>, int, int)[m[K’:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprobe[m[K’ was not declared in this scope; did you mean ‘[01m[Kprobes[m[K’?
+    9 |     [01;31m[Kprobe[m[K = probes[0];
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kprobes[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:9:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+    9 |     probe = probes[01;31m[K[[m[K0];
+      |                   [01;31m[K^[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:[m[K At global scope:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:51:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Spirit::MakeProbe(chrono::ChVector3d, chrono::ChVector3d)[m[K’
+   51 | void [01;31m[KSpirit[m[K::MakeProbe(ChVector3d xpos, ChVector3d ypos){
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:51:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Spirit::MakeProbe(chrono::ChVector3d, chrono::ChVector3d)[m[K’
+In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:1[m[K:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Spirit[m[K’ defined here
+   16 | class [01;36m[KSpirit[m[K {
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sim_tools.dir/build.make:188: CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/sim_tools.dir/build.make:76: CMakeFiles/sim_tools.dir/src/sim_tools/Spirit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/sim_tools.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

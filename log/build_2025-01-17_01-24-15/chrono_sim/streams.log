@@ -1,0 +1,39 @@
+[0.009s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[0.077s] [ 20%] Built target sim_tools
+[0.126s] [ 38%] Built target rhex_test
+[0.126s] [ 38%] Built target visual_params
+[0.126s] [ 38%] Built target husky_test
+[0.126s] [ 38%] Built target visual_test
+[0.127s] [ 38%] Built target rover_test
+[0.127s] [ 38%] Built target variable_stiffness_example
+[0.127s] [ 45%] Built target shear_test
+[0.127s] [ 45%] Built target spirit_experiment
+[0.127s] [ 46%] Built target rover_example
+[0.127s] [ 49%] Built target probe_test
+[0.127s] [ 50%] Built target spirit_grab_values
+[0.127s] [ 53%] Built target hero_video
+[0.127s] [ 57%] Built target spirit_calibration
+[0.128s] [ 58%] Built target spirit_example
+[0.128s] [ 61%] Built target spirit_test
+[0.129s] [ 63%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[0.169s] [ 65%] Built target spirit_force_calibration
+[0.171s] [ 68%] Built target 1spirit_1truss_planner
+[0.172s] [ 75%] Built target 1spirit_2truss_model_verification
+[0.172s] [ 75%] Built target spirit_force_calibration_stepped_model_verification
+[0.172s] [ 76%] Built target 3spirit_3truss_planner
+[0.172s] [ 83%] Built target 3spirit_3truss_model_verification
+[0.172s] [ 84%] Built target 1spirit_2truss_planner
+[0.172s] [ 84%] Built target spirit_3truss
+[0.172s] [ 87%] Built target 1spirit_3truss_planner
+[0.173s] [ 90%] Built target 4spirit_3truss_planner
+[0.173s] [ 93%] Built target 3spirit_2truss_planner
+[0.175s] [ 95%] Built target spirit_calibration_zero_grav
+[0.176s] [ 98%] Built target 2spirit_5truss_planner
+[0.527s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kchrono/core/ChVector.h: No such file or directory
+[0.527s]     4 | #include [01;31m[K<chrono/core/ChVector.h>[m[K
+[0.527s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.527s] compilation terminated.
+[0.534s] gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+[0.534s] gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+[0.535s] gmake: *** [Makefile:146: all] Error 2
+[0.537s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16

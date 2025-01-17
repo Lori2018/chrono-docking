@@ -1,0 +1,53 @@
+[0.009s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[0.075s] [ 20%] Built target sim_tools
+[0.124s] [ 57%] Built target rhex_test
+[0.124s] [ 57%] Built target spirit_grab_values
+[0.124s] [ 57%] Built target shear_test
+[0.124s] [ 57%] Built target rover_test
+[0.125s] [ 57%] Built target hero_video
+[0.125s] [ 57%] Built target visual_test
+[0.125s] [ 57%] Built target husky_test
+[0.125s] [ 57%] Built target variable_stiffness_example
+[0.126s] [ 57%] Built target spirit_example
+[0.126s] [ 57%] Built target probe_test
+[0.126s] [ 57%] Built target visual_params
+[0.126s] [ 57%] Built target rover_example
+[0.126s] [ 57%] Built target spirit_experiment
+[0.126s] [ 57%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[0.126s] [ 60%] Built target spirit_test
+[0.126s] [ 63%] Built target spirit_calibration
+[0.165s] [ 65%] Built target spirit_calibration_zero_grav
+[0.167s] [ 68%] Built target 1spirit_3truss_planner
+[0.168s] [ 75%] Built target 3spirit_3truss_model_verification
+[0.168s] [ 76%] Built target spirit_3truss
+[0.169s] [ 76%] Built target 2spirit_5truss_planner
+[0.169s] [ 80%] Built target spirit_force_calibration_stepped_model_verification
+[0.169s] [ 82%] Built target spirit_force_calibration
+[0.169s] [ 84%] Built target 1spirit_2truss_model_verification
+[0.169s] [ 87%] Built target 1spirit_2truss_planner
+[0.170s] [ 90%] Built target 1spirit_1truss_planner
+[0.170s] [ 93%] Built target 4spirit_3truss_planner
+[0.171s] [ 95%] Built target 3spirit_3truss_planner
+[0.171s] [ 98%] Built target 3spirit_2truss_planner
+[4.396s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.397s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:223:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ksim_time[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_stime[m[K’?
+[4.397s]   223 |         std::cout << "Time: " << [01;31m[Ksim_time[m[K << std::endl;
+[4.397s]       |                                  [01;31m[K^~~~~~~~[m[K
+[4.397s]       |                                  [32m[Ksi_stime[m[K
+[4.398s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:239:9:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[4.398s]   239 |         [01;31m[Kbreak[m[K;
+[4.398s]       |         [01;31m[K^~~~~[m[K
+[4.398s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K At global scope:
+[4.399s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:244:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[4.399s]   244 |     rclcpp::shutdown()[01;31m[K;[m[K
+[4.399s]       |                       [01;31m[K^[m[K
+[4.399s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:245:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[4.399s]   245 |     [01;31m[Kreturn[m[K 0;
+[4.399s]       |     [01;31m[K^~~~~~[m[K
+[4.399s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:246:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.399s]   246 | [01;31m[K}[m[K
+[4.399s]       | [01;31m[K^[m[K
+[5.987s] gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+[5.987s] gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+[5.987s] gmake: *** [Makefile:146: all] Error 2
+[5.990s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16

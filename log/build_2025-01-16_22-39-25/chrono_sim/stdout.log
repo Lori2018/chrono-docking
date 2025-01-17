@@ -1,0 +1,104 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_tools[0m
+[ 20%] Built target sim_tools
+[35m[1mConsolidate compiler generated dependencies of target docking[0m
+[35m[1mConsolidate compiler generated dependencies of target visual_test[0m
+[35m[1mConsolidate compiler generated dependencies of target variable_stiffness_example[0m
+[35m[1mConsolidate compiler generated dependencies of target visual_params[0m
+[35m[1mConsolidate compiler generated dependencies of target rhex_test[0m
+[35m[1mConsolidate compiler generated dependencies of target shear_test[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_grab_values[0m
+[35m[1mConsolidate compiler generated dependencies of target probe_test[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_experiment[0m
+[35m[1mConsolidate compiler generated dependencies of target hero_video[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_calibration[0m
+[ 31%] Built target husky_test
+[ 31%] Built target rover_example
+[ 31%] Built target spirit_example
+[ 31%] Built target spirit_test
+[ 34%] Built target rover_test
+[ 56%] Built target rhex_test
+[ 57%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[ 57%] Built target variable_stiffness_example
+[ 57%] Built target spirit_calibration
+[ 57%] Built target probe_test
+[ 57%] Built target spirit_grab_values
+[ 57%] Built target spirit_experiment
+[ 57%] Built target visual_test
+[ 57%] Built target visual_params
+[ 61%] Built target shear_test
+[ 63%] Built target hero_video
+[35m[1mConsolidate compiler generated dependencies of target spirit_force_calibration[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_3truss[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_calibration_zero_grav[0m
+[35m[1mConsolidate compiler generated dependencies of target 2spirit_5truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_force_calibration_stepped_model_verification[0m
+[35m[1mConsolidate compiler generated dependencies of target 3spirit_3truss_model_verification[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_2truss_model_verification[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_3truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 3spirit_2truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_2truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_1truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 4spirit_3truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 3spirit_3truss_planner[0m
+[ 76%] Built target spirit_calibration_zero_grav
+[ 76%] Built target spirit_force_calibration
+[ 76%] Built target 2spirit_5truss_planner
+[ 76%] Built target spirit_3truss
+[ 76%] Built target spirit_force_calibration_stepped_model_verification
+[ 79%] Built target 3spirit_3truss_model_verification
+[ 82%] Built target 1spirit_2truss_model_verification
+[ 95%] Built target 1spirit_3truss_planner
+[ 95%] Built target 3spirit_2truss_planner
+[ 95%] Built target 1spirit_1truss_planner
+[ 95%] Built target 1spirit_2truss_planner
+[ 95%] Built target 3spirit_3truss_planner
+[ 98%] Built target 4spirit_3truss_planner
+[100%] [32m[1mLinking CXX executable docking[0m
+[100%] Built target docking
+-- Install configuration: ""
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/lib/libsim_tools.so
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/variable_stiffness_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_params
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/husky_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rhex_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/shear_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/probe_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/hero_video
+-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/docking
+-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/docking" to "/home/blor/ros2_ws2/install/chrono_sim/lib"
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_3truss
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/2spirit_5truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_1truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_2truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/4spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/package_run_dependencies/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/parent_prefix_path/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.bash
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.zsh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.dsv
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/packages/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig.cmake
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig-version.cmake
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.xml

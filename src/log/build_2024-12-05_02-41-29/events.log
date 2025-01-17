@@ -1,0 +1,1376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (chrono_sim) JobQueued: {'identifier': 'chrono_sim', 'dependencies': OrderedDict()}
+[0.000349] (chrono_sim) JobStarted: {'identifier': 'chrono_sim'}
+[0.013387] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'cmake'}
+[0.014499] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'build'}
+[0.015262] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blor/ros2_ws2/src/build/chrono_sim', '--', '-j16', '-l16'], 'cwd': '/home/blor/ros2_ws2/src/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/blor/ros2_ws2/install/chrono_sim/lib:/home/blor/ros2_ws/install/turtlesim/lib:/home/blor/ros2_ws/install/chrono_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/ros2_ws2/src/chrono_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1826'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/ros2_ws2/install:/home/blor/ros2_ws/install:/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1638,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a847b9b_1540_4d21_9ee0_f044720fa557'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5YRY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/ros2_ws2/install/chrono_sim:/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/src/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/blor/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/blor/ros2_ws/install/chrono_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/ros2_ws2/install/chrono_sim:/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[0.075075] (chrono_sim) StdoutLine: {'line': b'-- Finding package Chrono...\n'}
+[0.075520] (chrono_sim) StdoutLine: {'line': b'--    Requested component Irrlicht (REQUIRED)\n'}
+[0.075619] (chrono_sim) StdoutLine: {'line': b'--    Requested component Vehicle (REQUIRED)\n'}
+[0.075696] (chrono_sim) StdoutLine: {'line': b'--    Requested component Parsers (REQUIRED)\n'}
+[0.080079] (chrono_sim) StdoutLine: {'line': b'--    Requested component Ros (REQUIRED)\n'}
+[0.080969] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_CXX_FLAGS         (Compiler flags): ;-fopenmp;-march=native\n'}
+[0.081130] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_C_FLAGS           (Compiler flags): ;-fopenmp;-march=native\n'}
+[0.081220] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_LINKER_FLAGS      (Linker flags): -L/usr/local/lib\n'}
+[0.081296] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_INCLUDE_DIRS      (Chrono include directories): /usr/local/include;/usr/local/include/chrono;/usr/local/include/chrono/collision/bullet;/usr/local/include/chrono/collision/gimpact;/usr/local/include/chrono_thirdparty/HACD;/usr/local/include/chrono_thirdparty/HACDv2;/usr/include/eigen3;/usr/local/cuda/include;/usr/include/irrlicht;;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom;/usr/include;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers;/usr/include;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/usr/include/python3.10;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/opt/ros/humble/include/rclcpp;/opt/ros/humble/include/ament_index_cpp;/opt/ros/humble/include/libstatistics_collector;/opt/ros/humble/include/rcl;/opt/ros/humble/include/rcpputils;/opt/ros/humble/include/rcutils;/opt/ros/humble/include/builtin_interfaces;/opt/ros/humble/include/rosgraph_msgs;/opt/ros/humble/include/rosidl_typesupport_cpp;/opt/ros/humble/include/rosidl_typesupport_c;/opt/ros/humble/include/rosidl_runtime_cpp;/opt/ros/humble/include/rcl_yaml_param_parser;/opt/ros/humble/include/statistics_msgs;/opt/ros/humble/include/tracetools;/opt/ros/humble/include/rosidl_runtime_c;/opt/ros/humble/include/rosidl_typesupport_interface;/opt/ros/humble/include/rosidl_typesupport_fastrtps_c;/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp;/opt/ros/humble/include/rmw;/opt/ros/humble/include/rcl_interfaces;/opt/ros/humble/include/rosidl_typesupport_introspection_c;/opt/ros/humble/include/rosidl_typesupport_introspection_cpp;/opt/ros/humble/include/std_msgs;/opt/ros/humble/include/geometry_msgs;/opt/ros/humble/include/sensor_msgs;/opt/ros/humble/include/tf2_ros;/opt/ros/humble/include/rclcpp_components;/opt/ros/humble/include/message_filters;/opt/ros/humble/include/rclcpp_action;/opt/ros/humble/include/tf2;/opt/ros/humble/include/tf2_msgs;/opt/ros/humble/include/action_msgs;/home/blor/ros2_ws/install/chrono_ros_interfaces/include/chrono_ros_interfaces\n'}
+[0.081495] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_LIB_NAMES         (Chrono library names): ChronoEngine_ros;ChronoEngine_parsers;ChronoEngine_vehicle_irrlicht;ChronoModels_vehicle;ChronoEngine_vehicle;ChronoEngine_irrlicht;ChronoModels_robot;ChronoEngine\n'}
+[0.081577] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_LIBRARIES         (Chrono libraries): /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a;;urdfdom::urdfdom_model;urdfdom::urdfdom_world;urdfdom::urdfdom_sensor;tinyxml2::tinyxml2;ChronoEngine;ChronoModels_robot;ChronoEngine_vehicle;ChronoModels_vehicle;ChronoEngine_parsers;/usr/local/lib/libChronoEngine_ros.so;/usr/local/lib/libChronoEngine_parsers.so;/usr/local/lib/libChronoEngine_vehicle_irrlicht.so;/usr/local/lib/libChronoModels_vehicle.so;/usr/local/lib/libChronoEngine_vehicle.so;/usr/local/lib/libChronoEngine_irrlicht.so;/usr/local/lib/libChronoModels_robot.so;/usr/local/lib/libChronoEngine.so\n'}
+[0.081652] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_DATA_DIR          (Path to Chrono data folder): /usr/local/share/chrono/data/\n'}
+[0.081732] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_VEHICLE_DATA_DIR  (Path to Chrono::Vehicle data folder): /usr/local/share/chrono/data/vehicle/\n'}
+[0.081800] (chrono_sim) StdoutLine: {'line': b'--    CHRONO_FSI_DATA_DIR      (Path to Chrono::FSI data folder): /usr/local/share/chrono/data/fsi/\n'}
+[0.081866] (chrono_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099022] (-) TimerEvent: {}
+[0.199347] (-) TimerEvent: {}
+[0.229958] (chrono_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.269638] (chrono_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.272748] (chrono_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.280264] (chrono_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.291644] (chrono_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299453] (-) TimerEvent: {}
+[0.306379] (chrono_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.345776] (chrono_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.347945] (chrono_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399568] (-) TimerEvent: {}
+[0.426797] (chrono_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.485075] (chrono_sim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.496243] (chrono_sim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.499659] (-) TimerEvent: {}
+[0.510730] (chrono_sim) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.599770] (-) TimerEvent: {}
+[0.700074] (-) TimerEvent: {}
+[0.714481] (chrono_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800245] (-) TimerEvent: {}
+[0.900699] (-) TimerEvent: {}
+[0.943857] (chrono_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[0.950680] (chrono_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/blor/ros2_ws2/src/build/chrono_sim\n'}
+[1.000847] (-) TimerEvent: {}
+[1.013132] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sim_tools\x1b[0m\n'}
+[1.084950] (chrono_sim) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RHexFactory.cpp.o\x1b[0m\n'}
+[1.085241] (chrono_sim) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o\x1b[0m\n'}
+[1.085341] (chrono_sim) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RoverFactory.cpp.o\x1b[0m\n'}
+[1.100992] (-) TimerEvent: {}
+[1.201422] (-) TimerEvent: {}
+[1.301855] (-) TimerEvent: {}
+[1.402297] (-) TimerEvent: {}
+[1.502765] (-) TimerEvent: {}
+[1.603220] (-) TimerEvent: {}
+[1.703686] (-) TimerEvent: {}
+[1.804126] (-) TimerEvent: {}
+[1.904596] (-) TimerEvent: {}
+[2.005020] (-) TimerEvent: {}
+[2.105385] (-) TimerEvent: {}
+[2.205733] (-) TimerEvent: {}
+[2.306083] (-) TimerEvent: {}
+[2.406440] (-) TimerEvent: {}
+[2.506791] (-) TimerEvent: {}
+[2.607152] (-) TimerEvent: {}
+[2.707526] (-) TimerEvent: {}
+[2.807883] (-) TimerEvent: {}
+[2.908238] (-) TimerEvent: {}
+[3.008601] (-) TimerEvent: {}
+[3.108947] (-) TimerEvent: {}
+[3.209299] (-) TimerEvent: {}
+[3.309672] (-) TimerEvent: {}
+[3.410024] (-) TimerEvent: {}
+[3.510389] (-) TimerEvent: {}
+[3.610748] (-) TimerEvent: {}
+[3.711125] (-) TimerEvent: {}
+[3.811565] (-) TimerEvent: {}
+[3.911924] (-) TimerEvent: {}
+[4.012280] (-) TimerEvent: {}
+[4.112655] (-) TimerEvent: {}
+[4.213019] (-) TimerEvent: {}
+[4.313393] (-) TimerEvent: {}
+[4.413781] (-) TimerEvent: {}
+[4.514142] (-) TimerEvent: {}
+[4.614518] (-) TimerEvent: {}
+[4.714886] (-) TimerEvent: {}
+[4.815260] (-) TimerEvent: {}
+[4.915635] (-) TimerEvent: {}
+[5.015974] (-) TimerEvent: {}
+[5.116315] (-) TimerEvent: {}
+[5.216680] (-) TimerEvent: {}
+[5.317071] (-) TimerEvent: {}
+[5.417440] (-) TimerEvent: {}
+[5.517839] (-) TimerEvent: {}
+[5.618201] (-) TimerEvent: {}
+[5.718577] (-) TimerEvent: {}
+[5.818938] (-) TimerEvent: {}
+[5.919303] (-) TimerEvent: {}
+[6.019696] (-) TimerEvent: {}
+[6.120054] (-) TimerEvent: {}
+[6.220421] (-) TimerEvent: {}
+[6.320772] (-) TimerEvent: {}
+[6.421125] (-) TimerEvent: {}
+[6.521497] (-) TimerEvent: {}
+[6.621856] (-) TimerEvent: {}
+[6.722202] (-) TimerEvent: {}
+[6.822572] (-) TimerEvent: {}
+[6.922932] (-) TimerEvent: {}
+[7.023289] (-) TimerEvent: {}
+[7.123652] (-) TimerEvent: {}
+[7.224007] (-) TimerEvent: {}
+[7.324377] (-) TimerEvent: {}
+[7.424731] (-) TimerEvent: {}
+[7.525075] (-) TimerEvent: {}
+[7.625437] (-) TimerEvent: {}
+[7.725788] (-) TimerEvent: {}
+[7.826132] (-) TimerEvent: {}
+[7.926491] (-) TimerEvent: {}
+[8.026829] (-) TimerEvent: {}
+[8.127177] (-) TimerEvent: {}
+[8.227525] (-) TimerEvent: {}
+[8.327878] (-) TimerEvent: {}
+[8.428231] (-) TimerEvent: {}
+[8.528608] (-) TimerEvent: {}
+[8.628979] (-) TimerEvent: {}
+[8.729351] (-) TimerEvent: {}
+[8.829730] (-) TimerEvent: {}
+[8.930082] (-) TimerEvent: {}
+[9.030429] (-) TimerEvent: {}
+[9.130767] (-) TimerEvent: {}
+[9.231115] (-) TimerEvent: {}
+[9.331467] (-) TimerEvent: {}
+[9.431805] (-) TimerEvent: {}
+[9.532151] (-) TimerEvent: {}
+[9.632518] (-) TimerEvent: {}
+[9.732861] (-) TimerEvent: {}
+[9.833200] (-) TimerEvent: {}
+[9.933568] (-) TimerEvent: {}
+[9.970829] (chrono_sim) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX shared library libsim_tools.so\x1b[0m\n'}
+[10.033706] (-) TimerEvent: {}
+[10.134057] (-) TimerEvent: {}
+[10.234409] (-) TimerEvent: {}
+[10.334742] (-) TimerEvent: {}
+[10.435064] (-) TimerEvent: {}
+[10.535398] (-) TimerEvent: {}
+[10.635707] (-) TimerEvent: {}
+[10.736017] (-) TimerEvent: {}
+[10.767041] (chrono_sim) StdoutLine: {'line': b'[ 21%] Built target sim_tools\n'}
+[10.824632] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target visual_params\x1b[0m\n'}
+[10.826841] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target visual_test\x1b[0m\n'}
+[10.839030] (-) TimerEvent: {}
+[10.839888] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_test\x1b[0m\n'}
+[10.840832] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rover_example\x1b[0m\n'}
+[10.844404] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_example\x1b[0m\n'}
+[10.844491] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target variable_stiffness_example\x1b[0m\n'}
+[10.844563] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target husky_test\x1b[0m\n'}
+[10.844627] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rhex_test\x1b[0m\n'}
+[10.844687] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target probe_test\x1b[0m\n'}
+[10.844749] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target shear_test\x1b[0m\n'}
+[10.844808] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_grab_values\x1b[0m\n'}
+[10.844866] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_video\x1b[0m\n'}
+[10.844926] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_test\x1b[0m\n'}
+[10.845048] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_experiment\x1b[0m\n'}
+[10.845730] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_calibration\x1b[0m\n'}
+[10.846530] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_calibration_zero_grav\x1b[0m\n'}
+[10.903635] (chrono_sim) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable rover_test\x1b[0m\n'}
+[10.903951] (chrono_sim) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable spirit_example\x1b[0m\n'}
+[10.904120] (chrono_sim) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable rover_example\x1b[0m\n'}
+[10.904217] (chrono_sim) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX executable husky_test\x1b[0m\n'}
+[10.909694] (chrono_sim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/variable_stiffness_example.dir/src/examples/variable_stiffness_example.cpp.o\x1b[0m\n'}
+[10.910047] (chrono_sim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/probe_test.dir/src/active_development/probe_test.cpp.o\x1b[0m\n'}
+[10.910160] (chrono_sim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/visual_test.dir/src/active_development/visual_test.cpp.o\x1b[0m\n'}
+[10.910278] (chrono_sim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/visual_params.dir/src/active_development/visual_params.cpp.o\x1b[0m\n'}
+[10.910390] (chrono_sim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/shear_test.dir/src/active_development/shear_test.cpp.o\x1b[0m\n'}
+[10.910487] (chrono_sim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rhex_test.dir/src/active_development/rhex_test.cpp.o\x1b[0m\n'}
+[10.910911] (chrono_sim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/spirit_grab_values.dir/src/active_development/spirit_grab_values.cpp.o\x1b[0m\n'}
+[10.911021] (chrono_sim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/spirit_experiment.dir/src/active_development/spirit_experiment.cpp.o\x1b[0m\n'}
+[10.912297] (chrono_sim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/hero_video.dir/src/active_development/hero_video.cpp.o\x1b[0m\n'}
+[10.912437] (chrono_sim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/spirit_calibration.dir/src/experiments/spirit_calibration.cpp.o\x1b[0m\n'}
+[10.913239] (chrono_sim) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable spirit_test\x1b[0m\n'}
+[10.915681] (chrono_sim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/spirit_calibration_zero_grav.dir/src/experiments/spirit_calibration_zero_grav.cpp.o\x1b[0m\n'}
+[10.939150] (-) TimerEvent: {}
+[11.039580] (-) TimerEvent: {}
+[11.142432] (-) TimerEvent: {}
+[11.242899] (-) TimerEvent: {}
+[11.343586] (-) TimerEvent: {}
+[11.444302] (-) TimerEvent: {}
+[11.545186] (-) TimerEvent: {}
+[11.648548] (-) TimerEvent: {}
+[11.749196] (-) TimerEvent: {}
+[11.849742] (-) TimerEvent: {}
+[11.953566] (-) TimerEvent: {}
+[12.054289] (-) TimerEvent: {}
+[12.154907] (-) TimerEvent: {}
+[12.255530] (-) TimerEvent: {}
+[12.356238] (-) TimerEvent: {}
+[12.459479] (-) TimerEvent: {}
+[12.560131] (-) TimerEvent: {}
+[12.660926] (-) TimerEvent: {}
+[12.761607] (-) TimerEvent: {}
+[12.863482] (-) TimerEvent: {}
+[12.964137] (-) TimerEvent: {}
+[13.068492] (-) TimerEvent: {}
+[13.169172] (-) TimerEvent: {}
+[13.269898] (-) TimerEvent: {}
+[13.370602] (-) TimerEvent: {}
+[13.471241] (-) TimerEvent: {}
+[13.571851] (-) TimerEvent: {}
+[13.674507] (-) TimerEvent: {}
+[13.775139] (-) TimerEvent: {}
+[13.875848] (-) TimerEvent: {}
+[13.978510] (-) TimerEvent: {}
+[14.079195] (-) TimerEvent: {}
+[14.179809] (-) TimerEvent: {}
+[14.282499] (-) TimerEvent: {}
+[14.383169] (-) TimerEvent: {}
+[14.483909] (-) TimerEvent: {}
+[14.586547] (-) TimerEvent: {}
+[14.687269] (-) TimerEvent: {}
+[14.787914] (-) TimerEvent: {}
+[14.892464] (-) TimerEvent: {}
+[14.993102] (-) TimerEvent: {}
+[15.093819] (-) TimerEvent: {}
+[15.194578] (-) TimerEvent: {}
+[15.295420] (-) TimerEvent: {}
+[15.396197] (-) TimerEvent: {}
+[15.499503] (-) TimerEvent: {}
+[15.600199] (-) TimerEvent: {}
+[15.700878] (-) TimerEvent: {}
+[15.804528] (-) TimerEvent: {}
+[15.905225] (-) TimerEvent: {}
+[16.005899] (-) TimerEvent: {}
+[16.106647] (-) TimerEvent: {}
+[16.207395] (-) TimerEvent: {}
+[16.309555] (-) TimerEvent: {}
+[16.410409] (-) TimerEvent: {}
+[16.512557] (-) TimerEvent: {}
+[16.614516] (-) TimerEvent: {}
+[16.715258] (-) TimerEvent: {}
+[16.818491] (-) TimerEvent: {}
+[16.919156] (-) TimerEvent: {}
+[17.019886] (-) TimerEvent: {}
+[17.120519] (-) TimerEvent: {}
+[17.223506] (-) TimerEvent: {}
+[17.324254] (-) TimerEvent: {}
+[17.425008] (-) TimerEvent: {}
+[17.527513] (-) TimerEvent: {}
+[17.628318] (-) TimerEvent: {}
+[17.729110] (-) TimerEvent: {}
+[17.833539] (-) TimerEvent: {}
+[17.934313] (-) TimerEvent: {}
+[18.035049] (-) TimerEvent: {}
+[18.135775] (-) TimerEvent: {}
+[18.236487] (-) TimerEvent: {}
+[18.338521] (-) TimerEvent: {}
+[18.439239] (-) TimerEvent: {}
+[18.540588] (-) TimerEvent: {}
+[18.642499] (-) TimerEvent: {}
+[18.746518] (-) TimerEvent: {}
+[18.847280] (-) TimerEvent: {}
+[18.947945] (-) TimerEvent: {}
+[19.048671] (-) TimerEvent: {}
+[19.149296] (-) TimerEvent: {}
+[19.253486] (-) TimerEvent: {}
+[19.354188] (-) TimerEvent: {}
+[19.454891] (-) TimerEvent: {}
+[19.555589] (-) TimerEvent: {}
+[19.656282] (-) TimerEvent: {}
+[19.757014] (-) TimerEvent: {}
+[19.859541] (-) TimerEvent: {}
+[19.960374] (-) TimerEvent: {}
+[20.063543] (-) TimerEvent: {}
+[20.164384] (-) TimerEvent: {}
+[20.265118] (-) TimerEvent: {}
+[20.366486] (-) TimerEvent: {}
+[20.467730] (-) TimerEvent: {}
+[20.570489] (-) TimerEvent: {}
+[20.671221] (-) TimerEvent: {}
+[20.772018] (-) TimerEvent: {}
+[20.875773] (-) TimerEvent: {}
+[20.976514] (-) TimerEvent: {}
+[21.077277] (-) TimerEvent: {}
+[21.180724] (-) TimerEvent: {}
+[21.281498] (-) TimerEvent: {}
+[21.382263] (-) TimerEvent: {}
+[21.483100] (-) TimerEvent: {}
+[21.584690] (-) TimerEvent: {}
+[21.688513] (-) TimerEvent: {}
+[21.789240] (-) TimerEvent: {}
+[21.889982] (-) TimerEvent: {}
+[21.990793] (-) TimerEvent: {}
+[22.091475] (-) TimerEvent: {}
+[22.193521] (-) TimerEvent: {}
+[22.294294] (-) TimerEvent: {}
+[22.399495] (-) TimerEvent: {}
+[22.500228] (-) TimerEvent: {}
+[22.601066] (-) TimerEvent: {}
+[22.701870] (-) TimerEvent: {}
+[22.802620] (-) TimerEvent: {}
+[22.903403] (-) TimerEvent: {}
+[23.005781] (-) TimerEvent: {}
+[23.106692] (-) TimerEvent: {}
+[23.208764] (-) TimerEvent: {}
+[23.311475] (-) TimerEvent: {}
+[23.412171] (-) TimerEvent: {}
+[23.512903] (-) TimerEvent: {}
+[23.615497] (-) TimerEvent: {}
+[23.716326] (-) TimerEvent: {}
+[23.817081] (-) TimerEvent: {}
+[23.921557] (-) TimerEvent: {}
+[24.022401] (-) TimerEvent: {}
+[24.123135] (-) TimerEvent: {}
+[24.224030] (-) TimerEvent: {}
+[24.324757] (-) TimerEvent: {}
+[24.426699] (-) TimerEvent: {}
+[24.529700] (-) TimerEvent: {}
+[24.630526] (-) TimerEvent: {}
+[24.731383] (-) TimerEvent: {}
+[24.835540] (-) TimerEvent: {}
+[24.936405] (-) TimerEvent: {}
+[25.037243] (-) TimerEvent: {}
+[25.138135] (-) TimerEvent: {}
+[25.242568] (-) TimerEvent: {}
+[25.343317] (-) TimerEvent: {}
+[25.444009] (-) TimerEvent: {}
+[25.544700] (-) TimerEvent: {}
+[25.645377] (-) TimerEvent: {}
+[25.746072] (-) TimerEvent: {}
+[25.848535] (-) TimerEvent: {}
+[25.949363] (-) TimerEvent: {}
+[26.052504] (-) TimerEvent: {}
+[26.153277] (-) TimerEvent: {}
+[26.253972] (-) TimerEvent: {}
+[26.354629] (-) TimerEvent: {}
+[26.458489] (-) TimerEvent: {}
+[26.559220] (-) TimerEvent: {}
+[26.659998] (-) TimerEvent: {}
+[26.760740] (-) TimerEvent: {}
+[26.861512] (-) TimerEvent: {}
+[26.964498] (-) TimerEvent: {}
+[27.065134] (-) TimerEvent: {}
+[27.165818] (-) TimerEvent: {}
+[27.267521] (-) TimerEvent: {}
+[27.368215] (-) TimerEvent: {}
+[27.472528] (-) TimerEvent: {}
+[27.573226] (-) TimerEvent: {}
+[27.673891] (-) TimerEvent: {}
+[27.774602] (-) TimerEvent: {}
+[27.875300] (-) TimerEvent: {}
+[27.976064] (-) TimerEvent: {}
+[28.078525] (-) TimerEvent: {}
+[28.179236] (-) TimerEvent: {}
+[28.281554] (-) TimerEvent: {}
+[28.382425] (-) TimerEvent: {}
+[28.486484] (-) TimerEvent: {}
+[28.587213] (-) TimerEvent: {}
+[28.687971] (-) TimerEvent: {}
+[28.788749] (-) TimerEvent: {}
+[28.889492] (-) TimerEvent: {}
+[28.993521] (-) TimerEvent: {}
+[29.094218] (-) TimerEvent: {}
+[29.194971] (-) TimerEvent: {}
+[29.222223] (chrono_sim) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable spirit_calibration\x1b[0m\n'}
+[29.295207] (-) TimerEvent: {}
+[29.399865] (-) TimerEvent: {}
+[29.500635] (-) TimerEvent: {}
+[29.601494] (-) TimerEvent: {}
+[29.702233] (-) TimerEvent: {}
+[29.788639] (chrono_sim) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable spirit_experiment\x1b[0m\n'}
+[29.806474] (-) TimerEvent: {}
+[29.847919] (chrono_sim) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX executable variable_stiffness_example\x1b[0m\n'}
+[29.906707] (-) TimerEvent: {}
+[30.007511] (-) TimerEvent: {}
+[30.108351] (-) TimerEvent: {}
+[30.209113] (-) TimerEvent: {}
+[30.313547] (-) TimerEvent: {}
+[30.414350] (-) TimerEvent: {}
+[30.445744] (chrono_sim) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX executable probe_test\x1b[0m\n'}
+[30.514537] (-) TimerEvent: {}
+[30.615326] (-) TimerEvent: {}
+[30.719481] (chrono_sim) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable shear_test\x1b[0m\n'}
+[30.719961] (-) TimerEvent: {}
+[30.820559] (-) TimerEvent: {}
+[30.921709] (-) TimerEvent: {}
+[31.014708] (chrono_sim) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX executable visual_params\x1b[0m\n'}
+[31.021927] (-) TimerEvent: {}
+[31.125852] (-) TimerEvent: {}
+[31.226657] (-) TimerEvent: {}
+[31.243199] (chrono_sim) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable rhex_test\x1b[0m\n'}
+[31.255557] (chrono_sim) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable spirit_calibration_zero_grav\x1b[0m\n'}
+[31.261919] (chrono_sim) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable visual_test\x1b[0m\n'}
+[31.326866] (-) TimerEvent: {}
+[31.427737] (-) TimerEvent: {}
+[31.531754] (-) TimerEvent: {}
+[31.594967] (chrono_sim) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable hero_video\x1b[0m\n'}
+[31.631981] (-) TimerEvent: {}
+[31.732853] (-) TimerEvent: {}
+[31.771630] (chrono_sim) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable spirit_grab_values\x1b[0m\n'}
+[31.833175] (-) TimerEvent: {}
+[31.934421] (-) TimerEvent: {}
+[32.036834] (-) TimerEvent: {}
+[32.138653] (-) TimerEvent: {}
+[32.243925] (-) TimerEvent: {}
+[32.345109] (-) TimerEvent: {}
+[32.446182] (-) TimerEvent: {}
+[32.549552] (-) TimerEvent: {}
+[32.650636] (-) TimerEvent: {}
+[32.751793] (-) TimerEvent: {}
+[32.855591] (-) TimerEvent: {}
+[32.956742] (-) TimerEvent: {}
+[33.061782] (-) TimerEvent: {}
+[33.162787] (-) TimerEvent: {}
+[33.264104] (-) TimerEvent: {}
+[33.365261] (-) TimerEvent: {}
+[33.471607] (-) TimerEvent: {}
+[33.572759] (-) TimerEvent: {}
+[33.673917] (-) TimerEvent: {}
+[33.775025] (-) TimerEvent: {}
+[33.878953] (-) TimerEvent: {}
+[33.980189] (-) TimerEvent: {}
+[34.082924] (-) TimerEvent: {}
+[34.187630] (-) TimerEvent: {}
+[34.288803] (-) TimerEvent: {}
+[34.389805] (-) TimerEvent: {}
+[34.491036] (-) TimerEvent: {}
+[34.594934] (-) TimerEvent: {}
+[34.696241] (-) TimerEvent: {}
+[34.798568] (-) TimerEvent: {}
+[34.900621] (-) TimerEvent: {}
+[35.004617] (-) TimerEvent: {}
+[35.105846] (-) TimerEvent: {}
+[35.208557] (-) TimerEvent: {}
+[35.309522] (-) TimerEvent: {}
+[35.412948] (-) TimerEvent: {}
+[35.514181] (-) TimerEvent: {}
+[35.617903] (-) TimerEvent: {}
+[35.719112] (-) TimerEvent: {}
+[35.822868] (-) TimerEvent: {}
+[35.924155] (-) TimerEvent: {}
+[36.027925] (-) TimerEvent: {}
+[36.129080] (-) TimerEvent: {}
+[36.230128] (-) TimerEvent: {}
+[36.333618] (-) TimerEvent: {}
+[36.438643] (-) TimerEvent: {}
+[36.539952] (-) TimerEvent: {}
+[36.641230] (-) TimerEvent: {}
+[36.742304] (-) TimerEvent: {}
+[36.847011] (-) TimerEvent: {}
+[36.948113] (-) TimerEvent: {}
+[37.052573] (-) TimerEvent: {}
+[37.153659] (-) TimerEvent: {}
+[37.254848] (-) TimerEvent: {}
+[37.355923] (-) TimerEvent: {}
+[37.460973] (-) TimerEvent: {}
+[37.562174] (-) TimerEvent: {}
+[37.664571] (-) TimerEvent: {}
+[37.765609] (-) TimerEvent: {}
+[37.867864] (-) TimerEvent: {}
+[37.972564] (-) TimerEvent: {}
+[38.073781] (-) TimerEvent: {}
+[38.175043] (-) TimerEvent: {}
+[38.278617] (-) TimerEvent: {}
+[38.379831] (-) TimerEvent: {}
+[38.485600] (-) TimerEvent: {}
+[38.586804] (-) TimerEvent: {}
+[38.687947] (-) TimerEvent: {}
+[38.789206] (-) TimerEvent: {}
+[38.892858] (-) TimerEvent: {}
+[38.994145] (-) TimerEvent: {}
+[39.097850] (-) TimerEvent: {}
+[39.199121] (-) TimerEvent: {}
+[39.300627] (-) TimerEvent: {}
+[39.403663] (-) TimerEvent: {}
+[39.508626] (-) TimerEvent: {}
+[39.609923] (-) TimerEvent: {}
+[39.711138] (-) TimerEvent: {}
+[39.813632] (-) TimerEvent: {}
+[39.917577] (-) TimerEvent: {}
+[40.018569] (-) TimerEvent: {}
+[40.119713] (-) TimerEvent: {}
+[40.221878] (-) TimerEvent: {}
+[40.325797] (-) TimerEvent: {}
+[40.426873] (-) TimerEvent: {}
+[40.530248] (-) TimerEvent: {}
+[40.631472] (-) TimerEvent: {}
+[40.737561] (-) TimerEvent: {}
+[40.838517] (-) TimerEvent: {}
+[40.939687] (-) TimerEvent: {}
+[41.041182] (-) TimerEvent: {}
+[41.145628] (-) TimerEvent: {}
+[41.246800] (-) TimerEvent: {}
+[41.347957] (-) TimerEvent: {}
+[41.450929] (-) TimerEvent: {}
+[41.554920] (-) TimerEvent: {}
+[41.656229] (-) TimerEvent: {}
+[41.760634] (-) TimerEvent: {}
+[41.861813] (-) TimerEvent: {}
+[41.962828] (-) TimerEvent: {}
+[42.066615] (-) TimerEvent: {}
+[42.167756] (-) TimerEvent: {}
+[42.272556] (-) TimerEvent: {}
+[42.373514] (-) TimerEvent: {}
+[42.474604] (-) TimerEvent: {}
+[42.575705] (-) TimerEvent: {}
+[42.679922] (-) TimerEvent: {}
+[42.781188] (-) TimerEvent: {}
+[42.884611] (-) TimerEvent: {}
+[42.985764] (-) TimerEvent: {}
+[43.090626] (-) TimerEvent: {}
+[43.191820] (-) TimerEvent: {}
+[43.293080] (-) TimerEvent: {}
+[43.394711] (-) TimerEvent: {}
+[43.497749] (-) TimerEvent: {}
+[43.599105] (-) TimerEvent: {}
+[43.703748] (-) TimerEvent: {}
+[43.804984] (-) TimerEvent: {}
+[43.869313] (chrono_sim) StdoutLine: {'line': b'[ 60%] Built target spirit_test\n'}
+[43.902523] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_3truss\x1b[0m\n'}
+[43.905112] (-) TimerEvent: {}
+[43.971566] (chrono_sim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/spirit_3truss.dir/src/experiments/spirit_3truss.cpp.o\x1b[0m\n'}
+[44.005476] (-) TimerEvent: {}
+[44.110870] (-) TimerEvent: {}
+[44.212015] (-) TimerEvent: {}
+[44.313164] (-) TimerEvent: {}
+[44.414165] (-) TimerEvent: {}
+[44.518584] (-) TimerEvent: {}
+[44.619660] (-) TimerEvent: {}
+[44.720704] (-) TimerEvent: {}
+[44.821579] (-) TimerEvent: {}
+[44.923824] (-) TimerEvent: {}
+[45.004510] (chrono_sim) StdoutLine: {'line': b'[ 63%] Built target rover_test\n'}
+[45.019199] (chrono_sim) StdoutLine: {'line': b'[ 64%] Built target rover_example\n'}
+[45.023924] (-) TimerEvent: {}
+[45.030079] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 2spirit_5truss_planner\x1b[0m\n'}
+[45.058720] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_force_calibration\x1b[0m\n'}
+[45.105507] (chrono_sim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/2spirit_5truss_planner.dir/src/experiments/2spirit_5truss_planner.cpp.o\x1b[0m\n'}
+[45.118691] (chrono_sim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/spirit_force_calibration.dir/src/experiments/spirit_force_calibration.cpp.o\x1b[0m\n'}
+[45.124059] (-) TimerEvent: {}
+[45.181272] (chrono_sim) StdoutLine: {'line': b'[ 69%] Built target spirit_example\n'}
+[45.227533] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spirit_force_calibration_stepped_model_verification\x1b[0m\n'}
+[45.228229] (-) TimerEvent: {}
+[45.293537] (chrono_sim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/spirit_force_calibration_stepped_model_verification.dir/src/experiments/spirit_force_calibration_stepped_model_verification.cpp.o\x1b[0m\n'}
+[45.328508] (-) TimerEvent: {}
+[45.429427] (-) TimerEvent: {}
+[45.510831] (chrono_sim) StdoutLine: {'line': b'[ 71%] Built target husky_test\n'}
+[45.532619] (-) TimerEvent: {}
+[45.549857] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 1spirit_2truss_model_verification\x1b[0m\n'}
+[45.621467] (chrono_sim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_2truss_model_verification.dir/src/experiments/1spirit_2truss_model_verification.cpp.o\x1b[0m\n'}
+[45.636473] (-) TimerEvent: {}
+[45.737256] (-) TimerEvent: {}
+[45.838122] (-) TimerEvent: {}
+[45.939149] (-) TimerEvent: {}
+[46.040046] (-) TimerEvent: {}
+[46.142555] (-) TimerEvent: {}
+[46.243521] (-) TimerEvent: {}
+[46.346569] (-) TimerEvent: {}
+[46.447578] (-) TimerEvent: {}
+[46.552533] (-) TimerEvent: {}
+[46.653393] (-) TimerEvent: {}
+[46.754423] (-) TimerEvent: {}
+[46.855460] (-) TimerEvent: {}
+[46.958564] (-) TimerEvent: {}
+[47.059528] (-) TimerEvent: {}
+[47.160495] (-) TimerEvent: {}
+[47.262595] (-) TimerEvent: {}
+[47.367593] (-) TimerEvent: {}
+[47.468578] (-) TimerEvent: {}
+[47.569479] (-) TimerEvent: {}
+[47.670532] (-) TimerEvent: {}
+[47.774801] (-) TimerEvent: {}
+[47.875713] (-) TimerEvent: {}
+[47.976769] (-) TimerEvent: {}
+[48.077674] (-) TimerEvent: {}
+[48.179573] (-) TimerEvent: {}
+[48.284582] (-) TimerEvent: {}
+[48.385540] (-) TimerEvent: {}
+[48.486449] (-) TimerEvent: {}
+[48.587543] (-) TimerEvent: {}
+[48.692533] (-) TimerEvent: {}
+[48.793397] (-) TimerEvent: {}
+[48.894393] (-) TimerEvent: {}
+[48.995460] (-) TimerEvent: {}
+[49.097575] (-) TimerEvent: {}
+[49.198659] (-) TimerEvent: {}
+[49.300840] (-) TimerEvent: {}
+[49.404842] (-) TimerEvent: {}
+[49.505914] (-) TimerEvent: {}
+[49.606943] (-) TimerEvent: {}
+[49.709584] (-) TimerEvent: {}
+[49.810672] (-) TimerEvent: {}
+[49.914548] (-) TimerEvent: {}
+[50.015413] (-) TimerEvent: {}
+[50.116403] (-) TimerEvent: {}
+[50.218531] (-) TimerEvent: {}
+[50.322568] (-) TimerEvent: {}
+[50.423558] (-) TimerEvent: {}
+[50.524603] (-) TimerEvent: {}
+[50.628757] (-) TimerEvent: {}
+[50.729853] (-) TimerEvent: {}
+[50.830875] (-) TimerEvent: {}
+[50.931769] (-) TimerEvent: {}
+[51.035798] (-) TimerEvent: {}
+[51.136898] (-) TimerEvent: {}
+[51.237803] (-) TimerEvent: {}
+[51.342616] (-) TimerEvent: {}
+[51.443752] (-) TimerEvent: {}
+[51.544581] (-) TimerEvent: {}
+[51.645692] (-) TimerEvent: {}
+[51.748537] (-) TimerEvent: {}
+[51.851594] (-) TimerEvent: {}
+[51.952627] (-) TimerEvent: {}
+[52.055534] (-) TimerEvent: {}
+[52.156459] (-) TimerEvent: {}
+[52.261599] (-) TimerEvent: {}
+[52.362783] (-) TimerEvent: {}
+[52.463923] (-) TimerEvent: {}
+[52.564962] (-) TimerEvent: {}
+[52.669620] (-) TimerEvent: {}
+[52.770791] (-) TimerEvent: {}
+[52.871844] (-) TimerEvent: {}
+[52.972968] (-) TimerEvent: {}
+[53.075579] (-) TimerEvent: {}
+[53.177579] (-) TimerEvent: {}
+[53.279572] (-) TimerEvent: {}
+[53.382556] (-) TimerEvent: {}
+[53.483495] (-) TimerEvent: {}
+[53.584441] (-) TimerEvent: {}
+[53.687562] (-) TimerEvent: {}
+[53.788590] (-) TimerEvent: {}
+[53.892558] (-) TimerEvent: {}
+[53.993446] (-) TimerEvent: {}
+[54.094462] (-) TimerEvent: {}
+[54.196583] (-) TimerEvent: {}
+[54.299556] (-) TimerEvent: {}
+[54.400500] (-) TimerEvent: {}
+[54.502558] (-) TimerEvent: {}
+[54.603519] (-) TimerEvent: {}
+[54.705571] (-) TimerEvent: {}
+[54.809789] (-) TimerEvent: {}
+[54.910739] (-) TimerEvent: {}
+[55.011679] (-) TimerEvent: {}
+[55.114549] (-) TimerEvent: {}
+[55.215448] (-) TimerEvent: {}
+[55.316577] (-) TimerEvent: {}
+[55.418531] (-) TimerEvent: {}
+[55.521550] (-) TimerEvent: {}
+[55.622399] (-) TimerEvent: {}
+[55.723223] (-) TimerEvent: {}
+[55.828546] (-) TimerEvent: {}
+[55.929429] (-) TimerEvent: {}
+[56.030218] (-) TimerEvent: {}
+[56.131030] (-) TimerEvent: {}
+[56.231897] (-) TimerEvent: {}
+[56.336542] (-) TimerEvent: {}
+[56.437453] (-) TimerEvent: {}
+[56.538415] (-) TimerEvent: {}
+[56.639267] (-) TimerEvent: {}
+[56.740143] (-) TimerEvent: {}
+[56.842704] (-) TimerEvent: {}
+[56.945561] (-) TimerEvent: {}
+[57.046481] (-) TimerEvent: {}
+[57.147400] (-) TimerEvent: {}
+[57.251561] (-) TimerEvent: {}
+[57.352489] (-) TimerEvent: {}
+[57.453443] (-) TimerEvent: {}
+[57.554347] (-) TimerEvent: {}
+[57.657541] (-) TimerEvent: {}
+[57.758461] (-) TimerEvent: {}
+[57.860572] (-) TimerEvent: {}
+[57.961547] (-) TimerEvent: {}
+[58.063559] (-) TimerEvent: {}
+[58.166596] (-) TimerEvent: {}
+[58.267654] (-) TimerEvent: {}
+[58.371828] (-) TimerEvent: {}
+[58.472812] (-) TimerEvent: {}
+[58.573966] (-) TimerEvent: {}
+[58.678808] (-) TimerEvent: {}
+[58.779773] (-) TimerEvent: {}
+[58.880839] (-) TimerEvent: {}
+[58.981699] (-) TimerEvent: {}
+[59.084566] (-) TimerEvent: {}
+[59.185559] (-) TimerEvent: {}
+[59.287605] (-) TimerEvent: {}
+[59.391858] (-) TimerEvent: {}
+[59.492809] (-) TimerEvent: {}
+[59.593924] (-) TimerEvent: {}
+[59.695841] (-) TimerEvent: {}
+[59.798568] (-) TimerEvent: {}
+[59.899441] (-) TimerEvent: {}
+[60.001537] (-) TimerEvent: {}
+[60.102561] (-) TimerEvent: {}
+[60.205598] (-) TimerEvent: {}
+[60.306558] (-) TimerEvent: {}
+[60.410526] (-) TimerEvent: {}
+[60.511451] (-) TimerEvent: {}
+[60.612490] (-) TimerEvent: {}
+[60.713252] (-) TimerEvent: {}
+[60.817615] (-) TimerEvent: {}
+[60.918638] (-) TimerEvent: {}
+[61.019418] (-) TimerEvent: {}
+[61.120362] (-) TimerEvent: {}
+[61.223540] (-) TimerEvent: {}
+[61.324440] (-) TimerEvent: {}
+[61.427543] (-) TimerEvent: {}
+[61.528457] (-) TimerEvent: {}
+[61.629357] (-) TimerEvent: {}
+[61.733553] (-) TimerEvent: {}
+[61.834384] (-) TimerEvent: {}
+[61.935215] (-) TimerEvent: {}
+[62.036173] (-) TimerEvent: {}
+[62.140820] (-) TimerEvent: {}
+[62.241769] (-) TimerEvent: {}
+[62.342949] (-) TimerEvent: {}
+[62.444876] (-) TimerEvent: {}
+[62.547584] (-) TimerEvent: {}
+[62.648748] (-) TimerEvent: {}
+[62.752775] (-) TimerEvent: {}
+[62.853615] (-) TimerEvent: {}
+[62.954435] (-) TimerEvent: {}
+[63.058561] (-) TimerEvent: {}
+[63.159417] (-) TimerEvent: {}
+[63.260225] (-) TimerEvent: {}
+[63.361091] (-) TimerEvent: {}
+[63.465538] (-) TimerEvent: {}
+[63.566384] (-) TimerEvent: {}
+[63.667202] (-) TimerEvent: {}
+[63.768161] (-) TimerEvent: {}
+[63.869046] (-) TimerEvent: {}
+[63.974545] (-) TimerEvent: {}
+[64.075384] (-) TimerEvent: {}
+[64.176170] (-) TimerEvent: {}
+[64.277017] (-) TimerEvent: {}
+[64.377865] (-) TimerEvent: {}
+[64.478660] (-) TimerEvent: {}
+[64.581546] (-) TimerEvent: {}
+[64.682376] (-) TimerEvent: {}
+[64.783556] (-) TimerEvent: {}
+[64.886552] (-) TimerEvent: {}
+[64.987471] (-) TimerEvent: {}
+[65.089545] (-) TimerEvent: {}
+[65.190366] (-) TimerEvent: {}
+[65.292787] (-) TimerEvent: {}
+[65.397584] (-) TimerEvent: {}
+[65.498554] (-) TimerEvent: {}
+[65.599519] (-) TimerEvent: {}
+[65.700515] (-) TimerEvent: {}
+[65.801540] (-) TimerEvent: {}
+[65.904560] (-) TimerEvent: {}
+[66.005523] (-) TimerEvent: {}
+[66.107526] (-) TimerEvent: {}
+[66.210572] (-) TimerEvent: {}
+[66.311565] (-) TimerEvent: {}
+[66.412510] (-) TimerEvent: {}
+[66.514554] (-) TimerEvent: {}
+[66.616551] (-) TimerEvent: {}
+[66.720556] (-) TimerEvent: {}
+[66.821472] (-) TimerEvent: {}
+[66.922322] (-) TimerEvent: {}
+[67.023248] (-) TimerEvent: {}
+[67.127544] (-) TimerEvent: {}
+[67.228420] (-) TimerEvent: {}
+[67.329243] (-) TimerEvent: {}
+[67.430028] (-) TimerEvent: {}
+[67.533550] (-) TimerEvent: {}
+[67.634474] (-) TimerEvent: {}
+[67.735376] (-) TimerEvent: {}
+[67.837533] (-) TimerEvent: {}
+[67.938380] (-) TimerEvent: {}
+[68.040565] (-) TimerEvent: {}
+[68.143576] (-) TimerEvent: {}
+[68.244528] (-) TimerEvent: {}
+[68.345505] (-) TimerEvent: {}
+[68.447561] (-) TimerEvent: {}
+[68.549605] (-) TimerEvent: {}
+[68.653555] (-) TimerEvent: {}
+[68.754438] (-) TimerEvent: {}
+[68.855324] (-) TimerEvent: {}
+[68.956321] (-) TimerEvent: {}
+[69.058597] (-) TimerEvent: {}
+[69.162587] (-) TimerEvent: {}
+[69.194544] (chrono_sim) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable spirit_3truss\x1b[0m\n'}
+[69.262895] (-) TimerEvent: {}
+[69.364427] (-) TimerEvent: {}
+[69.466788] (-) TimerEvent: {}
+[69.570575] (-) TimerEvent: {}
+[69.671507] (-) TimerEvent: {}
+[69.772353] (-) TimerEvent: {}
+[69.873083] (-) TimerEvent: {}
+[69.977566] (-) TimerEvent: {}
+[70.078449] (-) TimerEvent: {}
+[70.179194] (-) TimerEvent: {}
+[70.280132] (-) TimerEvent: {}
+[70.380891] (-) TimerEvent: {}
+[70.484536] (-) TimerEvent: {}
+[70.585382] (-) TimerEvent: {}
+[70.686210] (-) TimerEvent: {}
+[70.738493] (chrono_sim) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable spirit_force_calibration\x1b[0m\n'}
+[70.786460] (-) TimerEvent: {}
+[70.856353] (chrono_sim) StdoutLine: {'line': b'[ 76%] Built target spirit_calibration\n'}
+[70.889531] (-) TimerEvent: {}
+[70.897682] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 3spirit_3truss_model_verification\x1b[0m\n'}
+[70.961811] (chrono_sim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/3spirit_3truss_model_verification.dir/src/experiments/3spirit_3truss_model_verification.cpp.o\x1b[0m\n'}
+[70.962450] (chrono_sim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable spirit_force_calibration_stepped_model_verification\x1b[0m\n'}
+[70.992507] (-) TimerEvent: {}
+[71.080580] (chrono_sim) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable 2spirit_5truss_planner\x1b[0m\n'}
+[71.092746] (-) TimerEvent: {}
+[71.193796] (-) TimerEvent: {}
+[71.298890] (-) TimerEvent: {}
+[71.399960] (-) TimerEvent: {}
+[71.500878] (-) TimerEvent: {}
+[71.601939] (-) TimerEvent: {}
+[71.704578] (-) TimerEvent: {}
+[71.732053] (chrono_sim) StdoutLine: {'line': b'[ 80%] Built target shear_test\n'}
+[71.764712] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 1spirit_1truss_planner\x1b[0m\n'}
+[71.806563] (-) TimerEvent: {}
+[71.833997] (chrono_sim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_1truss_planner.dir/src/experiments/1spirit_1truss_planner.cpp.o\x1b[0m\n'}
+[71.910493] (-) TimerEvent: {}
+[72.011187] (-) TimerEvent: {}
+[72.037292] (chrono_sim) StdoutLine: {'line': b'[ 81%] Built target variable_stiffness_example\n'}
+[72.066548] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 1spirit_2truss_planner\x1b[0m\n'}
+[72.111445] (-) TimerEvent: {}
+[72.124508] (chrono_sim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_2truss_planner.dir/src/experiments/1spirit_2truss_planner.cpp.o\x1b[0m\n'}
+[72.211594] (-) TimerEvent: {}
+[72.312183] (-) TimerEvent: {}
+[72.393505] (chrono_sim) StdoutLine: {'line': b'[ 83%] Built target probe_test\n'}
+[72.412420] (-) TimerEvent: {}
+[72.421552] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 1spirit_3truss_planner\x1b[0m\n'}
+[72.478228] (chrono_sim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/1spirit_3truss_planner.dir/src/experiments/1spirit_3truss_planner.cpp.o\x1b[0m\n'}
+[72.512601] (-) TimerEvent: {}
+[72.613291] (-) TimerEvent: {}
+[72.713980] (-) TimerEvent: {}
+[72.816484] (-) TimerEvent: {}
+[72.917109] (-) TimerEvent: {}
+[73.017811] (-) TimerEvent: {}
+[73.075493] (chrono_sim) StdoutLine: {'line': b'[ 84%] Built target spirit_experiment\n'}
+[73.096845] (chrono_sim) StdoutLine: {'line': b'[ 84%] Built target visual_test\n'}
+[73.100751] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 3spirit_3truss_planner\x1b[0m\n'}
+[73.121478] (-) TimerEvent: {}
+[73.123581] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 3spirit_2truss_planner\x1b[0m\n'}
+[73.151177] (chrono_sim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/3spirit_3truss_planner.dir/src/experiments/3spirit_3truss_planner.cpp.o\x1b[0m\n'}
+[73.177683] (chrono_sim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/3spirit_2truss_planner.dir/src/experiments/3spirit_2truss_planner.cpp.o\x1b[0m\n'}
+[73.221693] (-) TimerEvent: {}
+[73.297474] (chrono_sim) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_2truss_model_verification\x1b[0m\n'}
+[73.321865] (-) TimerEvent: {}
+[73.407854] (chrono_sim) StdoutLine: {'line': b'[ 88%] Built target visual_params\n'}
+[73.422098] (-) TimerEvent: {}
+[73.436924] (chrono_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target 4spirit_3truss_planner\x1b[0m\n'}
+[73.485579] (chrono_sim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/4spirit_3truss_planner.dir/src/experiments/4spirit_3truss_planner.cpp.o\x1b[0m\n'}
+[73.522498] (-) TimerEvent: {}
+[73.554031] (chrono_sim) StdoutLine: {'line': b'[ 90%] Built target rhex_test\n'}
+[73.622682] (-) TimerEvent: {}
+[73.725472] (-) TimerEvent: {}
+[73.826161] (-) TimerEvent: {}
+[73.926940] (-) TimerEvent: {}
+[73.934714] (chrono_sim) StdoutLine: {'line': b'[ 90%] Built target spirit_calibration_zero_grav\n'}
+[74.030473] (-) TimerEvent: {}
+[74.037903] (chrono_sim) StdoutLine: {'line': b'[ 90%] Built target hero_video\n'}
+[74.071488] (chrono_sim) StdoutLine: {'line': b'[ 90%] Built target spirit_grab_values\n'}
+[74.130673] (-) TimerEvent: {}
+[74.231364] (-) TimerEvent: {}
+[74.332121] (-) TimerEvent: {}
+[74.433044] (-) TimerEvent: {}
+[74.533808] (-) TimerEvent: {}
+[74.634576] (-) TimerEvent: {}
+[74.735238] (-) TimerEvent: {}
+[74.836043] (-) TimerEvent: {}
+[74.936920] (-) TimerEvent: {}
+[75.037744] (-) TimerEvent: {}
+[75.138425] (-) TimerEvent: {}
+[75.239064] (-) TimerEvent: {}
+[75.339813] (-) TimerEvent: {}
+[75.440615] (-) TimerEvent: {}
+[75.541398] (-) TimerEvent: {}
+[75.642122] (-) TimerEvent: {}
+[75.742879] (-) TimerEvent: {}
+[75.843509] (-) TimerEvent: {}
+[75.944170] (-) TimerEvent: {}
+[76.044991] (-) TimerEvent: {}
+[76.145683] (-) TimerEvent: {}
+[76.246478] (-) TimerEvent: {}
+[76.347227] (-) TimerEvent: {}
+[76.447957] (-) TimerEvent: {}
+[76.548714] (-) TimerEvent: {}
+[76.649487] (-) TimerEvent: {}
+[76.750280] (-) TimerEvent: {}
+[76.851106] (-) TimerEvent: {}
+[76.951952] (-) TimerEvent: {}
+[77.052771] (-) TimerEvent: {}
+[77.153538] (-) TimerEvent: {}
+[77.254320] (-) TimerEvent: {}
+[77.355106] (-) TimerEvent: {}
+[77.455875] (-) TimerEvent: {}
+[77.556663] (-) TimerEvent: {}
+[77.657418] (-) TimerEvent: {}
+[77.758151] (-) TimerEvent: {}
+[77.858983] (-) TimerEvent: {}
+[77.959714] (-) TimerEvent: {}
+[78.060401] (-) TimerEvent: {}
+[78.161117] (-) TimerEvent: {}
+[78.261910] (-) TimerEvent: {}
+[78.362542] (-) TimerEvent: {}
+[78.463233] (-) TimerEvent: {}
+[78.564009] (-) TimerEvent: {}
+[78.664707] (-) TimerEvent: {}
+[78.765379] (-) TimerEvent: {}
+[78.866103] (-) TimerEvent: {}
+[78.966753] (-) TimerEvent: {}
+[79.067518] (-) TimerEvent: {}
+[79.168406] (-) TimerEvent: {}
+[79.269104] (-) TimerEvent: {}
+[79.369798] (-) TimerEvent: {}
+[79.470564] (-) TimerEvent: {}
+[79.571306] (-) TimerEvent: {}
+[79.672013] (-) TimerEvent: {}
+[79.772768] (-) TimerEvent: {}
+[79.873647] (-) TimerEvent: {}
+[79.974380] (-) TimerEvent: {}
+[80.075153] (-) TimerEvent: {}
+[80.175911] (-) TimerEvent: {}
+[80.276658] (-) TimerEvent: {}
+[80.377372] (-) TimerEvent: {}
+[80.478058] (-) TimerEvent: {}
+[80.578745] (-) TimerEvent: {}
+[80.679432] (-) TimerEvent: {}
+[80.780139] (-) TimerEvent: {}
+[80.880845] (-) TimerEvent: {}
+[80.981557] (-) TimerEvent: {}
+[81.082414] (-) TimerEvent: {}
+[81.183168] (-) TimerEvent: {}
+[81.283899] (-) TimerEvent: {}
+[81.384737] (-) TimerEvent: {}
+[81.485398] (-) TimerEvent: {}
+[81.586173] (-) TimerEvent: {}
+[81.687062] (-) TimerEvent: {}
+[81.787856] (-) TimerEvent: {}
+[81.888538] (-) TimerEvent: {}
+[81.989272] (-) TimerEvent: {}
+[82.089954] (-) TimerEvent: {}
+[82.190708] (-) TimerEvent: {}
+[82.291564] (-) TimerEvent: {}
+[82.392298] (-) TimerEvent: {}
+[82.493120] (-) TimerEvent: {}
+[82.594009] (-) TimerEvent: {}
+[82.694778] (-) TimerEvent: {}
+[82.795566] (-) TimerEvent: {}
+[82.896441] (-) TimerEvent: {}
+[82.997187] (-) TimerEvent: {}
+[83.097906] (-) TimerEvent: {}
+[83.198782] (-) TimerEvent: {}
+[83.299512] (-) TimerEvent: {}
+[83.400216] (-) TimerEvent: {}
+[83.500984] (-) TimerEvent: {}
+[83.601658] (-) TimerEvent: {}
+[83.702368] (-) TimerEvent: {}
+[83.803188] (-) TimerEvent: {}
+[83.903943] (-) TimerEvent: {}
+[84.004640] (-) TimerEvent: {}
+[84.105446] (-) TimerEvent: {}
+[84.206104] (-) TimerEvent: {}
+[84.306886] (-) TimerEvent: {}
+[84.407730] (-) TimerEvent: {}
+[84.508453] (-) TimerEvent: {}
+[84.609115] (-) TimerEvent: {}
+[84.709931] (-) TimerEvent: {}
+[84.810622] (-) TimerEvent: {}
+[84.911263] (-) TimerEvent: {}
+[85.011981] (-) TimerEvent: {}
+[85.112706] (-) TimerEvent: {}
+[85.213502] (-) TimerEvent: {}
+[85.314274] (-) TimerEvent: {}
+[85.414952] (-) TimerEvent: {}
+[85.515733] (-) TimerEvent: {}
+[85.616459] (-) TimerEvent: {}
+[85.717212] (-) TimerEvent: {}
+[85.818087] (-) TimerEvent: {}
+[85.918883] (-) TimerEvent: {}
+[86.019691] (-) TimerEvent: {}
+[86.120535] (-) TimerEvent: {}
+[86.221214] (-) TimerEvent: {}
+[86.321928] (-) TimerEvent: {}
+[86.422610] (-) TimerEvent: {}
+[86.523247] (-) TimerEvent: {}
+[86.623852] (-) TimerEvent: {}
+[86.724466] (-) TimerEvent: {}
+[86.825134] (-) TimerEvent: {}
+[86.925905] (-) TimerEvent: {}
+[87.026686] (-) TimerEvent: {}
+[87.094495] (chrono_sim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable 3spirit_3truss_model_verification\x1b[0m\n'}
+[87.126916] (-) TimerEvent: {}
+[87.227755] (-) TimerEvent: {}
+[87.328569] (-) TimerEvent: {}
+[87.429403] (-) TimerEvent: {}
+[87.530104] (-) TimerEvent: {}
+[87.630859] (-) TimerEvent: {}
+[87.731784] (-) TimerEvent: {}
+[87.770259] (chrono_sim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_1truss_planner\x1b[0m\n'}
+[87.832008] (-) TimerEvent: {}
+[87.932818] (-) TimerEvent: {}
+[88.033495] (-) TimerEvent: {}
+[88.134249] (-) TimerEvent: {}
+[88.235101] (-) TimerEvent: {}
+[88.335878] (-) TimerEvent: {}
+[88.436531] (-) TimerEvent: {}
+[88.537264] (-) TimerEvent: {}
+[88.638170] (-) TimerEvent: {}
+[88.739031] (-) TimerEvent: {}
+[88.839878] (-) TimerEvent: {}
+[88.940613] (-) TimerEvent: {}
+[89.041325] (-) TimerEvent: {}
+[89.142099] (-) TimerEvent: {}
+[89.243065] (-) TimerEvent: {}
+[89.344028] (-) TimerEvent: {}
+[89.444838] (-) TimerEvent: {}
+[89.545662] (-) TimerEvent: {}
+[89.646483] (-) TimerEvent: {}
+[89.747258] (-) TimerEvent: {}
+[89.848170] (-) TimerEvent: {}
+[89.949065] (-) TimerEvent: {}
+[90.049821] (-) TimerEvent: {}
+[90.150671] (-) TimerEvent: {}
+[90.251483] (-) TimerEvent: {}
+[90.352305] (-) TimerEvent: {}
+[90.453129] (-) TimerEvent: {}
+[90.553913] (-) TimerEvent: {}
+[90.654786] (-) TimerEvent: {}
+[90.755614] (-) TimerEvent: {}
+[90.856553] (-) TimerEvent: {}
+[90.957426] (-) TimerEvent: {}
+[91.058212] (-) TimerEvent: {}
+[91.158976] (-) TimerEvent: {}
+[91.259728] (-) TimerEvent: {}
+[91.360560] (-) TimerEvent: {}
+[91.461380] (-) TimerEvent: {}
+[91.562128] (-) TimerEvent: {}
+[91.662988] (-) TimerEvent: {}
+[91.763694] (-) TimerEvent: {}
+[91.864372] (-) TimerEvent: {}
+[91.965049] (-) TimerEvent: {}
+[92.065790] (-) TimerEvent: {}
+[92.166327] (-) TimerEvent: {}
+[92.266961] (-) TimerEvent: {}
+[92.367651] (-) TimerEvent: {}
+[92.468428] (-) TimerEvent: {}
+[92.569151] (-) TimerEvent: {}
+[92.570479] (chrono_sim) StdoutLine: {'line': b'[ 92%] Built target spirit_force_calibration_stepped_model_verification\n'}
+[92.669355] (-) TimerEvent: {}
+[92.711278] (chrono_sim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable 3spirit_2truss_planner\x1b[0m\n'}
+[92.728311] (chrono_sim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable 4spirit_3truss_planner\x1b[0m\n'}
+[92.769636] (-) TimerEvent: {}
+[92.870501] (-) TimerEvent: {}
+[92.971278] (-) TimerEvent: {}
+[93.017541] (chrono_sim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_2truss_planner\x1b[0m\n'}
+[93.071531] (-) TimerEvent: {}
+[93.099682] (chrono_sim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable 1spirit_3truss_planner\x1b[0m\n'}
+[93.171763] (-) TimerEvent: {}
+[93.272551] (-) TimerEvent: {}
+[93.373381] (-) TimerEvent: {}
+[93.474142] (-) TimerEvent: {}
+[93.574898] (-) TimerEvent: {}
+[93.624535] (chrono_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable 3spirit_3truss_planner\x1b[0m\n'}
+[93.675108] (-) TimerEvent: {}
+[93.775912] (-) TimerEvent: {}
+[93.876887] (-) TimerEvent: {}
+[93.977660] (-) TimerEvent: {}
+[94.078419] (-) TimerEvent: {}
+[94.134777] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_2truss_model_verification\n'}
+[94.178585] (-) TimerEvent: {}
+[94.279258] (-) TimerEvent: {}
+[94.380094] (-) TimerEvent: {}
+[94.480794] (-) TimerEvent: {}
+[94.581569] (-) TimerEvent: {}
+[94.682410] (-) TimerEvent: {}
+[94.783483] (-) TimerEvent: {}
+[94.884750] (-) TimerEvent: {}
+[94.985466] (-) TimerEvent: {}
+[95.086257] (-) TimerEvent: {}
+[95.187004] (-) TimerEvent: {}
+[95.287704] (-) TimerEvent: {}
+[95.388485] (-) TimerEvent: {}
+[95.489377] (-) TimerEvent: {}
+[95.590253] (-) TimerEvent: {}
+[95.691000] (-) TimerEvent: {}
+[95.791999] (-) TimerEvent: {}
+[95.892911] (-) TimerEvent: {}
+[95.993686] (-) TimerEvent: {}
+[96.094572] (-) TimerEvent: {}
+[96.195444] (-) TimerEvent: {}
+[96.296194] (-) TimerEvent: {}
+[96.397021] (-) TimerEvent: {}
+[96.497883] (-) TimerEvent: {}
+[96.598653] (-) TimerEvent: {}
+[96.699452] (-) TimerEvent: {}
+[96.800257] (-) TimerEvent: {}
+[96.901098] (-) TimerEvent: {}
+[97.001916] (-) TimerEvent: {}
+[97.102756] (-) TimerEvent: {}
+[97.203550] (-) TimerEvent: {}
+[97.304363] (-) TimerEvent: {}
+[97.405228] (-) TimerEvent: {}
+[97.506026] (-) TimerEvent: {}
+[97.606899] (-) TimerEvent: {}
+[97.707667] (-) TimerEvent: {}
+[97.808528] (-) TimerEvent: {}
+[97.909540] (-) TimerEvent: {}
+[98.010394] (-) TimerEvent: {}
+[98.111133] (-) TimerEvent: {}
+[98.209396] (chrono_sim) StdoutLine: {'line': b'[100%] Built target spirit_3truss\n'}
+[98.211210] (-) TimerEvent: {}
+[98.311933] (-) TimerEvent: {}
+[98.412832] (-) TimerEvent: {}
+[98.513545] (-) TimerEvent: {}
+[98.614287] (-) TimerEvent: {}
+[98.715088] (-) TimerEvent: {}
+[98.815868] (-) TimerEvent: {}
+[98.916995] (-) TimerEvent: {}
+[99.017896] (-) TimerEvent: {}
+[99.118749] (-) TimerEvent: {}
+[99.219553] (-) TimerEvent: {}
+[99.320407] (-) TimerEvent: {}
+[99.421261] (-) TimerEvent: {}
+[99.437602] (chrono_sim) StdoutLine: {'line': b'[100%] Built target spirit_force_calibration\n'}
+[99.521521] (-) TimerEvent: {}
+[99.623509] (-) TimerEvent: {}
+[99.694291] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 2spirit_5truss_planner\n'}
+[99.723716] (-) TimerEvent: {}
+[99.824537] (-) TimerEvent: {}
+[99.925316] (-) TimerEvent: {}
+[100.026053] (-) TimerEvent: {}
+[100.126838] (-) TimerEvent: {}
+[100.227745] (-) TimerEvent: {}
+[100.328491] (-) TimerEvent: {}
+[100.429152] (-) TimerEvent: {}
+[100.529961] (-) TimerEvent: {}
+[100.630742] (-) TimerEvent: {}
+[100.731607] (-) TimerEvent: {}
+[100.832318] (-) TimerEvent: {}
+[100.932983] (-) TimerEvent: {}
+[101.033639] (-) TimerEvent: {}
+[101.134449] (-) TimerEvent: {}
+[101.235122] (-) TimerEvent: {}
+[101.335750] (-) TimerEvent: {}
+[101.436366] (-) TimerEvent: {}
+[101.537015] (-) TimerEvent: {}
+[101.637689] (-) TimerEvent: {}
+[101.738361] (-) TimerEvent: {}
+[101.839035] (-) TimerEvent: {}
+[101.939939] (-) TimerEvent: {}
+[102.040915] (-) TimerEvent: {}
+[102.141660] (-) TimerEvent: {}
+[102.242374] (-) TimerEvent: {}
+[102.343060] (-) TimerEvent: {}
+[102.443722] (-) TimerEvent: {}
+[102.544389] (-) TimerEvent: {}
+[102.645112] (-) TimerEvent: {}
+[102.745934] (-) TimerEvent: {}
+[102.846773] (-) TimerEvent: {}
+[102.947672] (-) TimerEvent: {}
+[103.048522] (-) TimerEvent: {}
+[103.149412] (-) TimerEvent: {}
+[103.250145] (-) TimerEvent: {}
+[103.350867] (-) TimerEvent: {}
+[103.451653] (-) TimerEvent: {}
+[103.552474] (-) TimerEvent: {}
+[103.653230] (-) TimerEvent: {}
+[103.753955] (-) TimerEvent: {}
+[103.854770] (-) TimerEvent: {}
+[103.955526] (-) TimerEvent: {}
+[104.056195] (-) TimerEvent: {}
+[104.156920] (-) TimerEvent: {}
+[104.257638] (-) TimerEvent: {}
+[104.358395] (-) TimerEvent: {}
+[104.459210] (-) TimerEvent: {}
+[104.560075] (-) TimerEvent: {}
+[104.660868] (-) TimerEvent: {}
+[104.761628] (-) TimerEvent: {}
+[104.862606] (-) TimerEvent: {}
+[104.963401] (-) TimerEvent: {}
+[105.064136] (-) TimerEvent: {}
+[105.164918] (-) TimerEvent: {}
+[105.265883] (-) TimerEvent: {}
+[105.366724] (-) TimerEvent: {}
+[105.467526] (-) TimerEvent: {}
+[105.568284] (-) TimerEvent: {}
+[105.669041] (-) TimerEvent: {}
+[105.769924] (-) TimerEvent: {}
+[105.870710] (-) TimerEvent: {}
+[105.971419] (-) TimerEvent: {}
+[106.072063] (-) TimerEvent: {}
+[106.172716] (-) TimerEvent: {}
+[106.273437] (-) TimerEvent: {}
+[106.374129] (-) TimerEvent: {}
+[106.474833] (-) TimerEvent: {}
+[106.575516] (-) TimerEvent: {}
+[106.676254] (-) TimerEvent: {}
+[106.776938] (-) TimerEvent: {}
+[106.877623] (-) TimerEvent: {}
+[106.978264] (-) TimerEvent: {}
+[107.078811] (-) TimerEvent: {}
+[107.179504] (-) TimerEvent: {}
+[107.280237] (-) TimerEvent: {}
+[107.381009] (-) TimerEvent: {}
+[107.481700] (-) TimerEvent: {}
+[107.582391] (-) TimerEvent: {}
+[107.683032] (-) TimerEvent: {}
+[107.783623] (-) TimerEvent: {}
+[107.884252] (-) TimerEvent: {}
+[107.984889] (-) TimerEvent: {}
+[108.085679] (-) TimerEvent: {}
+[108.186450] (-) TimerEvent: {}
+[108.287163] (-) TimerEvent: {}
+[108.387954] (-) TimerEvent: {}
+[108.488738] (-) TimerEvent: {}
+[108.589476] (-) TimerEvent: {}
+[108.690095] (-) TimerEvent: {}
+[108.790775] (-) TimerEvent: {}
+[108.891479] (-) TimerEvent: {}
+[108.992197] (-) TimerEvent: {}
+[109.092930] (-) TimerEvent: {}
+[109.193665] (-) TimerEvent: {}
+[109.294307] (-) TimerEvent: {}
+[109.395026] (-) TimerEvent: {}
+[109.495705] (-) TimerEvent: {}
+[109.596383] (-) TimerEvent: {}
+[109.697090] (-) TimerEvent: {}
+[109.797769] (-) TimerEvent: {}
+[109.898420] (-) TimerEvent: {}
+[109.999092] (-) TimerEvent: {}
+[110.099758] (-) TimerEvent: {}
+[110.200394] (-) TimerEvent: {}
+[110.301034] (-) TimerEvent: {}
+[110.401845] (-) TimerEvent: {}
+[110.502528] (-) TimerEvent: {}
+[110.603233] (-) TimerEvent: {}
+[110.703955] (-) TimerEvent: {}
+[110.804576] (-) TimerEvent: {}
+[110.907510] (-) TimerEvent: {}
+[111.008184] (-) TimerEvent: {}
+[111.108872] (-) TimerEvent: {}
+[111.209469] (-) TimerEvent: {}
+[111.310038] (-) TimerEvent: {}
+[111.410688] (-) TimerEvent: {}
+[111.511300] (-) TimerEvent: {}
+[111.611911] (-) TimerEvent: {}
+[111.712456] (-) TimerEvent: {}
+[111.716128] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 3spirit_3truss_model_verification\n'}
+[111.812685] (-) TimerEvent: {}
+[111.913438] (-) TimerEvent: {}
+[112.014116] (-) TimerEvent: {}
+[112.114692] (-) TimerEvent: {}
+[112.215307] (-) TimerEvent: {}
+[112.315840] (-) TimerEvent: {}
+[112.416359] (-) TimerEvent: {}
+[112.516952] (-) TimerEvent: {}
+[112.617526] (-) TimerEvent: {}
+[112.718039] (-) TimerEvent: {}
+[112.818723] (-) TimerEvent: {}
+[112.919384] (-) TimerEvent: {}
+[112.961914] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_1truss_planner\n'}
+[113.019535] (-) TimerEvent: {}
+[113.120043] (-) TimerEvent: {}
+[113.220720] (-) TimerEvent: {}
+[113.321397] (-) TimerEvent: {}
+[113.421890] (-) TimerEvent: {}
+[113.522434] (-) TimerEvent: {}
+[113.622957] (-) TimerEvent: {}
+[113.723450] (-) TimerEvent: {}
+[113.823960] (-) TimerEvent: {}
+[113.924558] (-) TimerEvent: {}
+[114.025153] (-) TimerEvent: {}
+[114.125813] (-) TimerEvent: {}
+[114.226321] (-) TimerEvent: {}
+[114.326773] (-) TimerEvent: {}
+[114.427240] (-) TimerEvent: {}
+[114.527781] (-) TimerEvent: {}
+[114.628315] (-) TimerEvent: {}
+[114.728939] (-) TimerEvent: {}
+[114.829482] (-) TimerEvent: {}
+[114.929903] (-) TimerEvent: {}
+[115.030306] (-) TimerEvent: {}
+[115.130693] (-) TimerEvent: {}
+[115.231065] (-) TimerEvent: {}
+[115.265232] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 3spirit_2truss_planner\n'}
+[115.331203] (-) TimerEvent: {}
+[115.354228] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_3truss_planner\n'}
+[115.428628] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 4spirit_3truss_planner\n'}
+[115.431289] (-) TimerEvent: {}
+[115.531605] (-) TimerEvent: {}
+[115.567975] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 3spirit_3truss_planner\n'}
+[115.631739] (-) TimerEvent: {}
+[115.732057] (-) TimerEvent: {}
+[115.832361] (-) TimerEvent: {}
+[115.891592] (chrono_sim) StdoutLine: {'line': b'[100%] Built target 1spirit_2truss_planner\n'}
+[115.904299] (chrono_sim) CommandEnded: {'returncode': 0}
+[115.932445] (-) TimerEvent: {}
+[116.032676] (-) TimerEvent: {}
+[116.074030] (chrono_sim) JobProgress: {'identifier': 'chrono_sim', 'progress': 'install'}
+[116.082764] (chrono_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blor/ros2_ws2/src/build/chrono_sim'], 'cwd': '/home/blor/ros2_ws2/src/build/chrono_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/blor/ros2_ws2/install/chrono_sim/lib:/home/blor/ros2_ws/install/turtlesim/lib:/home/blor/ros2_ws/install/chrono_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blor'), ('OLDPWD', '/home/blor/ros2_ws2/src/chrono_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1826'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/blor/ros2_ws2/install:/home/blor/ros2_ws/install:/home/blor/Downloads/turtlebot_gazebo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/blor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blor-HP-Pavilion-Laptop-15-eh3xxx:@/tmp/.ICE-unix/1638,unix/blor-HP-Pavilion-Laptop-15-eh3xxx:/tmp/.ICE-unix/1638'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a847b9b_1540_4d21_9ee0_f044720fa557'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H5YRY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/blor/ros2_ws2/install/chrono_sim:/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blor/ros2_ws2/src/build/chrono_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/blor/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/blor/ros2_ws/install/chrono_ros_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blor/ros2_ws2/install/chrono_sim:/home/blor/ros2_ws/install/turtlesim:/home/blor/ros2_ws/install/chrono_ros_interfaces:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description:/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[116.089976] (chrono_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[116.090132] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/install/chrono_sim/lib/libsim_tools.so\n'}
+[116.099582] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_example\n'}
+[116.100172] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_example" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.100294] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_example\n'}
+[116.100747] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/rover_example" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.100852] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/variable_stiffness_example\n'}
+[116.101422] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/variable_stiffness_example" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.101517] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_test\n'}
+[116.102040] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/visual_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.102136] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_params\n'}
+[116.102871] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/visual_params" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.102960] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/husky_test\n'}
+[116.103476] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/husky_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.103576] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_test\n'}
+[116.104116] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/rover_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.104202] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/rhex_test\n'}
+[116.104718] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/rhex_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.104814] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/shear_test\n'}
+[116.106019] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/shear_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.106107] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/probe_test\n'}
+[116.107321] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/probe_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.107418] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values\n'}
+[116.108887] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.108979] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment\n'}
+[116.109566] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.109674] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/hero_video\n'}
+[116.110266] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/hero_video" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.110370] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test\n'}
+[116.111448] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.111541] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration\n'}
+[116.112135] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.112219] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav\n'}
+[116.113422] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.113511] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_3truss\n'}
+[116.114642] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_3truss" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.114740] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/2spirit_5truss_planner\n'}
+[116.116252] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/2spirit_5truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.116338] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration\n'}
+[116.117503] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.117605] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification\n'}
+[116.118930] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.119031] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_model_verification\n'}
+[116.120248] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_model_verification" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.120339] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_model_verification\n'}
+[116.121587] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_model_verification" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.121680] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_1truss_planner\n'}
+[116.122981] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_1truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.123072] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_planner\n'}
+[116.124319] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.124423] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_3truss_planner\n'}
+[116.125717] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_3truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.125805] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_planner\n'}
+[116.127043] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.127128] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_2truss_planner\n'}
+[116.128434] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_2truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.128526] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/chrono_sim/bin/4spirit_3truss_planner\n'}
+[116.129778] (chrono_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/blor/ros2_ws2/src/chrono_sim/bin/4spirit_3truss_planner" to "/home/blor/ros2_ws2/src/install/chrono_sim/lib"\n'}
+[116.129925] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/ament_index/resource_index/package_run_dependencies/chrono_sim\n'}
+[116.129990] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/install/chrono_sim/share/ament_index/resource_index/parent_prefix_path/chrono_sim\n'}
+[116.130090] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.sh\n'}
+[116.130144] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.dsv\n'}
+[116.130232] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/environment/path.sh\n'}
+[116.130297] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/environment/path.dsv\n'}
+[116.130376] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/local_setup.bash\n'}
+[116.130469] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/local_setup.sh\n'}
+[116.130537] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/local_setup.zsh\n'}
+[116.130587] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/local_setup.dsv\n'}
+[116.130656] (chrono_sim) StdoutLine: {'line': b'-- Installing: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/package.dsv\n'}
+[116.130758] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/ament_index/resource_index/packages/chrono_sim\n'}
+[116.130837] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig.cmake\n'}
+[116.130892] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig-version.cmake\n'}
+[116.130961] (chrono_sim) StdoutLine: {'line': b'-- Up-to-date: /home/blor/ros2_ws2/src/install/chrono_sim/share/chrono_sim/package.xml\n'}
+[116.132948] (chrono_sim) CommandEnded: {'returncode': 0}
+[116.133597] (-) TimerEvent: {}
+[116.233887] (-) TimerEvent: {}
+[116.309157] (chrono_sim) JobEnded: {'identifier': 'chrono_sim', 'rc': 0}
+[116.309756] (-) EventReactorShutdown: {}

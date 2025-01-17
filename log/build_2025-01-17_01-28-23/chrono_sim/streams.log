@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[0.075s] [ 20%] Built target sim_tools
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target docking[0m
+[0.122s] [ 42%] Built target visual_test
+[0.122s] [ 42%] Built target rhex_test
+[0.122s] [ 42%] Built target visual_params
+[0.122s] [ 42%] Built target husky_test
+[0.123s] [ 42%] Built target spirit_example
+[0.123s] [ 42%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[0.123s] [ 42%] Built target shear_test
+[0.123s] [ 47%] Built target probe_test
+[0.123s] [ 47%] Built target variable_stiffness_example
+[0.123s] [ 47%] Built target rover_example
+[0.123s] [ 56%] Built target spirit_grab_values
+[0.123s] [ 58%] Built target rover_test
+[0.124s] [ 60%] Built target hero_video
+[0.124s] [ 60%] Built target spirit_experiment
+[0.124s] [ 60%] Built target spirit_test
+[0.125s] [ 63%] Built target spirit_calibration
+[0.164s] [ 65%] Built target 1spirit_3truss_planner
+[0.164s] [ 68%] Built target spirit_force_calibration_stepped_model_verification
+[0.164s] [ 71%] Built target spirit_calibration_zero_grav
+[0.166s] [ 73%] Built target spirit_force_calibration
+[0.166s] [ 76%] Built target 2spirit_5truss_planner
+[0.166s] [ 79%] Built target spirit_3truss
+[0.166s] [ 82%] Built target 1spirit_2truss_model_verification
+[0.166s] [ 84%] Built target 3spirit_3truss_model_verification
+[0.167s] [ 87%] Built target 1spirit_1truss_planner
+[0.168s] [ 93%] Built target 3spirit_3truss_planner
+[0.168s] [ 93%] Built target 1spirit_2truss_planner
+[0.168s] [ 97%] Built target 4spirit_3truss_planner
+[0.168s] [ 98%] Built target 3spirit_2truss_planner
+[2.080s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.080s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:15:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChBodyAuxRef[m[K’
+[2.080s]    15 |     auto spirit1 = chrono::ChBodyAuxRef::[01;31m[KCreate[m[K();
+[2.080s]       |                                          [01;31m[K^~~~~~[m[K
+[2.080s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:19:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChBodyAuxRef[m[K’
+[2.080s]    19 |     auto spirit2 = chrono::ChBodyAuxRef::[01;31m[KCreate[m[K();
+[2.080s]       |                                          [01;31m[K^~~~~~[m[K
+[2.080s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:37:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChLinkMate[m[K’
+[2.080s]    24 |     auto arm1 = chrono::ChLinkMate::[01;31m[KCreate[m[K();
+[2.080s]       |                                     [01;31m[K^~~~~~[m[K
+[2.614s] gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+[2.614s] gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+[2.615s] gmake: *** [Makefile:146: all] Error 2
+[2.617s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16

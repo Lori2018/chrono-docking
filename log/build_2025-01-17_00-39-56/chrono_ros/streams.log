@@ -1,0 +1,5 @@
+[0.011s] Invoking command in '/home/blor/ros2_ws2/build/chrono_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_ros -- -j16 -l16
+[0.026s] [0mCMake Error: The source directory "/home/blor/ros2_ws2/chrono_ros" does not exist.
+[0.026s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.026s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.028s] Invoked command in '/home/blor/ros2_ws2/build/chrono_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_ros -- -j16 -l16

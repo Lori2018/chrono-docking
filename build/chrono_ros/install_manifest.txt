@@ -1,0 +1,15 @@
+/home/blor/ros2_ws2/install/chrono_ros/share/ament_index/resource_index/package_run_dependencies/chrono_ros
+/home/blor/ros2_ws2/install/chrono_ros/share/ament_index/resource_index/parent_prefix_path/chrono_ros
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/environment/ament_prefix_path.sh
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/environment/ament_prefix_path.dsv
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/environment/path.sh
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/environment/path.dsv
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/local_setup.bash
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/local_setup.sh
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/local_setup.zsh
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/local_setup.dsv
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/package.dsv
+/home/blor/ros2_ws2/install/chrono_ros/share/ament_index/resource_index/packages/chrono_ros
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/cmake/chrono_rosConfig.cmake
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/cmake/chrono_rosConfig-version.cmake
+/home/blor/ros2_ws2/install/chrono_ros/share/chrono_ros/package.xml

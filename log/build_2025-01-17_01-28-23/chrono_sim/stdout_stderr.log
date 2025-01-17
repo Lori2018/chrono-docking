@@ -1,0 +1,44 @@
+[ 20%] Built target sim_tools
+[35m[1mConsolidate compiler generated dependencies of target docking[0m
+[ 42%] Built target visual_test
+[ 42%] Built target rhex_test
+[ 42%] Built target visual_params
+[ 42%] Built target husky_test
+[ 42%] Built target spirit_example
+[ 42%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[ 42%] Built target shear_test
+[ 47%] Built target probe_test
+[ 47%] Built target variable_stiffness_example
+[ 47%] Built target rover_example
+[ 56%] Built target spirit_grab_values
+[ 58%] Built target rover_test
+[ 60%] Built target hero_video
+[ 60%] Built target spirit_experiment
+[ 60%] Built target spirit_test
+[ 63%] Built target spirit_calibration
+[ 65%] Built target 1spirit_3truss_planner
+[ 68%] Built target spirit_force_calibration_stepped_model_verification
+[ 71%] Built target spirit_calibration_zero_grav
+[ 73%] Built target spirit_force_calibration
+[ 76%] Built target 2spirit_5truss_planner
+[ 79%] Built target spirit_3truss
+[ 82%] Built target 1spirit_2truss_model_verification
+[ 84%] Built target 3spirit_3truss_model_verification
+[ 87%] Built target 1spirit_1truss_planner
+[ 93%] Built target 3spirit_3truss_planner
+[ 93%] Built target 1spirit_2truss_planner
+[ 97%] Built target 4spirit_3truss_planner
+[ 98%] Built target 3spirit_2truss_planner
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:15:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChBodyAuxRef[m[K’
+   15 |     auto spirit1 = chrono::ChBodyAuxRef::[01;31m[KCreate[m[K();
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:19:42:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChBodyAuxRef[m[K’
+   19 |     auto spirit2 = chrono::ChBodyAuxRef::[01;31m[KCreate[m[K();
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:24:37:[m[K [01;31m[Kerror: [m[K‘[01m[KCreate[m[K’ is not a member of ‘[01m[Kchrono::ChLinkMate[m[K’
+   24 |     auto arm1 = chrono::ChLinkMate::[01;31m[KCreate[m[K();
+      |                                     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

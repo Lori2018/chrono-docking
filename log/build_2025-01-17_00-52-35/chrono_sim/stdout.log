@@ -1,0 +1,76 @@
+[ 20%] Built target sim_tools
+[ 43%] Built target spirit_example
+[ 43%] Built target visual_test
+[ 43%] Built target rover_test
+[ 43%] Built target shear_test
+[ 43%] Built target husky_test
+[ 43%] Built target rhex_test
+[ 43%] Built target variable_stiffness_example
+[ 45%] Built target spirit_grab_values
+[ 43%] Built target probe_test
+[ 47%] Built target hero_video
+[ 54%] Built target docking
+[ 56%] Built target spirit_experiment
+[ 56%] Built target visual_params
+[ 58%] Built target spirit_calibration
+[ 61%] Built target rover_example
+[ 64%] Built target spirit_test
+[ 72%] Built target 1spirit_3truss_planner
+[ 72%] Built target 1spirit_1truss_planner
+[ 72%] Built target 3spirit_2truss_planner
+[ 75%] Built target spirit_force_calibration_stepped_model_verification
+[ 78%] Built target 3spirit_3truss_planner
+[ 80%] Built target spirit_calibration_zero_grav
+[ 86%] Built target 2spirit_5truss_planner
+[ 87%] Built target spirit_3truss
+[ 89%] Built target 1spirit_2truss_planner
+[ 91%] Built target 4spirit_3truss_planner
+[ 94%] Built target spirit_force_calibration
+[ 97%] Built target 1spirit_2truss_model_verification
+[100%] Built target 3spirit_3truss_model_verification
+-- Install configuration: ""
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/lib/libsim_tools.so
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/variable_stiffness_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_params
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/husky_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rhex_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/shear_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/probe_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/hero_video
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/docking
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_3truss
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/2spirit_5truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_1truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_2truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/4spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/package_run_dependencies/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/parent_prefix_path/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.bash
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.zsh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.dsv
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/packages/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig.cmake
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig-version.cmake
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.xml

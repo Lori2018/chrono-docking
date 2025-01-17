@@ -1,0 +1,128 @@
+[0.013s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/blor/ros2_ws2/src/chrono_sim -DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_sim
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.362s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.372s] -- Finding package Chrono...
+[0.373s] --    Requested component Irrlicht (REQUIRED)
+[0.373s] --    Requested component Vehicle (REQUIRED)
+[0.373s] --    Requested component Parsers (REQUIRED)
+[0.390s] --    Requested component Ros (REQUIRED)
+[0.391s] --    CHRONO_CXX_FLAGS         (Compiler flags): ;-fopenmp;-march=native
+[0.391s] --    CHRONO_C_FLAGS           (Compiler flags): ;-fopenmp;-march=native
+[0.391s] --    CHRONO_LINKER_FLAGS      (Linker flags): -L/usr/local/lib
+[0.391s] --    CHRONO_INCLUDE_DIRS      (Chrono include directories): /usr/local/include;/usr/local/include/chrono;/usr/local/include/chrono/collision/bullet;/usr/local/include/chrono/collision/gimpact;/usr/local/include/chrono_thirdparty/HACD;/usr/local/include/chrono_thirdparty/HACDv2;/usr/include/eigen3;/usr/local/cuda/include;/usr/include/irrlicht;;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom;/usr/include;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers;/usr/include;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/usr/include/python3.10;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/opt/ros/humble/include/rclcpp;/opt/ros/humble/include/ament_index_cpp;/opt/ros/humble/include/libstatistics_collector;/opt/ros/humble/include/rcl;/opt/ros/humble/include/rcpputils;/opt/ros/humble/include/rcutils;/opt/ros/humble/include/builtin_interfaces;/opt/ros/humble/include/rosgraph_msgs;/opt/ros/humble/include/rosidl_typesupport_cpp;/opt/ros/humble/include/rosidl_typesupport_c;/opt/ros/humble/include/rosidl_runtime_cpp;/opt/ros/humble/include/rcl_yaml_param_parser;/opt/ros/humble/include/statistics_msgs;/opt/ros/humble/include/tracetools;/opt/ros/humble/include/rosidl_runtime_c;/opt/ros/humble/include/rosidl_typesupport_interface;/opt/ros/humble/include/rosidl_typesupport_fastrtps_c;/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp;/opt/ros/humble/include/rmw;/opt/ros/humble/include/rcl_interfaces;/opt/ros/humble/include/rosidl_typesupport_introspection_c;/opt/ros/humble/include/rosidl_typesupport_introspection_cpp;/opt/ros/humble/include/std_msgs;/opt/ros/humble/include/geometry_msgs;/opt/ros/humble/include/sensor_msgs;/opt/ros/humble/include/tf2_ros;/opt/ros/humble/include/rclcpp_components;/opt/ros/humble/include/message_filters;/opt/ros/humble/include/rclcpp_action;/opt/ros/humble/include/tf2;/opt/ros/humble/include/tf2_msgs;/opt/ros/humble/include/action_msgs;/home/blor/ros2_ws/install/chrono_ros_interfaces/include/chrono_ros_interfaces
+[0.391s] --    CHRONO_LIB_NAMES         (Chrono library names): ChronoEngine_ros;ChronoEngine_parsers;ChronoEngine_vehicle_irrlicht;ChronoModels_vehicle;ChronoEngine_vehicle;ChronoEngine_irrlicht;ChronoModels_robot;ChronoEngine
+[0.391s] --    CHRONO_LIBRARIES         (Chrono libraries): /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a;;urdfdom::urdfdom_model;urdfdom::urdfdom_world;urdfdom::urdfdom_sensor;tinyxml2::tinyxml2;ChronoEngine;ChronoModels_robot;ChronoEngine_vehicle;ChronoModels_vehicle;ChronoEngine_parsers;/usr/local/lib/libChronoEngine_ros.so;/usr/local/lib/libChronoEngine_parsers.so;/usr/local/lib/libChronoEngine_vehicle_irrlicht.so;/usr/local/lib/libChronoModels_vehicle.so;/usr/local/lib/libChronoEngine_vehicle.so;/usr/local/lib/libChronoEngine_irrlicht.so;/usr/local/lib/libChronoModels_robot.so;/usr/local/lib/libChronoEngine.so
+[0.391s] --    CHRONO_DATA_DIR          (Path to Chrono data folder): /usr/local/share/chrono/data/
+[0.391s] --    CHRONO_VEHICLE_DATA_DIR  (Path to Chrono::Vehicle data folder): /usr/local/share/chrono/data/vehicle/
+[0.391s] --    CHRONO_FSI_DATA_DIR      (Path to Chrono::FSI data folder): /usr/local/share/chrono/data/fsi/
+[0.394s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.565s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.676s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.733s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.742s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.753s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.850s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.853s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.967s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.989s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.014s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Looking for pthread.h
+[1.122s] -- Looking for pthread.h - found
+[1.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.221s] -- Found Threads: TRUE  
+[1.284s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.299s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.314s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.530s] -- Configuring done
+[1.745s] -- Generating done
+[1.749s] -- Build files have been written to: /home/blor/ros2_ws2/build/chrono_sim
+[1.773s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/blor/ros2_ws2/src/chrono_sim -DCMAKE_INSTALL_PREFIX=/home/blor/ros2_ws2/install/chrono_sim
+[1.775s] Invoking command in '/home/blor/ros2_ws2/build/chrono_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16
+[1.848s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Spirit.cpp.o[0m
+[1.848s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/VariableSoilParams.cpp.o[0m
+[1.848s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RHex.cpp.o[0m
+[1.849s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/PIDController.cpp.o[0m
+[1.849s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/ROSRover.cpp.o[0m
+[1.849s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RHexFactory.cpp.o[0m
+[1.849s] [  9%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Rover.cpp.o[0m
+[1.849s] [ 12%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o[0m
+[1.849s] [ 12%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/Truss.cpp.o[0m
+[1.849s] [ 14%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/KDTree.cpp.o[0m
+[1.849s] [ 15%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/RoverFactory.cpp.o[0m
+[1.849s] [ 16%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/ROSRHex.cpp.o[0m
+[1.850s] [ 18%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/ROSSpirit.cpp.o[0m
+[1.850s] [ 19%] [32mBuilding CXX object CMakeFiles/sim_tools.dir/src/sim_tools/HuskyFactory.cpp.o[0m
+[10.635s] In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:14[m[K,
+[10.635s]                  from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:1[m[K:
+[10.635s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:264:[m[K [01;31m[Kerror: [m[K‘[01m[KProbe[m[K’ was not declared in this scope
+[10.635s]    32 |     Spirit(ChSystem* sys, std::shared_ptr<chrono::ChBody> body, std::vector<std::vector<std::shared_ptr<chrono::ChBody>>> leg_bodies, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque>>> leg_motors, std::vector<Truss> trusses, std::vector<[01;31m[KProbe[m[K> probes,int spiritNum);
+[10.635s]       |                                                                                                                                                                                                                                                                        [01;31m[K^~~~~[m[K
+[10.635s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.636s]    32 |     Spirit(ChSystem* sys, std::shared_ptr<chrono::ChBody> body, std::vector<std::vector<std::shared_ptr<chrono::ChBody>>> leg_bodies, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque>>> leg_motors, std::vector<Truss> trusses, std::vector<Probe[01;31m[K>[m[K probes,int spiritNum);
+[10.636s]       |                                                                                                                                                                                                                                                                             [01;31m[K^[m[K
+[10.636s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[10.636s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:7:25:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::unique_ptr<Spirit> SpiritFactory::BuildSpirit(const ChVector3d&, const chrono::ChQuaternion<double>&, const std::vector<chrono::ChVector3<double> >&)[m[K’
+[10.636s]     7 | std::unique_ptr<Spirit> [01;31m[KSpiritFactory[m[K::BuildSpirit(const ChVector3d& Spirit_pos,  const ChQuaternion<>& orientation, const std::vector<ChVector3d>& truss_positions){
+[10.636s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[10.636s] In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/SpiritFactory.cpp:1[m[K:
+[10.637s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:25:33:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::unique_ptr<Spirit> SpiritFactory::BuildSpirit(const ChVector3d&, const chrono::ChQuaternion<double>&, const std::vector<chrono::ChVector3<double> >&, const ChVector3d&)[m[K’
+[10.637s]    25 |         std::unique_ptr<Spirit> [01;36m[KBuildSpirit[m[K(const ChVector3d& Spirit_pos, const ChQuaternion<>& orientation, const std::vector<ChVector3d>& truss_positions, const ChVector3d& Probe_pos);
+[10.637s]       |                                 [01;36m[K^~~~~~~~~~~[m[K
+[10.637s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/SpiritFactory.h:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SpiritFactory[m[K’ defined here
+[10.637s]    22 | class [01;36m[KSpiritFactory[m[K {
+[10.637s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[11.354s] In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:1[m[K:
+[11.354s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:264:[m[K [01;31m[Kerror: [m[K‘[01m[KProbe[m[K’ was not declared in this scope
+[11.354s]    32 | rque>>> leg_motors, std::vector<Truss> trusses, std::vector<[01;31m[KProbe[m[K> probes,int spiritNum);
+[11.354s]       |                                                             [01;31m[K^~~~~[m[K
+[11.354s] 
+[11.354s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.354s]    32 | >> leg_motors, std::vector<Truss> trusses, std::vector<Probe[01;31m[K>[m[K probes,int spiritNum);
+[11.355s]       |                                                             [01;31m[K^[m[K
+[11.355s] 
+[11.355s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:32:269:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[11.378s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:268:[m[K [01;31m[Kerror: [m[K‘[01m[KProbe[m[K’ was not declared in this scope
+[11.378s]     3 | rque>>> leg_motors, std::vector<Truss> trusses, std::vector<[01;31m[KProbe[m[K> probes, int spiritNum){
+[11.379s]       |                                                             [01;31m[K^~~~~[m[K
+[11.379s] 
+[11.379s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:273:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.379s]     3 | >> leg_motors, std::vector<Truss> trusses, std::vector<Probe[01;31m[K>[m[K probes, int spiritNum){
+[11.379s]       |                                                             [01;31m[K^[m[K
+[11.379s] 
+[11.379s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:3:273:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[11.408s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:[m[K In constructor ‘[01m[KSpirit::Spirit(chrono::ChSystem*, std::shared_ptr<chrono::ChBody>, std::vector<std::vector<std::shared_ptr<chrono::ChBody> > >, std::vector<std::vector<std::shared_ptr<chrono::ChLinkMotorRotationTorque> > >, std::vector<Truss>, int, int)[m[K’:
+[11.408s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprobe[m[K’ was not declared in this scope; did you mean ‘[01m[Kprobes[m[K’?
+[11.408s]     9 |     [01;31m[Kprobe[m[K = probes[0];
+[11.408s]       |     [01;31m[K^~~~~[m[K
+[11.408s]       |     [32m[Kprobes[m[K
+[11.408s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:9:19:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+[11.408s]     9 |     probe = probes[01;31m[K[[m[K0];
+[11.408s]       |                   [01;31m[K^[m[K
+[11.414s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:[m[K At global scope:
+[11.414s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:51:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Spirit::MakeProbe(chrono::ChVector3d, chrono::ChVector3d)[m[K’
+[11.414s]    51 | void [01;31m[KSpirit[m[K::MakeProbe(ChVector3d xpos, ChVector3d ypos){
+[11.414s]       |      [01;31m[K^~~~~~[m[K
+[11.414s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:51:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Spirit::MakeProbe(chrono::ChVector3d, chrono::ChVector3d)[m[K’
+[11.414s] In file included from [01m[K/home/blor/ros2_ws2/src/chrono_sim/src/sim_tools/Spirit.cpp:1[m[K:
+[11.414s] [01m[K/home/blor/ros2_ws2/src/chrono_sim/include/sim_tools/Spirit.h:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Spirit[m[K’ defined here
+[11.414s]    16 | class [01;36m[KSpirit[m[K {
+[11.415s]       |       [01;36m[K^~~~~~[m[K
+[13.068s] gmake[2]: *** [CMakeFiles/sim_tools.dir/build.make:188: CMakeFiles/sim_tools.dir/src/sim_tools/SpiritFactory.cpp.o] Error 1
+[13.068s] gmake[2]: *** Waiting for unfinished jobs....
+[14.074s] gmake[2]: *** [CMakeFiles/sim_tools.dir/build.make:76: CMakeFiles/sim_tools.dir/src/sim_tools/Spirit.cpp.o] Error 1
+[17.590s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/sim_tools.dir/all] Error 2
+[17.590s] gmake: *** [Makefile:146: all] Error 2
+[17.595s] Invoked command in '/home/blor/ros2_ws2/build/chrono_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blor/ros2_ws2/build/chrono_sim -- -j16 -l16

@@ -1,0 +1,136 @@
+-- Finding package Chrono...
+--    Requested component Irrlicht (REQUIRED)
+--    Requested component Vehicle (REQUIRED)
+--    Requested component Parsers (REQUIRED)
+--    Requested component Ros (REQUIRED)
+--    CHRONO_CXX_FLAGS         (Compiler flags): ;-fopenmp;-march=native
+--    CHRONO_C_FLAGS           (Compiler flags): ;-fopenmp;-march=native
+--    CHRONO_LINKER_FLAGS      (Linker flags): -L/usr/local/lib
+--    CHRONO_INCLUDE_DIRS      (Chrono include directories): /usr/local/include;/usr/local/include/chrono;/usr/local/include/chrono/collision/bullet;/usr/local/include/chrono/collision/gimpact;/usr/local/include/chrono_thirdparty/HACD;/usr/local/include/chrono_thirdparty/HACDv2;/usr/include/eigen3;/usr/local/cuda/include;/usr/include/irrlicht;;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom;/usr/include;/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include/urdfdom_headers;/usr/include;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/usr/include/python3.10;/home/blor/ros2_ws/install/turtlesim;/home/blor/ros2_ws/install/chrono_ros_interfaces;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot4_description;/home/blor/Downloads/turtlebot_gazebo_ws/install/turtlebot3_fake_node;/opt/ros/humble/include;/opt/ros/humble/include/rclcpp;/opt/ros/humble/include/ament_index_cpp;/opt/ros/humble/include/libstatistics_collector;/opt/ros/humble/include/rcl;/opt/ros/humble/include/rcpputils;/opt/ros/humble/include/rcutils;/opt/ros/humble/include/builtin_interfaces;/opt/ros/humble/include/rosgraph_msgs;/opt/ros/humble/include/rosidl_typesupport_cpp;/opt/ros/humble/include/rosidl_typesupport_c;/opt/ros/humble/include/rosidl_runtime_cpp;/opt/ros/humble/include/rcl_yaml_param_parser;/opt/ros/humble/include/statistics_msgs;/opt/ros/humble/include/tracetools;/opt/ros/humble/include/rosidl_runtime_c;/opt/ros/humble/include/rosidl_typesupport_interface;/opt/ros/humble/include/rosidl_typesupport_fastrtps_c;/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp;/opt/ros/humble/include/rmw;/opt/ros/humble/include/rcl_interfaces;/opt/ros/humble/include/rosidl_typesupport_introspection_c;/opt/ros/humble/include/rosidl_typesupport_introspection_cpp;/opt/ros/humble/include/std_msgs;/opt/ros/humble/include/geometry_msgs;/opt/ros/humble/include/sensor_msgs;/opt/ros/humble/include/tf2_ros;/opt/ros/humble/include/rclcpp_components;/opt/ros/humble/include/message_filters;/opt/ros/humble/include/rclcpp_action;/opt/ros/humble/include/tf2;/opt/ros/humble/include/tf2_msgs;/opt/ros/humble/include/action_msgs;/home/blor/ros2_ws/install/chrono_ros_interfaces/include/chrono_ros_interfaces
+--    CHRONO_LIB_NAMES         (Chrono library names): ChronoEngine_ros;ChronoEngine_parsers;ChronoEngine_vehicle_irrlicht;ChronoModels_vehicle;ChronoEngine_vehicle;ChronoEngine_irrlicht;ChronoModels_robot;ChronoEngine
+--    CHRONO_LIBRARIES         (Chrono libraries): /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a;;urdfdom::urdfdom_model;urdfdom::urdfdom_world;urdfdom::urdfdom_sensor;tinyxml2::tinyxml2;ChronoEngine;ChronoModels_robot;ChronoEngine_vehicle;ChronoModels_vehicle;ChronoEngine_parsers;/usr/local/lib/libChronoEngine_ros.so;/usr/local/lib/libChronoEngine_parsers.so;/usr/local/lib/libChronoEngine_vehicle_irrlicht.so;/usr/local/lib/libChronoModels_vehicle.so;/usr/local/lib/libChronoEngine_vehicle.so;/usr/local/lib/libChronoEngine_irrlicht.so;/usr/local/lib/libChronoModels_robot.so;/usr/local/lib/libChronoEngine.so
+--    CHRONO_DATA_DIR          (Path to Chrono data folder): /usr/local/share/chrono/data/
+--    CHRONO_VEHICLE_DATA_DIR  (Path to Chrono::Vehicle data folder): /usr/local/share/chrono/data/vehicle/
+--    CHRONO_FSI_DATA_DIR      (Path to Chrono::FSI data folder): /usr/local/share/chrono/data/fsi/
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blor/ros2_ws2/build/chrono_sim
+[35m[1mConsolidate compiler generated dependencies of target sim_tools[0m
+[ 20%] Built target sim_tools
+[35m[1mConsolidate compiler generated dependencies of target spirit_example[0m
+[35m[1mConsolidate compiler generated dependencies of target visual_test[0m
+[35m[1mConsolidate compiler generated dependencies of target rover_example[0m
+[35m[1mConsolidate compiler generated dependencies of target visual_params[0m
+[35m[1mConsolidate compiler generated dependencies of target husky_test[0m
+[35m[1mConsolidate compiler generated dependencies of target rhex_test[0m
+[35m[1mConsolidate compiler generated dependencies of target rover_test[0m
+[35m[1mConsolidate compiler generated dependencies of target variable_stiffness_example[0m
+[35m[1mConsolidate compiler generated dependencies of target shear_test[0m
+[35m[1mConsolidate compiler generated dependencies of target docking[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_experiment[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_grab_values[0m
+[35m[1mConsolidate compiler generated dependencies of target probe_test[0m
+[35m[1mConsolidate compiler generated dependencies of target hero_video[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_test[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_calibration[0m
+[ 39%] Built target variable_stiffness_example
+[ 39%] Built target rover_example
+[ 39%] Built target rover_test
+[ 39%] Built target visual_params
+[ 39%] Built target husky_test
+[ 39%] Built target spirit_example
+[ 39%] Built target visual_test
+[ 45%] Built target rhex_test
+[ 45%] Built target shear_test
+[ 47%] Built target spirit_grab_values
+[ 52%] Built target spirit_experiment
+[ 53%] Built target hero_video
+[ 56%] Built target docking
+[ 58%] Built target spirit_test
+[ 64%] Built target probe_test
+[ 64%] Built target spirit_calibration
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_2truss_model_verification[0m
+[35m[1mConsolidate compiler generated dependencies of target 3spirit_2truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 4spirit_3truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_calibration_zero_grav[0m
+[35m[1mConsolidate compiler generated dependencies of target 2spirit_5truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_3truss[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_force_calibration_stepped_model_verification[0m
+[35m[1mConsolidate compiler generated dependencies of target spirit_force_calibration[0m
+[35m[1mConsolidate compiler generated dependencies of target 3spirit_3truss_model_verification[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_1truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_3truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 1spirit_2truss_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target 3spirit_3truss_planner[0m
+[ 69%] Built target 1spirit_2truss_model_verification
+[ 69%] Built target 3spirit_2truss_planner
+[ 72%] Built target 4spirit_3truss_planner
+[ 75%] Built target spirit_calibration_zero_grav
+[ 78%] Built target 2spirit_5truss_planner
+[ 83%] Built target 1spirit_1truss_planner
+[ 83%] Built target spirit_3truss
+[ 86%] Built target 1spirit_3truss_planner
+[ 91%] Built target 3spirit_3truss_planner
+[ 91%] Built target spirit_force_calibration
+[ 94%] Built target spirit_force_calibration_stepped_model_verification
+[ 97%] Built target 3spirit_3truss_model_verification
+[100%] Built target 1spirit_2truss_planner
+-- Install configuration: ""
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/lib/libsim_tools.so
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/variable_stiffness_example
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/visual_params
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/husky_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rover_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/rhex_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/shear_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/probe_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/hero_video
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/docking
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_3truss
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/2spirit_5truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_force_calibration_stepped_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_model_verification
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_1truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_2truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/1spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/3spirit_2truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/src/chrono_sim/bin/4spirit_3truss_planner
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/package_run_dependencies/chrono_sim
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/parent_prefix_path/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.sh
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.sh
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/environment/path.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.bash
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.sh
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.zsh
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/local_setup.dsv
+-- Installing: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.dsv
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/ament_index/resource_index/packages/chrono_sim
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig.cmake
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/cmake/chrono_simConfig-version.cmake
+-- Up-to-date: /home/blor/ros2_ws2/install/chrono_sim/share/chrono_sim/package.xml

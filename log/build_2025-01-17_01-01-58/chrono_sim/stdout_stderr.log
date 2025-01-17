@@ -1,0 +1,51 @@
+[ 20%] Built target sim_tools
+[ 57%] Built target rhex_test
+[ 57%] Built target spirit_grab_values
+[ 57%] Built target shear_test
+[ 57%] Built target rover_test
+[ 57%] Built target hero_video
+[ 57%] Built target visual_test
+[ 57%] Built target husky_test
+[ 57%] Built target variable_stiffness_example
+[ 57%] Built target spirit_example
+[ 57%] Built target probe_test
+[ 57%] Built target visual_params
+[ 57%] Built target rover_example
+[ 57%] Built target spirit_experiment
+[ 57%] [32mBuilding CXX object CMakeFiles/docking.dir/src/active_development/docking.cpp.o[0m
+[ 60%] Built target spirit_test
+[ 63%] Built target spirit_calibration
+[ 65%] Built target spirit_calibration_zero_grav
+[ 68%] Built target 1spirit_3truss_planner
+[ 75%] Built target 3spirit_3truss_model_verification
+[ 76%] Built target spirit_3truss
+[ 76%] Built target 2spirit_5truss_planner
+[ 80%] Built target spirit_force_calibration_stepped_model_verification
+[ 82%] Built target spirit_force_calibration
+[ 84%] Built target 1spirit_2truss_model_verification
+[ 87%] Built target 1spirit_2truss_planner
+[ 90%] Built target 1spirit_1truss_planner
+[ 93%] Built target 4spirit_3truss_planner
+[ 95%] Built target 3spirit_3truss_planner
+[ 98%] Built target 3spirit_2truss_planner
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:223:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ksim_time[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_stime[m[K’?
+  223 |         std::cout << "Time: " << [01;31m[Ksim_time[m[K << std::endl;
+      |                                  [01;31m[K^~~~~~~~[m[K
+      |                                  [32m[Ksi_stime[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:239:9:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  239 |         [01;31m[Kbreak[m[K;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:[m[K At global scope:
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:244:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  244 |     rclcpp::shutdown()[01;31m[K;[m[K
+      |                       [01;31m[K^[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:245:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  245 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/blor/ros2_ws2/src/chrono_sim/src/active_development/docking.cpp:246:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  246 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/docking.dir/build.make:76: CMakeFiles/docking.dir/src/active_development/docking.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/docking.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
