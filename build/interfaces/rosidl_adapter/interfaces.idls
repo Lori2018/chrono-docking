@@ -1,0 +1,3 @@
+/home/blor/ros2_ws2/build/interfaces/rosidl_adapter/interfaces:msg/Num.idl
+/home/blor/ros2_ws2/build/interfaces/rosidl_adapter/interfaces:msg/Sphere.idl
+/home/blor/ros2_ws2/build/interfaces/rosidl_adapter/interfaces:srv/AddThreeInts.idl

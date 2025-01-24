@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/blor/ros2_ws2/src/interfaces:msg/Num.msg",
+    "/home/blor/ros2_ws2/src/interfaces:msg/Sphere.msg",
+    "/home/blor/ros2_ws2/src/interfaces:srv/AddThreeInts.srv"
+  ]
+}
