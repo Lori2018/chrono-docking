@@ -12,6 +12,7 @@
 /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_grab_values
 /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_experiment
 /home/blor/ros2_ws2/src/chrono_sim/bin/hero_video
+/home/blor/ros2_ws2/src/chrono_sim/bin/docking
 /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test
 /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration
 /home/blor/ros2_ws2/src/chrono_sim/bin/spirit_calibration_zero_grav

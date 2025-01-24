@@ -380,6 +380,19 @@ hero_video/fast:
 .PHONY : hero_video/fast
 
 #=============================================================================
+# Target rules for targets named docking
+
+# Build rule for target.
+docking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docking
+.PHONY : docking
+
+# fast build rule for target.
+docking/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docking.dir/build.make CMakeFiles/docking.dir/build
+.PHONY : docking/fast
+
+#=============================================================================
 # Target rules for targets named spirit_test
 
 # Build rule for target.
@@ -573,6 +586,30 @@ spirit_force_calibration_stepped_model_verification/fast:
 4spirit_3truss_planner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4spirit_3truss_planner.dir/build.make CMakeFiles/4spirit_3truss_planner.dir/build
 .PHONY : 4spirit_3truss_planner/fast
+
+src/active_development/docking.o: src/active_development/docking.cpp.o
+.PHONY : src/active_development/docking.o
+
+# target to build an object file
+src/active_development/docking.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docking.dir/build.make CMakeFiles/docking.dir/src/active_development/docking.cpp.o
+.PHONY : src/active_development/docking.cpp.o
+
+src/active_development/docking.i: src/active_development/docking.cpp.i
+.PHONY : src/active_development/docking.i
+
+# target to preprocess a source file
+src/active_development/docking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docking.dir/build.make CMakeFiles/docking.dir/src/active_development/docking.cpp.i
+.PHONY : src/active_development/docking.cpp.i
+
+src/active_development/docking.s: src/active_development/docking.cpp.s
+.PHONY : src/active_development/docking.s
+
+# target to generate assembly for a file
+src/active_development/docking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docking.dir/build.make CMakeFiles/docking.dir/src/active_development/docking.cpp.s
+.PHONY : src/active_development/docking.cpp.s
 
 src/active_development/hero_video.o: src/active_development/hero_video.cpp.o
 .PHONY : src/active_development/hero_video.o
@@ -1606,6 +1643,7 @@ help:
 	@echo "... 3spirit_3truss_model_verification"
 	@echo "... 3spirit_3truss_planner"
 	@echo "... 4spirit_3truss_planner"
+	@echo "... docking"
 	@echo "... hero_video"
 	@echo "... husky_test"
 	@echo "... probe_test"
@@ -1626,6 +1664,9 @@ help:
 	@echo "... variable_stiffness_example"
 	@echo "... visual_params"
 	@echo "... visual_test"
+	@echo "... src/active_development/docking.o"
+	@echo "... src/active_development/docking.i"
+	@echo "... src/active_development/docking.s"
 	@echo "... src/active_development/hero_video.o"
 	@echo "... src/active_development/hero_video.i"
 	@echo "... src/active_development/hero_video.s"

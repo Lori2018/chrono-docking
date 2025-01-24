@@ -14,6 +14,7 @@
 /home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/spirit_grab_values.dir
 /home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/spirit_experiment.dir
 /home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/hero_video.dir
+/home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/docking.dir
 /home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/spirit_test.dir
 /home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/spirit_calibration.dir
 /home/blor/ros2_ws2/src/build/chrono_sim/CMakeFiles/spirit_calibration_zero_grav.dir

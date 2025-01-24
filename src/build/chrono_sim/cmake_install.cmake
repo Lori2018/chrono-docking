@@ -434,6 +434,34 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking"
+         RPATH "/home/blor/ros2_ws2/src/install/chrono_sim/lib")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/blor/ros2_ws2/src/chrono_sim/bin/docking")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/blor/ros2_ws2/src/chrono_sim/bin" TYPE EXECUTABLE FILES "/home/blor/ros2_ws2/src/build/chrono_sim/docking")
+  if(EXISTS "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking"
+         OLD_RPATH "/opt/ros/humble/lib:/home/blor/ros2_ws2/src/build/chrono_sim:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/lib:"
+         NEW_RPATH "/home/blor/ros2_ws2/src/install/chrono_sim/lib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/docking")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/blor/ros2_ws2/src/chrono_sim/bin/spirit_test")
     file(RPATH_CHECK
